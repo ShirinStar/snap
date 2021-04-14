@@ -3,7 +3,7 @@
     "document_id": "7BTMBY4-x46oPP2-MyhW",
     "original_document_id": "bjAhrZsSO7k7IMtee54q",
     "version": "27",
-    "lastChanged": "1618422659165",
+    "lastChanged": "1618442450963",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -45,7 +45,8 @@
                         "Specular"
                     ],
                     [
-                        "Materials"
+                        "Materials",
+                        "GrowingCloud"
                     ],
                     [
                         "Materials",
@@ -752,7 +753,6 @@
                 [
                     "1517446348227994:84813",
                     "1617388109475976:62742",
-                    "1617556743831846:24769",
                     "1617559445949722:571467",
                     "1617560486504661:725009"
                 ]
@@ -811,7 +811,7 @@
             ]
         },
         "Material::UiComponent": {
-            "active_graph_asset": "1617394064011561:898517"
+            "active_graph_asset": "1618425945719192:171494"
         },
         "Script::UiComponent": {
             "active_graph_asset": "1617556819248427:37116"
@@ -1675,6 +1675,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "189",
+                    "uid": "1618425945719192:171494",
+                    "name": "Files\/File260",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -1735,7 +1743,8 @@
                 "19": "1617560486504661:725009",
                 "20": "1617560486518468:725071",
                 "21": "1617560486541539:725210",
-                "22": "1618277565615222:48739"
+                "22": "1618277565615222:48739",
+                "23": "1618441134330348:514872"
             }
         },
         "LayerComponent": {
@@ -2425,6 +2434,14 @@
                 {
                     "k": "259",
                     "v": "Files\/File259.js"
+                },
+                {
+                    "k": "260",
+                    "v": "Files\/File260"
+                },
+                {
+                    "k": "261",
+                    "v": "Files\/File261.lsmat"
                 }
             ]
         },
@@ -2916,6 +2933,10 @@
                     {
                         "k": "8074",
                         "v": "scripts\/watherData.js"
+                    },
+                    {
+                        "k": "8075",
+                        "v": "Materials\/GrowingCloud.lsmat"
                     }
                 ],
                 "hashes": [
@@ -2941,7 +2962,7 @@
                     },
                     {
                         "k": "1076",
-                        "v": "f288487a6fde66b469e4e4826b90108e"
+                        "v": "43ee30c88dd79a01736cc64157a5ab89"
                     },
                     {
                         "k": "1078",
@@ -3025,7 +3046,7 @@
                     },
                     {
                         "k": "1099",
-                        "v": "bf1ba0d6c27f5cbf48fa43bca088ee29"
+                        "v": "2584a977b34c20ef9f435e77c23f8962"
                     },
                     {
                         "k": "1100",
@@ -3041,7 +3062,7 @@
                     },
                     {
                         "k": "1103",
-                        "v": "9092e476a189b1224601f3581a8a5984"
+                        "v": "657f2903bda2f06c6b882ea1c6da5b38"
                     },
                     {
                         "k": "7895",
@@ -3645,7 +3666,7 @@
                     },
                     {
                         "k": "8064",
-                        "v": "ac0ecb112ee358e2835902be96f9777a"
+                        "v": "4eab81a59efed4225ca11847e9e291ab"
                     },
                     {
                         "k": "8065",
@@ -3657,7 +3678,7 @@
                     },
                     {
                         "k": "8067",
-                        "v": "539b40a22664e721aba5a56929c5f602"
+                        "v": "63239737dfa6e84cf91ee8f202d4e21a"
                     },
                     {
                         "k": "8070",
@@ -3678,14 +3699,22 @@
                     {
                         "k": "8074",
                         "v": "309664cbbd869c9ff92ba1c42b35ef5c"
+                    },
+                    {
+                        "k": "8075",
+                        "v": "5667d97013bd3dc2bb363aacdbabb309"
+                    },
+                    {
+                        "k": "8076",
+                        "v": "5c9041a54481e2046a6ea57bf9fccc39"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2021-04-12T18:52:46",
+                        "lastModified": "2021-04-14T16:01:28",
                         "name": "Public",
-                        "hash": "ec4e84bd7363a17d4ca1a26cc69fe643",
+                        "hash": "4fdc9e5e042ab3c2afbffee13404b818",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -4542,43 +4571,50 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-04-14T10:47:07",
+                                "lastModified": "2021-04-14T16:20:39",
                                 "name": "Materials",
-                                "hash": "0b95c49f46f26d85661a84b5bea0ddaa",
+                                "hash": "5d7f47330a8ff2bad59a4228373979b6",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-14T10:47:07",
+                                        "lastModified": "2021-04-14T16:20:39",
                                         "name": "koterWhiteCam.lsmat",
-                                        "hash": "3f7c9e5f4b88c72eff9488b20f0437b3",
+                                        "hash": "0926fe52a9b403b263b3e0cb9b9b6b6d",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-14T10:47:07",
+                                        "lastModified": "2021-04-14T16:20:39",
                                         "name": "koterPinkCam.lsmat",
-                                        "hash": "ce63397a2e779f303b8c46d769b3da36",
+                                        "hash": "b4ccac1bbb31f57400b1d11a49b31212",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-14T10:47:07",
+                                        "lastModified": "2021-04-14T16:20:39",
                                         "name": "koter_pink.lsmat",
-                                        "hash": "64156fcad8fa8e8773eb16ba3896797a",
+                                        "hash": "9284dc2370caebe490d0caf4e7bf0e0a",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-14T10:47:07",
+                                        "lastModified": "2021-04-14T16:20:39",
                                         "name": "Sparkles.lsmat",
-                                        "hash": "9f4b1628c4426b9574b6c47cd436e63d",
+                                        "hash": "6211e46ea3fda752789cc815ce8d6cc0",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-14T10:47:07",
+                                        "lastModified": "2021-04-14T16:20:39",
                                         "name": "roots1.lsmat",
-                                        "hash": "2ebb937c83517448dfadc2369951c80b",
+                                        "hash": "df986d4f28c49fa7ab4837c0fea19f7d",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-04-14T16:20:39",
+                                        "name": "GrowingCloud.lsmat",
+                                        "hash": "7f5ab86da01e27a2fce70e4c705d7b70",
                                         "children": ""
                                     },
                                     {
@@ -6520,6 +6556,19 @@
                                 "publicId": "1076",
                                 "source": "",
                                 "additional": ""
+                            },
+                            {
+                                "name": "GrowingCloud",
+                                "type": "2",
+                                "subtype": "1",
+                                "resourceId": "189",
+                                "dependency": "0",
+                                "uid": "1618425945719192:171494",
+                                "fileId": "260",
+                                "originalId": "261",
+                                "publicId": "8075",
+                                "source": "",
+                                "additional": ""
                             }
                         ]
                     },
@@ -6554,14 +6603,8 @@
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1618254713869526:77108",
-                        "path_list": [
-                            "scripts",
-                            "mouthOpen"
-                        ]
-                    }
+                "objects": [
+                    "1617559445949722:571467"
                 ]
             }
         },
@@ -7004,6 +7047,14 @@
                 {
                     "k": "1617395704791894:1128064",
                     "v": "7z9BKXRDqmLTWYYnq1MZG9"
+                },
+                {
+                    "k": "1618425945719192:171494",
+                    "v": "44hLuGhnd3FgKJlxGI2WGm"
+                },
+                {
+                    "k": "1618440235263526:352329",
+                    "v": "44hLuGhnd3FgKJlxGI2WGm"
                 }
             ]
         }
