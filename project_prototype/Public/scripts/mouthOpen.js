@@ -1,11 +1,20 @@
-// @input Component.MaterialMeshVisual flowerTex
-// @input Asset.Material[] flowerMaterial
-// @input  SceneObject HeadBinding
+// @input Component.MeshVisual meshVisual;
+// @input Asset.Material[] materials;
+// input SceneObject long_root;
 
-script.HeadBinding.enabled = false;
+//script.long_root.enabled = false;
 var timeStampsOpen = []; 
 var timeOpen = 0;
 var oldTime = 0;
+
+var currentItemIndex = 0;
+// Function to clear the current materials and add a new one
+function setMaterial(material){
+ script.meshVisual.clearMaterials();
+ script.meshVisual.addMaterial(material);
+}
+
+setMaterial(script.materials[currentItemIndex]);
 
   
 function onMouthOpened() {
@@ -13,9 +22,10 @@ function onMouthOpened() {
     timeStampsOpen.push(timeOpen);  
     
     timeStampsLongArray =  timeStampsOpen.filter(function (time) { return time > (timeOpen-10)});
-    print(timeStampsLongArray)
-    if (timeStampsLongArray.length >= 3 ) {
-        script.HeadBinding.enabled = true;
+    print("fast" + timeStampsLongArray)
+    if (currentItemIndex == 1 && timeStampsLongArray.length >= 3 ) {
+        currentItemIndex = 0;
+        setMaterial(script.materials[currentItemIndex]);
     }  
 }
 
@@ -25,8 +35,10 @@ mouthOpenedEvent.bind(onMouthOpened);
   
 function isStopSpeaking() {
     timeStampsShortArray =  timeStampsOpen.filter(function (time) { return time > (getTime()-5)});
-    if (script.HeadBinding.enabled  && timeStampsShortArray.length <= 1) {
-        script.HeadBinding.enabled = false;
+    print("slow" + timeStampsShortArray)   
+    if (currentItemIndex == 0  && timeStampsShortArray.length <= 1) {
+        currentItemIndex = 1;
+        setMaterial(script.materials[currentItemIndex]);
         timeStampsOpen = []
     }  
  }
