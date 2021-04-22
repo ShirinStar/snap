@@ -114,10 +114,10 @@ function onUpdate (time) {
     }
     
      if (isTalking && (speed > 0)) {
-        script.petalsMaterials.mainPass.matTime -= 0.0007
+        script.petalsMaterials.mainPass.matTime -= 0.0009
         updateAvkanState();
         if(rootSpeed > 0){
-        script.rootsMaterials.mainPass.rootTime -= 0.00008;
+        script.rootsMaterials.mainPass.rootTime -= 0.0001;
         }  
     } else if (hasStarted && !isTalking && (speed < 0.6)) {
         script.petalsMaterials.mainPass.matTime += 0.0004;
