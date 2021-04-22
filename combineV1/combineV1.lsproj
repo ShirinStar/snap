@@ -3,7 +3,7 @@
     "document_id": "j2tAZnS5YuuoUCIbfaQs",
     "original_document_id": "UchxVzKYpSRxTPOlOw_q",
     "version": "27",
-    "lastChanged": "1618975836392",
+    "lastChanged": "1619051100613",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -55,7 +55,7 @@
                     ],
                     [
                         "Scripts",
-                        "Facelandmarks Helpers"
+                        "FaceLandmarksDistanceTrigger"
                     ],
                     [
                         "Scripts",
@@ -154,7 +154,6 @@
             "collapsedList": [
                 [
                     "1517446348227994:84813",
-                    "1582053048417771:25265",
                     "1582076507101145:1411403",
                     "1582165768195055:250154",
                     "1582229210618816:47080",
@@ -213,8 +212,7 @@
                     "1618942488174508:9537078",
                     "1618943017852745:9652661",
                     "1618963630379763:321448",
-                    "1618964017609165:479630",
-                    "1618966169268503:960923"
+                    "1618964017609165:479630"
                 ]
             ]
         },
@@ -275,12 +273,13 @@
                     "1618252365797270:157782",
                     "1618256302536903:969561",
                     "1618280889482124:1184422",
-                    "1618941632965279:9027189"
+                    "1618941632965279:9027189",
+                    "1619037972814059:46648"
                 ]
             ]
         },
         "Material::UiComponent": {
-            "active_graph_asset": "1582742616143395:17088"
+            "active_graph_asset": "1618958744406920:232645"
         },
         "Script::UiComponent": {
             "active_graph_asset": "-1:-1"
@@ -1488,6 +1487,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "261",
+                    "uid": "1619037959523060:39401",
+                    "name": "Files\/File520.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -1555,7 +1562,8 @@
                 "41": "1618964039978464:485061",
                 "42": "1618964058148776:489916",
                 "43": "1618964065701515:493537",
-                "44": "1618966359195222:1002321"
+                "44": "1618966359195222:1002321",
+                "45": "1619045771731122:1367786"
             }
         },
         "LayerComponent": {
@@ -2879,6 +2887,10 @@
                 {
                     "k": "519",
                     "v": "Files\/File519.pvr"
+                },
+                {
+                    "k": "520",
+                    "v": "Files\/File520.js"
                 }
             ]
         },
@@ -3262,6 +3274,10 @@
                     {
                         "k": "93",
                         "v": "..\/AdditionalFiles\/roots\/Materials\/lambert3.lsmat"
+                    },
+                    {
+                        "k": "94",
+                        "v": "Scripts\/FaceLandmarksDistanceTrigger.js"
                     }
                 ],
                 "hashes": [
@@ -3287,7 +3303,7 @@
                     },
                     {
                         "k": "8",
-                        "v": "01fd6f6c86e57c3a76035f47a3de36b8"
+                        "v": "1bffb8a8a7289b06644742d887c95833"
                     },
                     {
                         "k": "11",
@@ -3323,7 +3339,7 @@
                     },
                     {
                         "k": "20",
-                        "v": "78afe0c4406d110056ccbc8c792e153e"
+                        "v": "c9662b436d29cd77e59caf71234903c5"
                     },
                     {
                         "k": "21",
@@ -3523,7 +3539,7 @@
                     },
                     {
                         "k": "78",
-                        "v": "9caec00d031530d29306b174bd4702fd"
+                        "v": "cab86f014546d0b02b8b93c37ca9b87d"
                     },
                     {
                         "k": "79",
@@ -3547,19 +3563,19 @@
                     },
                     {
                         "k": "86",
-                        "v": "663adc4e7c95ddcb517e42a1e72059d6"
+                        "v": "01d6ea2102dd19506b1eb10e3169145c"
                     },
                     {
                         "k": "88",
-                        "v": "cf21445165569beff9be5782e73313eb"
+                        "v": "b5f8506063dbe4aa7835388aef261f28"
                     },
                     {
                         "k": "89",
-                        "v": "dd318635db3282b0a8bb91b416b2f5cc"
+                        "v": "ac656c92e26aa4e72db144ac301237da"
                     },
                     {
                         "k": "90",
-                        "v": "5bfc1456f8a88ad690f86d6c3234e085"
+                        "v": "2fb3b56d497d2ecd27eeb6351727dd29"
                     },
                     {
                         "k": "91",
@@ -3568,14 +3584,18 @@
                     {
                         "k": "93",
                         "v": "13b630cb4a9d0d68e2761e95ad012158"
+                    },
+                    {
+                        "k": "94",
+                        "v": "01831b26cf7ce5ebcf9e030f32a2724d"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2021-04-20T20:29:18",
+                        "lastModified": "2021-04-21T15:57:32",
                         "name": "Public",
-                        "hash": "9188f0888864c0beb3f7905ac13fa21c",
+                        "hash": "060b6213e42dfc72c47a0c98a38583ba",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -3692,29 +3712,29 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-04-20T20:29:19",
+                                "lastModified": "2021-04-21T15:57:32",
                                 "name": "materials",
-                                "hash": "b107110376092734f4e4e60b2d12d873",
+                                "hash": "c6f38397b3f097e52070dbbc2d24e115",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-20T20:29:19",
+                                        "lastModified": "2021-04-21T15:57:32",
                                         "name": "avkanim 2.lsmat",
-                                        "hash": "526d893054d53dad392b041603d16888",
+                                        "hash": "c895eade627dbcc4de902473a86dc28f",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-20T20:29:19",
+                                        "lastModified": "2021-04-21T15:57:32",
                                         "name": "roots1.lsmat",
-                                        "hash": "5d9b305823f148f32bcb51b474a4d900",
+                                        "hash": "305dc2f97fcf7d8d28f8137e08d1568f",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-20T20:29:18",
+                                        "lastModified": "2021-04-21T15:57:32",
                                         "name": "GrowingCloud.lsmat",
-                                        "hash": "f9c11703f8546ba42d896adfa3ad7657",
+                                        "hash": "26812175047bcd4c04dfb81ad8c09759",
                                         "children": ""
                                     },
                                     {
@@ -3728,9 +3748,9 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-20T20:29:18",
+                                "lastModified": "2021-04-21T15:57:32",
                                 "name": "koterPinkCam.lsmat",
-                                "hash": "eb480d6e9f8b0f478b19b6867d981e9c",
+                                "hash": "776c15332d762aebe3007b0cb2dd640f",
                                 "children": ""
                             },
                             {
@@ -3751,7 +3771,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2021-04-20T20:28:22",
                                 "name": "FaceLandmarks Template Resources",
-                                "hash": "05d0783769875f036a1e2344c01c6c04",
+                                "hash": "561bccbf57867e644115b57191763ae1",
                                 "children": [
                                     {
                                         "isFolder": "true",
@@ -3798,9 +3818,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-04-20T20:29:18",
+                                        "lastModified": "2021-04-21T15:57:31",
                                         "name": "Materials",
-                                        "hash": "594a24369d9c2dc7011a723ba135fd8c",
+                                        "hash": "b4e15fe12b4918d25df53e01121134f3",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -3811,9 +3831,9 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-20T20:29:18",
+                                                "lastModified": "2021-04-21T15:57:31",
                                                 "name": "refraction.lsmat",
-                                                "hash": "1f0c5f25b2e7b4e71b8357bd8cb26012",
+                                                "hash": "8cac08699b2da8094e530fb4473e4d47",
                                                 "children": ""
                                             },
                                             {
@@ -3999,9 +4019,9 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-20T20:29:18",
+                                "lastModified": "2021-04-21T15:57:32",
                                 "name": "petals.lsmat",
-                                "hash": "2fc755e4e60b888e396424465f77a902",
+                                "hash": "98069f1ce932c724a0462b8a59653fde",
                                 "children": ""
                             },
                             {
@@ -4027,9 +4047,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-04-20T20:28:22",
+                                "lastModified": "2021-04-21T17:24:48",
                                 "name": "Scripts",
-                                "hash": "b6f58e30e34bd45e704b8d375b5aeecf",
+                                "hash": "07780ab0de4bf5dc0197bbe0ecec79b1",
                                 "children": [
                                     {
                                         "isFolder": "true",
@@ -4076,9 +4096,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-20T20:27:23",
+                                        "lastModified": "2021-04-21T17:24:48",
                                         "name": "mouthOpen.js",
-                                        "hash": "01fd6f6c86e57c3a76035f47a3de36b8",
+                                        "hash": "1bffb8a8a7289b06644742d887c95833",
                                         "children": ""
                                     },
                                     {
@@ -4086,6 +4106,13 @@
                                         "lastModified": "2021-04-20T19:15:19",
                                         "name": "PinToFaceLandmarks.js",
                                         "hash": "50b1d3c93e91ddf9d94e0713f8ff428d",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-02-23T20:14:38",
+                                        "name": "FaceLandmarksDistanceTrigger.js",
+                                        "hash": "01831b26cf7ce5ebcf9e030f32a2724d",
                                         "children": ""
                                     },
                                     {
@@ -4303,6 +4330,19 @@
                                 "originalId": "18446744073709551615",
                                 "publicId": "8",
                                 "source": "\/Users\/shirin\/other_projects\/chanelxnycml\/eyeflower4\/Public\/Scripts\/mouthOpen.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "FaceLandmarksDistanceTrigger",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "261",
+                                "dependency": "0",
+                                "uid": "1619037959523060:39401",
+                                "fileId": "520",
+                                "originalId": "18446744073709551615",
+                                "publicId": "94",
+                                "source": "\/Users\/shirin\/other_projects\/chanelxnycml\/snap_project\/combineV1\/Public\/Scripts\/FaceLandmarksDistanceTrigger.js",
                                 "additional": ""
                             }
                         ]
@@ -7414,7 +7454,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1618964017609165:479630"
+                    "1619045771731122:1367786"
                 ]
             }
         },
