@@ -3,7 +3,7 @@
     "document_id": "y9uvBLaOlg-FJAXNvP_U",
     "original_document_id": "UchxVzKYpSRxTPOlOw_q",
     "version": "27",
-    "lastChanged": "1619061369569",
+    "lastChanged": "1619102531074",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -35,10 +35,6 @@
                     ],
                     [
                         "Camellia_041521",
-                        "Materials010"
-                    ],
-                    [
-                        "Camellia_041521",
                         "Meshes"
                     ],
                     [
@@ -49,7 +45,7 @@
                         "Models"
                     ],
                     [
-                        "Scripts"
+                        "Script 2"
                     ],
                     [
                         "Scripts",
@@ -88,10 +84,6 @@
                     ],
                     [
                         "leaf",
-                        "Materials010"
-                    ],
-                    [
-                        "leaf",
                         "Meshes"
                     ],
                     [
@@ -101,15 +93,7 @@
                         "petal"
                     ],
                     [
-                        "petal",
-                        "Materials010"
-                    ],
-                    [
                         "petal2"
-                    ],
-                    [
-                        "petal2",
-                        "Materials010"
                     ],
                     [
                         "petal2",
@@ -123,10 +107,6 @@
                     ],
                     [
                         "singleFlower",
-                        "Materials010"
-                    ],
-                    [
-                        "singleFlower",
                         "Meshes"
                     ]
                 ]
@@ -135,7 +115,6 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
-                    "101:100",
                     "1517446348227994:84813",
                     "1582076507101145:1411403",
                     "1582165768195055:250154",
@@ -205,6 +184,7 @@
                     "1619056206732974:101049",
                     "1619056605145609:128232",
                     "1619056862395248:143241",
+                    "1619056997705752:153271",
                     "1619059093813404:135802"
                 ]
             ]
@@ -267,7 +247,7 @@
                     "1618256302536903:969561",
                     "1618280889482124:1184422",
                     "1618941632965279:9027189",
-                    "1619059331398802:227108"
+                    "1618959326078917:350604"
                 ]
             ]
         },
@@ -1541,6 +1521,14 @@
                     "resId": "268",
                     "uid": "1619058951358613:68234",
                     "name": "Files\/File535.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "269",
+                    "uid": "1619100927341800:31006",
+                    "name": "Files\/File540.js",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -3034,6 +3022,10 @@
                 {
                     "k": "539",
                     "v": "Files\/File539.pvr"
+                },
+                {
+                    "k": "540",
+                    "v": "Files\/File540.js"
                 }
             ]
         },
@@ -3080,379 +3072,383 @@
                     },
                     {
                         "k": "9",
-                        "v": "FaceLandmarks Template Resources"
-                    },
-                    {
-                        "k": "10",
-                        "v": "FaceLandmarks Template Resources\/Models"
-                    },
-                    {
-                        "k": "11",
-                        "v": "FaceLandmarks Template Resources\/Models\/Eye.fbx"
-                    },
-                    {
-                        "k": "12",
-                        "v": "FaceLandmarks Template Resources\/Models\/Mustache.fbx"
-                    },
-                    {
-                        "k": "13",
-                        "v": "FaceLandmarks Template Resources\/Models\/Hand.fbx"
-                    },
-                    {
-                        "k": "14",
-                        "v": "FaceLandmarks Template Resources\/Models\/Tear.fbx"
-                    },
-                    {
-                        "k": "15",
-                        "v": "FaceLandmarks Template Resources\/Materials"
-                    },
-                    {
-                        "k": "16",
-                        "v": "FaceLandmarks Template Resources\/Materials\/white_eye.lsmat"
-                    },
-                    {
-                        "k": "17",
-                        "v": "FaceLandmarks Template Resources\/Materials\/black_eye.lsmat"
-                    },
-                    {
-                        "k": "18",
-                        "v": "FaceLandmarks Template Resources\/Materials\/eyelid_yellow.lsmat"
-                    },
-                    {
-                        "k": "19",
-                        "v": "FaceLandmarks Template Resources\/Materials\/eyelid_green.lsmat"
-                    },
-                    {
-                        "k": "20",
-                        "v": "FaceLandmarks Template Resources\/Materials\/refraction.lsmat"
-                    },
-                    {
-                        "k": "21",
-                        "v": "FaceLandmarks Template Resources\/Materials\/mustache.lsmat"
-                    },
-                    {
-                        "k": "22",
-                        "v": "FaceLandmarks Template Resources\/Materials\/silver.lsmat"
-                    },
-                    {
-                        "k": "23",
-                        "v": "FaceLandmarks Template Resources\/Materials\/magnify.lsmat"
-                    },
-                    {
-                        "k": "24",
-                        "v": "FaceLandmarks Template Resources\/Materials\/hand.lsmat"
-                    },
-                    {
-                        "k": "25",
-                        "v": "FaceLandmarks Template Resources\/Materials\/tear.lsmat"
-                    },
-                    {
-                        "k": "26",
-                        "v": "FaceLandmarks Template Resources\/Textures"
-                    },
-                    {
-                        "k": "27",
-                        "v": "FaceLandmarks Template Resources\/Textures\/stripe.png"
-                    },
-                    {
-                        "k": "28",
-                        "v": "FaceLandmarks Template Resources\/Textures\/magnifying_body_base.png"
-                    },
-                    {
-                        "k": "29",
-                        "v": "FaceLandmarks Template Resources\/Textures\/magnifying_body_normal.png"
-                    },
-                    {
-                        "k": "30",
-                        "v": "FaceLandmarks Template Resources\/Textures\/magnifying_body_materialParams.png"
-                    },
-                    {
-                        "k": "31",
-                        "v": "FaceLandmarks Template Resources\/Prefabs"
-                    },
-                    {
-                        "k": "32",
-                        "v": "FaceLandmarks Template Resources\/Prefabs\/Left Tear.oprfb"
-                    },
-                    {
-                        "k": "33",
-                        "v": "FaceLandmarks Template Resources\/Prefabs\/Right Tear.oprfb"
-                    },
-                    {
-                        "k": "34",
-                        "v": "FaceLandmarks Template Resources\/camelliaModeled.fbx"
-                    },
-                    {
-                        "k": "35",
-                        "v": "..\/AdditionalFiles\/FaceLandmarks Template Resources\/camelliaModeled\/Materials010"
-                    },
-                    {
-                        "k": "36",
-                        "v": "..\/AdditionalFiles\/FaceLandmarks Template Resources\/camelliaModeled\/Materials010\/Mat.lsmat"
-                    },
-                    {
-                        "k": "37",
-                        "v": "Textures"
-                    },
-                    {
-                        "k": "38",
-                        "v": "Textures\/Base.png"
-                    },
-                    {
-                        "k": "39",
-                        "v": "Textures\/white.png"
-                    },
-                    {
-                        "k": "40",
-                        "v": "Textures\/echopark.hdr"
-                    },
-                    {
-                        "k": "41",
-                        "v": "Textures\/cgaxis_models_26_03_01.lsmat"
-                    },
-                    {
-                        "k": "42",
-                        "v": "Textures\/Normal.png"
-                    },
-                    {
-                        "k": "43",
-                        "v": "Textures\/camellia.png"
-                    },
-                    {
-                        "k": "44",
-                        "v": "Textures\/alpha.png"
-                    },
-                    {
-                        "k": "45",
-                        "v": "Textures\/texture-green-minus2pix.png"
-                    },
-                    {
-                        "k": "46",
-                        "v": "Textures\/camelia_petal_minus1.png"
-                    },
-                    {
-                        "k": "47",
-                        "v": "Textures\/alpha 2.png"
-                    },
-                    {
-                        "k": "48",
-                        "v": "Textures\/MaterialParams.png"
-                    },
-                    {
-                        "k": "49",
-                        "v": "Textures\/texture-green-minus2pix 2.png"
-                    },
-                    {
-                        "k": "50",
-                        "v": "Landmarks Points Guide [LOOK_AT_ME].png"
-                    },
-                    {
-                        "k": "51",
-                        "v": "cgaxis_models_26_11_01.jpg"
-                    },
-                    {
-                        "k": "52",
-                        "v": "cgaxis_models_26_11_01_bump.jpg"
-                    },
-                    {
-                        "k": "53",
-                        "v": "avkan2.fbx"
-                    },
-                    {
-                        "k": "54",
-                        "v": "..\/AdditionalFiles\/avkan2\/Materials010"
-                    },
-                    {
-                        "k": "55",
-                        "v": "..\/AdditionalFiles\/avkan2\/Materials010\/cgaxis_models_26_11_01.lsmat"
-                    },
-                    {
-                        "k": "56",
-                        "v": "Sphere.mesh"
-                    },
-                    {
-                        "k": "57",
-                        "v": "Script.js"
-                    },
-                    {
-                        "k": "58",
-                        "v": "cgaxis_models_26_03_01.jpg"
-                    },
-                    {
-                        "k": "59",
-                        "v": "cgaxis_models_26_03_01_bump.jpg"
-                    },
-                    {
-                        "k": "60",
-                        "v": "petal.fbx"
-                    },
-                    {
-                        "k": "61",
-                        "v": "..\/AdditionalFiles\/petal\/Materials010"
-                    },
-                    {
-                        "k": "62",
-                        "v": "..\/AdditionalFiles\/petal\/Materials010\/cgaxis_models_26_03_01.lsmat"
-                    },
-                    {
-                        "k": "63",
-                        "v": "rose bud a1.jpg"
-                    },
-                    {
-                        "k": "64",
-                        "v": "rose bud a2.jpg"
-                    },
-                    {
-                        "k": "65",
-                        "v": "camelia petal a1.jpg"
-                    },
-                    {
-                        "k": "66",
-                        "v": "rose petal normals.jpg"
-                    },
-                    {
-                        "k": "67",
-                        "v": "singleFlower.fbx"
-                    },
-                    {
-                        "k": "68",
-                        "v": "..\/AdditionalFiles\/singleFlower\/Materials010"
-                    },
-                    {
-                        "k": "69",
-                        "v": "..\/AdditionalFiles\/singleFlower\/Materials010\/bud 1.lsmat"
-                    },
-                    {
-                        "k": "70",
-                        "v": "..\/AdditionalFiles\/singleFlower\/Materials010\/bud 2.lsmat"
-                    },
-                    {
-                        "k": "71",
-                        "v": "..\/AdditionalFiles\/singleFlower\/Materials010\/flower 1.lsmat"
-                    },
-                    {
-                        "k": "72",
-                        "v": "rose petal mask a1.jpg"
-                    },
-                    {
-                        "k": "73",
-                        "v": "cgaxis_models_26_06_06.jpg"
-                    },
-                    {
-                        "k": "74",
-                        "v": "cgaxis_models_26_06_06_bump.jpg"
-                    },
-                    {
-                        "k": "75",
-                        "v": "leaf.fbx"
-                    },
-                    {
-                        "k": "76",
-                        "v": "..\/AdditionalFiles\/leaf\/Materials010"
-                    },
-                    {
-                        "k": "77",
-                        "v": "..\/AdditionalFiles\/leaf\/Materials010\/leaf.lsmat"
-                    },
-                    {
-                        "k": "78",
-                        "v": "koterPinkCam.lsmat"
-                    },
-                    {
-                        "k": "79",
-                        "v": "2021-04-14.png"
-                    },
-                    {
-                        "k": "80",
-                        "v": "Camellia_041521.fbx"
-                    },
-                    {
-                        "k": "81",
-                        "v": "..\/AdditionalFiles\/Camellia_041521\/Materials010"
-                    },
-                    {
-                        "k": "82",
-                        "v": "..\/AdditionalFiles\/Camellia_041521\/Materials010\/Mat.lsmat"
-                    },
-                    {
-                        "k": "83",
-                        "v": "petal2.fbx"
-                    },
-                    {
-                        "k": "84",
-                        "v": "..\/AdditionalFiles\/petal2\/Materials010"
-                    },
-                    {
-                        "k": "85",
-                        "v": "..\/AdditionalFiles\/petal2\/Materials010\/cgaxis_models_26_11_01.lsmat"
-                    },
-                    {
-                        "k": "86",
-                        "v": "petals.lsmat"
-                    },
-                    {
-                        "k": "87",
-                        "v": "materials"
-                    },
-                    {
-                        "k": "88",
-                        "v": "materials\/GrowingCloud.lsmat"
-                    },
-                    {
-                        "k": "89",
-                        "v": "materials\/avkanim 2.lsmat"
-                    },
-                    {
-                        "k": "90",
-                        "v": "materials\/roots1.lsmat"
-                    },
-                    {
-                        "k": "91",
-                        "v": "roots.fbx"
-                    },
-                    {
-                        "k": "92",
-                        "v": "..\/AdditionalFiles\/roots\/Materials10"
-                    },
-                    {
-                        "k": "93",
-                        "v": "..\/AdditionalFiles\/roots\/Materials10\/lambert3.lsmat"
-                    },
-                    {
-                        "k": "94",
-                        "v": "avkan2.fbm"
-                    },
-                    {
-                        "k": "95",
-                        "v": "avkan2.fbm\/cgaxis_models_26_11_01_bump.jpg"
-                    },
-                    {
-                        "k": "96",
-                        "v": "avkan2.fbm\/cgaxis_models_26_11_01.jpg"
-                    },
-                    {
-                        "k": "97",
-                        "v": "avkan3.fbx"
-                    },
-                    {
-                        "k": "98",
-                        "v": "..\/AdditionalFiles\/avkan3\/Materials00"
-                    },
-                    {
-                        "k": "99",
-                        "v": "..\/AdditionalFiles\/avkan3\/Materials00\/cgaxis_models_26_11_01.lsmat"
-                    },
-                    {
-                        "k": "100",
                         "v": "Scripts\/FaceLandmarksDistanceTrigger.js"
                     },
                     {
-                        "k": "101",
+                        "k": "10",
+                        "v": "FaceLandmarks Template Resources"
+                    },
+                    {
+                        "k": "11",
+                        "v": "FaceLandmarks Template Resources\/Models"
+                    },
+                    {
+                        "k": "12",
+                        "v": "FaceLandmarks Template Resources\/Models\/Eye.fbx"
+                    },
+                    {
+                        "k": "13",
+                        "v": "FaceLandmarks Template Resources\/Models\/Mustache.fbx"
+                    },
+                    {
+                        "k": "14",
+                        "v": "FaceLandmarks Template Resources\/Models\/Hand.fbx"
+                    },
+                    {
+                        "k": "15",
+                        "v": "FaceLandmarks Template Resources\/Models\/Tear.fbx"
+                    },
+                    {
+                        "k": "16",
+                        "v": "FaceLandmarks Template Resources\/Materials"
+                    },
+                    {
+                        "k": "17",
+                        "v": "FaceLandmarks Template Resources\/Materials\/white_eye.lsmat"
+                    },
+                    {
+                        "k": "18",
+                        "v": "FaceLandmarks Template Resources\/Materials\/black_eye.lsmat"
+                    },
+                    {
+                        "k": "19",
+                        "v": "FaceLandmarks Template Resources\/Materials\/eyelid_yellow.lsmat"
+                    },
+                    {
+                        "k": "20",
+                        "v": "FaceLandmarks Template Resources\/Materials\/eyelid_green.lsmat"
+                    },
+                    {
+                        "k": "21",
+                        "v": "FaceLandmarks Template Resources\/Materials\/refraction.lsmat"
+                    },
+                    {
+                        "k": "22",
+                        "v": "FaceLandmarks Template Resources\/Materials\/mustache.lsmat"
+                    },
+                    {
+                        "k": "23",
+                        "v": "FaceLandmarks Template Resources\/Materials\/silver.lsmat"
+                    },
+                    {
+                        "k": "24",
+                        "v": "FaceLandmarks Template Resources\/Materials\/magnify.lsmat"
+                    },
+                    {
+                        "k": "25",
+                        "v": "FaceLandmarks Template Resources\/Materials\/hand.lsmat"
+                    },
+                    {
+                        "k": "26",
+                        "v": "FaceLandmarks Template Resources\/Materials\/tear.lsmat"
+                    },
+                    {
+                        "k": "27",
+                        "v": "FaceLandmarks Template Resources\/Textures"
+                    },
+                    {
+                        "k": "28",
+                        "v": "FaceLandmarks Template Resources\/Textures\/stripe.png"
+                    },
+                    {
+                        "k": "29",
+                        "v": "FaceLandmarks Template Resources\/Textures\/magnifying_body_base.png"
+                    },
+                    {
+                        "k": "30",
+                        "v": "FaceLandmarks Template Resources\/Textures\/magnifying_body_normal.png"
+                    },
+                    {
+                        "k": "31",
+                        "v": "FaceLandmarks Template Resources\/Textures\/magnifying_body_materialParams.png"
+                    },
+                    {
+                        "k": "32",
+                        "v": "FaceLandmarks Template Resources\/Prefabs"
+                    },
+                    {
+                        "k": "33",
+                        "v": "FaceLandmarks Template Resources\/Prefabs\/Left Tear.oprfb"
+                    },
+                    {
+                        "k": "34",
+                        "v": "FaceLandmarks Template Resources\/Prefabs\/Right Tear.oprfb"
+                    },
+                    {
+                        "k": "35",
+                        "v": "FaceLandmarks Template Resources\/camelliaModeled.fbx"
+                    },
+                    {
+                        "k": "36",
+                        "v": "..\/AdditionalFiles\/FaceLandmarks Template Resources\/camelliaModeled\/Materials0100"
+                    },
+                    {
+                        "k": "37",
+                        "v": "..\/AdditionalFiles\/FaceLandmarks Template Resources\/camelliaModeled\/Materials0100\/Mat.lsmat"
+                    },
+                    {
+                        "k": "38",
+                        "v": "Textures"
+                    },
+                    {
+                        "k": "39",
+                        "v": "Textures\/Base.png"
+                    },
+                    {
+                        "k": "40",
+                        "v": "Textures\/white.png"
+                    },
+                    {
+                        "k": "41",
+                        "v": "Textures\/echopark.hdr"
+                    },
+                    {
+                        "k": "42",
+                        "v": "Textures\/cgaxis_models_26_03_01.lsmat"
+                    },
+                    {
+                        "k": "43",
+                        "v": "Textures\/Normal.png"
+                    },
+                    {
+                        "k": "44",
+                        "v": "Textures\/camellia.png"
+                    },
+                    {
+                        "k": "45",
+                        "v": "Textures\/alpha.png"
+                    },
+                    {
+                        "k": "46",
+                        "v": "Textures\/texture-green-minus2pix.png"
+                    },
+                    {
+                        "k": "47",
+                        "v": "Textures\/camelia_petal_minus1.png"
+                    },
+                    {
+                        "k": "48",
+                        "v": "Textures\/alpha 2.png"
+                    },
+                    {
+                        "k": "49",
+                        "v": "Textures\/MaterialParams.png"
+                    },
+                    {
+                        "k": "50",
+                        "v": "Textures\/texture-green-minus2pix 2.png"
+                    },
+                    {
+                        "k": "51",
                         "v": "Textures\/alpha 3.png"
                     },
                     {
-                        "k": "102",
+                        "k": "52",
                         "v": "Textures\/texture-green-minus2pix 3.png"
+                    },
+                    {
+                        "k": "53",
+                        "v": "Landmarks Points Guide [LOOK_AT_ME].png"
+                    },
+                    {
+                        "k": "54",
+                        "v": "cgaxis_models_26_11_01.jpg"
+                    },
+                    {
+                        "k": "55",
+                        "v": "cgaxis_models_26_11_01_bump.jpg"
+                    },
+                    {
+                        "k": "56",
+                        "v": "avkan2.fbx"
+                    },
+                    {
+                        "k": "57",
+                        "v": "..\/AdditionalFiles\/avkan2\/Materials0100"
+                    },
+                    {
+                        "k": "58",
+                        "v": "..\/AdditionalFiles\/avkan2\/Materials0100\/cgaxis_models_26_11_01.lsmat"
+                    },
+                    {
+                        "k": "59",
+                        "v": "Sphere.mesh"
+                    },
+                    {
+                        "k": "60",
+                        "v": "Script.js"
+                    },
+                    {
+                        "k": "61",
+                        "v": "cgaxis_models_26_03_01.jpg"
+                    },
+                    {
+                        "k": "62",
+                        "v": "cgaxis_models_26_03_01_bump.jpg"
+                    },
+                    {
+                        "k": "63",
+                        "v": "petal.fbx"
+                    },
+                    {
+                        "k": "64",
+                        "v": "..\/AdditionalFiles\/petal\/Materials0100"
+                    },
+                    {
+                        "k": "65",
+                        "v": "..\/AdditionalFiles\/petal\/Materials0100\/cgaxis_models_26_03_01.lsmat"
+                    },
+                    {
+                        "k": "66",
+                        "v": "rose bud a1.jpg"
+                    },
+                    {
+                        "k": "67",
+                        "v": "rose bud a2.jpg"
+                    },
+                    {
+                        "k": "68",
+                        "v": "camelia petal a1.jpg"
+                    },
+                    {
+                        "k": "69",
+                        "v": "rose petal normals.jpg"
+                    },
+                    {
+                        "k": "70",
+                        "v": "singleFlower.fbx"
+                    },
+                    {
+                        "k": "71",
+                        "v": "..\/AdditionalFiles\/singleFlower\/Materials0100"
+                    },
+                    {
+                        "k": "72",
+                        "v": "..\/AdditionalFiles\/singleFlower\/Materials0100\/bud 1.lsmat"
+                    },
+                    {
+                        "k": "73",
+                        "v": "..\/AdditionalFiles\/singleFlower\/Materials0100\/bud 2.lsmat"
+                    },
+                    {
+                        "k": "74",
+                        "v": "..\/AdditionalFiles\/singleFlower\/Materials0100\/flower 1.lsmat"
+                    },
+                    {
+                        "k": "75",
+                        "v": "rose petal mask a1.jpg"
+                    },
+                    {
+                        "k": "76",
+                        "v": "cgaxis_models_26_06_06.jpg"
+                    },
+                    {
+                        "k": "77",
+                        "v": "cgaxis_models_26_06_06_bump.jpg"
+                    },
+                    {
+                        "k": "78",
+                        "v": "leaf.fbx"
+                    },
+                    {
+                        "k": "79",
+                        "v": "..\/AdditionalFiles\/leaf\/Materials0100"
+                    },
+                    {
+                        "k": "80",
+                        "v": "..\/AdditionalFiles\/leaf\/Materials0100\/leaf.lsmat"
+                    },
+                    {
+                        "k": "81",
+                        "v": "koterPinkCam.lsmat"
+                    },
+                    {
+                        "k": "82",
+                        "v": "2021-04-14.png"
+                    },
+                    {
+                        "k": "83",
+                        "v": "Camellia_041521.fbx"
+                    },
+                    {
+                        "k": "84",
+                        "v": "..\/AdditionalFiles\/Camellia_041521\/Materials0100"
+                    },
+                    {
+                        "k": "85",
+                        "v": "..\/AdditionalFiles\/Camellia_041521\/Materials0100\/Mat.lsmat"
+                    },
+                    {
+                        "k": "86",
+                        "v": "petal2.fbx"
+                    },
+                    {
+                        "k": "87",
+                        "v": "..\/AdditionalFiles\/petal2\/Materials0100"
+                    },
+                    {
+                        "k": "88",
+                        "v": "..\/AdditionalFiles\/petal2\/Materials0100\/cgaxis_models_26_11_01.lsmat"
+                    },
+                    {
+                        "k": "89",
+                        "v": "petals.lsmat"
+                    },
+                    {
+                        "k": "90",
+                        "v": "materials"
+                    },
+                    {
+                        "k": "91",
+                        "v": "materials\/GrowingCloud.lsmat"
+                    },
+                    {
+                        "k": "92",
+                        "v": "materials\/avkanim 2.lsmat"
+                    },
+                    {
+                        "k": "93",
+                        "v": "materials\/roots1.lsmat"
+                    },
+                    {
+                        "k": "94",
+                        "v": "roots.fbx"
+                    },
+                    {
+                        "k": "95",
+                        "v": "..\/AdditionalFiles\/roots\/Materials100"
+                    },
+                    {
+                        "k": "96",
+                        "v": "..\/AdditionalFiles\/roots\/Materials100\/lambert3.lsmat"
+                    },
+                    {
+                        "k": "97",
+                        "v": "avkan2.fbm"
+                    },
+                    {
+                        "k": "98",
+                        "v": "avkan2.fbm\/cgaxis_models_26_11_01_bump.jpg"
+                    },
+                    {
+                        "k": "99",
+                        "v": "avkan2.fbm\/cgaxis_models_26_11_01.jpg"
+                    },
+                    {
+                        "k": "100",
+                        "v": "avkan3.fbx"
+                    },
+                    {
+                        "k": "101",
+                        "v": "..\/AdditionalFiles\/avkan3\/Materials000"
+                    },
+                    {
+                        "k": "102",
+                        "v": "..\/AdditionalFiles\/avkan3\/Materials000\/cgaxis_models_26_11_01.lsmat"
+                    },
+                    {
+                        "k": "103",
+                        "v": "Script 2.js"
                     }
                 ],
                 "hashes": [
@@ -3478,445 +3474,449 @@
                     },
                     {
                         "k": "8",
-                        "v": "ce6f1b85a84d2761fb83adf9e63559dd"
+                        "v": "0ca713e13c390822cba46b26875c9e7f"
                     },
                     {
-                        "k": "11",
-                        "v": "02347444e6c3942e84e19fac77df67ab"
-                    },
-                    {
-                        "k": "12",
-                        "v": "869adc903a1a74888e0c5710689d9563"
-                    },
-                    {
-                        "k": "13",
-                        "v": "767b7c9c009c2bea14f1a32ad02f575f"
-                    },
-                    {
-                        "k": "14",
-                        "v": "93d5bacbfd2523d528ac6283b2a6eb6d"
-                    },
-                    {
-                        "k": "16",
-                        "v": "92f040d3286c878d60d541444cd4abb6"
-                    },
-                    {
-                        "k": "17",
-                        "v": "3b01302fd92fbc02a53575b13c5f1fed"
-                    },
-                    {
-                        "k": "18",
-                        "v": "3b00aa4552ab05a4154dbd38bb5e8e00"
-                    },
-                    {
-                        "k": "19",
-                        "v": "622e959ba94839763ec1eea34e9fc2bd"
-                    },
-                    {
-                        "k": "20",
-                        "v": "6c8dc1e23d77b248e8958a817d540c0b"
-                    },
-                    {
-                        "k": "21",
-                        "v": "bf2cef7ce6514fb02250f645bbd2df1d"
-                    },
-                    {
-                        "k": "22",
-                        "v": "c062d24634b1337b040b10c96f6308d9"
-                    },
-                    {
-                        "k": "23",
-                        "v": "d1921c34c20f8844d48bb347375dff88"
-                    },
-                    {
-                        "k": "24",
-                        "v": "688d4c60eeb67bc4279a382af2919119"
-                    },
-                    {
-                        "k": "25",
-                        "v": "9f2eee095adfe2c8c134f2caf3779df1"
-                    },
-                    {
-                        "k": "27",
-                        "v": "468e32e8cb062444a31ffff8025e32a5"
-                    },
-                    {
-                        "k": "28",
-                        "v": "21bea38a0c61ec09f788064bf98aece3"
-                    },
-                    {
-                        "k": "29",
-                        "v": "ea41f5b23885eab217f3370d4f128c50"
-                    },
-                    {
-                        "k": "30",
-                        "v": "dce89e0b205fa124c712f05732075dc4"
-                    },
-                    {
-                        "k": "32",
-                        "v": "449fcc836c2b2a86c0a14bcb94a92ec6"
-                    },
-                    {
-                        "k": "33",
-                        "v": "897a4bcab93a25d5e487f2421f7b12e7"
-                    },
-                    {
-                        "k": "34",
-                        "v": "f5cda65c113609c6da022536241fbf6a"
-                    },
-                    {
-                        "k": "36",
-                        "v": "469246606256dc0f06042cb87624de87"
-                    },
-                    {
-                        "k": "38",
-                        "v": "cb607d7b25a160872c49fb4d2635cc33"
-                    },
-                    {
-                        "k": "39",
-                        "v": "0c8dcfed2f50bb81ac5276a14967c005"
-                    },
-                    {
-                        "k": "40",
-                        "v": "0cf0e87a54f33218fcf92a12d7f0ede2"
-                    },
-                    {
-                        "k": "41",
-                        "v": "674ea84a0ff3dcd4ac3f2a343424e405"
-                    },
-                    {
-                        "k": "42",
-                        "v": "8a0173d0b987e1abfebd4ef9e3304c0b"
-                    },
-                    {
-                        "k": "43",
-                        "v": "0f8c4587730c9503bc02e6e6073cb540"
-                    },
-                    {
-                        "k": "44",
-                        "v": "40389a22836e06ba42c107da5d3b68a7"
-                    },
-                    {
-                        "k": "45",
-                        "v": "79f9f80d8720b2939aa576ed44ac3fb4"
-                    },
-                    {
-                        "k": "46",
-                        "v": "eb2052366ff798909f51073f16fd9c0b"
-                    },
-                    {
-                        "k": "47",
-                        "v": "40389a22836e06ba42c107da5d3b68a7"
-                    },
-                    {
-                        "k": "48",
-                        "v": "af2715bddfbca2d4e72f470d285c5010"
-                    },
-                    {
-                        "k": "49",
-                        "v": "79f9f80d8720b2939aa576ed44ac3fb4"
-                    },
-                    {
-                        "k": "50",
-                        "v": "b04733a4150c4d4a5b4f95971496a34f"
-                    },
-                    {
-                        "k": "51",
-                        "v": "973c98fb76f434fd1a9e089ad7ca3623"
-                    },
-                    {
-                        "k": "52",
-                        "v": "ce92f3208373e6464c9de0c2f04d8fb1"
-                    },
-                    {
-                        "k": "53",
-                        "v": "a79ec1ef285d1c95493964655cdc1095"
-                    },
-                    {
-                        "k": "55",
-                        "v": "a5d47aeb05fd7a8a2d520485eceffd72"
-                    },
-                    {
-                        "k": "56",
-                        "v": "ffbce66d7c12d942b13208740e9d0059"
-                    },
-                    {
-                        "k": "57",
-                        "v": "d41d8cd98f00b204e9800998ecf8427e"
-                    },
-                    {
-                        "k": "58",
-                        "v": "34fa0b44fa3e5c92af428fc5050272ee"
-                    },
-                    {
-                        "k": "59",
-                        "v": "37d55f44654c8bccd8d211694074ef76"
-                    },
-                    {
-                        "k": "60",
-                        "v": "1b83013be606095f5e1a7be1f4177924"
-                    },
-                    {
-                        "k": "62",
-                        "v": "52392dbbf790c9c0b68a88b4011b8b38"
-                    },
-                    {
-                        "k": "63",
-                        "v": "d96ecae9126b7faa38be4381fafc4c1e"
-                    },
-                    {
-                        "k": "64",
-                        "v": "3fb33a106dc44196920afee3e5de58db"
-                    },
-                    {
-                        "k": "65",
-                        "v": "578c0890f7a34bc6acd7d6db3b68132f"
-                    },
-                    {
-                        "k": "66",
-                        "v": "5db92d45c0afe5a7dcac6866aed549d4"
-                    },
-                    {
-                        "k": "67",
-                        "v": "64376da697c7209705099ffc4541e417"
-                    },
-                    {
-                        "k": "69",
-                        "v": "75555819bd8bfe28854e90a87a62212d"
-                    },
-                    {
-                        "k": "70",
-                        "v": "b449448739dcbb93825d9132e43ec0d6"
-                    },
-                    {
-                        "k": "71",
-                        "v": "a215e4e8068545f6c6ead5973a8f1dba"
-                    },
-                    {
-                        "k": "72",
-                        "v": "81123f5ec2ba3fe85e7076da1a146d34"
-                    },
-                    {
-                        "k": "73",
-                        "v": "9498bc83cecbb3c07639bc5482c72e99"
-                    },
-                    {
-                        "k": "74",
-                        "v": "47f3eff61338a6af6ad73690347dd34e"
-                    },
-                    {
-                        "k": "75",
-                        "v": "79379678e709cb6c0f55794e9b882563"
-                    },
-                    {
-                        "k": "77",
-                        "v": "6c92c91bfea536460f94c953ff2e25c8"
-                    },
-                    {
-                        "k": "78",
-                        "v": "f08b8723cc084408e290062541bae19b"
-                    },
-                    {
-                        "k": "79",
-                        "v": "54a7605faa3cff4169487f661ed8278e"
-                    },
-                    {
-                        "k": "80",
-                        "v": "eab70ade791700e2390120cd6917f1a5"
-                    },
-                    {
-                        "k": "82",
-                        "v": "af71acaecea54b0eb2c14f2c86a11aa8"
-                    },
-                    {
-                        "k": "83",
-                        "v": "35101fca8885748ebf426919a75b808d"
-                    },
-                    {
-                        "k": "85",
-                        "v": "809aef27d6a881181f012f384531e629"
-                    },
-                    {
-                        "k": "86",
-                        "v": "b199db90404eb788b16dcce50f4ce718"
-                    },
-                    {
-                        "k": "88",
-                        "v": "7c97afaee84d298b86ce8c5e26d8c29f"
-                    },
-                    {
-                        "k": "89",
-                        "v": "b5fe0eedead248e77f5c1bb913071df6"
-                    },
-                    {
-                        "k": "90",
-                        "v": "cec391458157eb8e73aa1a3b6aff743d"
-                    },
-                    {
-                        "k": "91",
-                        "v": "6d54ee1867ca0d741c7d44cabb2cb9d2"
-                    },
-                    {
-                        "k": "93",
-                        "v": "5154fa02ec32e5d52a96fc468eaec9f2"
-                    },
-                    {
-                        "k": "95",
-                        "v": "ce92f3208373e6464c9de0c2f04d8fb1"
-                    },
-                    {
-                        "k": "96",
-                        "v": "973c98fb76f434fd1a9e089ad7ca3623"
-                    },
-                    {
-                        "k": "97",
-                        "v": "fc676719e7adf73e9a4639817bc0a2a7"
-                    },
-                    {
-                        "k": "99",
-                        "v": "8048da0e0b9e490a0a4d7d7e023bc4be"
-                    },
-                    {
-                        "k": "100",
+                        "k": "9",
                         "v": "01831b26cf7ce5ebcf9e030f32a2724d"
                     },
                     {
-                        "k": "101",
+                        "k": "12",
+                        "v": "02347444e6c3942e84e19fac77df67ab"
+                    },
+                    {
+                        "k": "13",
+                        "v": "869adc903a1a74888e0c5710689d9563"
+                    },
+                    {
+                        "k": "14",
+                        "v": "767b7c9c009c2bea14f1a32ad02f575f"
+                    },
+                    {
+                        "k": "15",
+                        "v": "93d5bacbfd2523d528ac6283b2a6eb6d"
+                    },
+                    {
+                        "k": "17",
+                        "v": "3d1ae07af984970e465c94f9ee73593e"
+                    },
+                    {
+                        "k": "18",
+                        "v": "2e369d36ebee1d69ad60e30ddd2c055d"
+                    },
+                    {
+                        "k": "19",
+                        "v": "cd58fe2e618428ff3e148aebd1477f85"
+                    },
+                    {
+                        "k": "20",
+                        "v": "482f1575e5b767a4f0dc3a0b8bea3f96"
+                    },
+                    {
+                        "k": "21",
+                        "v": "6702bb0eef354aca96d29dc45175cccf"
+                    },
+                    {
+                        "k": "22",
+                        "v": "b71fc97cb06b30225b085a264395ece4"
+                    },
+                    {
+                        "k": "23",
+                        "v": "dd53ec0622d9afda699a73a490d5fe53"
+                    },
+                    {
+                        "k": "24",
+                        "v": "ec78f20a3f8f5dbe6b1933619403f3f7"
+                    },
+                    {
+                        "k": "25",
+                        "v": "3ef2113e33b3b7f57825a5e03862c1c7"
+                    },
+                    {
+                        "k": "26",
+                        "v": "08c94020c402927fadc336153a7e7a56"
+                    },
+                    {
+                        "k": "28",
+                        "v": "468e32e8cb062444a31ffff8025e32a5"
+                    },
+                    {
+                        "k": "29",
+                        "v": "21bea38a0c61ec09f788064bf98aece3"
+                    },
+                    {
+                        "k": "30",
+                        "v": "ea41f5b23885eab217f3370d4f128c50"
+                    },
+                    {
+                        "k": "31",
+                        "v": "dce89e0b205fa124c712f05732075dc4"
+                    },
+                    {
+                        "k": "33",
+                        "v": "ac373f002ab2f8f5ae99a093a9203d72"
+                    },
+                    {
+                        "k": "34",
+                        "v": "513658650534b36012d89f886c454ed7"
+                    },
+                    {
+                        "k": "35",
+                        "v": "f5cda65c113609c6da022536241fbf6a"
+                    },
+                    {
+                        "k": "37",
+                        "v": "92c80f3c7b9204b5ff4716f882219472"
+                    },
+                    {
+                        "k": "39",
+                        "v": "cb607d7b25a160872c49fb4d2635cc33"
+                    },
+                    {
+                        "k": "40",
+                        "v": "0c8dcfed2f50bb81ac5276a14967c005"
+                    },
+                    {
+                        "k": "41",
+                        "v": "0cf0e87a54f33218fcf92a12d7f0ede2"
+                    },
+                    {
+                        "k": "42",
+                        "v": "f2c7ff2d6d9d2e0d953348e9526f9ee2"
+                    },
+                    {
+                        "k": "43",
+                        "v": "8a0173d0b987e1abfebd4ef9e3304c0b"
+                    },
+                    {
+                        "k": "44",
+                        "v": "0f8c4587730c9503bc02e6e6073cb540"
+                    },
+                    {
+                        "k": "45",
                         "v": "40389a22836e06ba42c107da5d3b68a7"
                     },
                     {
-                        "k": "102",
+                        "k": "46",
                         "v": "79f9f80d8720b2939aa576ed44ac3fb4"
+                    },
+                    {
+                        "k": "47",
+                        "v": "eb2052366ff798909f51073f16fd9c0b"
+                    },
+                    {
+                        "k": "48",
+                        "v": "40389a22836e06ba42c107da5d3b68a7"
+                    },
+                    {
+                        "k": "49",
+                        "v": "af2715bddfbca2d4e72f470d285c5010"
+                    },
+                    {
+                        "k": "50",
+                        "v": "79f9f80d8720b2939aa576ed44ac3fb4"
+                    },
+                    {
+                        "k": "51",
+                        "v": "40389a22836e06ba42c107da5d3b68a7"
+                    },
+                    {
+                        "k": "52",
+                        "v": "79f9f80d8720b2939aa576ed44ac3fb4"
+                    },
+                    {
+                        "k": "53",
+                        "v": "b04733a4150c4d4a5b4f95971496a34f"
+                    },
+                    {
+                        "k": "54",
+                        "v": "973c98fb76f434fd1a9e089ad7ca3623"
+                    },
+                    {
+                        "k": "55",
+                        "v": "ce92f3208373e6464c9de0c2f04d8fb1"
+                    },
+                    {
+                        "k": "56",
+                        "v": "a79ec1ef285d1c95493964655cdc1095"
+                    },
+                    {
+                        "k": "58",
+                        "v": "7d397b9bc2d613d07e09b33d0f16c35e"
+                    },
+                    {
+                        "k": "59",
+                        "v": "ffbce66d7c12d942b13208740e9d0059"
+                    },
+                    {
+                        "k": "60",
+                        "v": "d41d8cd98f00b204e9800998ecf8427e"
+                    },
+                    {
+                        "k": "61",
+                        "v": "34fa0b44fa3e5c92af428fc5050272ee"
+                    },
+                    {
+                        "k": "62",
+                        "v": "37d55f44654c8bccd8d211694074ef76"
+                    },
+                    {
+                        "k": "63",
+                        "v": "1b83013be606095f5e1a7be1f4177924"
+                    },
+                    {
+                        "k": "65",
+                        "v": "f2a7225398e9ab80993704953d27aa76"
+                    },
+                    {
+                        "k": "66",
+                        "v": "d96ecae9126b7faa38be4381fafc4c1e"
+                    },
+                    {
+                        "k": "67",
+                        "v": "3fb33a106dc44196920afee3e5de58db"
+                    },
+                    {
+                        "k": "68",
+                        "v": "578c0890f7a34bc6acd7d6db3b68132f"
+                    },
+                    {
+                        "k": "69",
+                        "v": "5db92d45c0afe5a7dcac6866aed549d4"
+                    },
+                    {
+                        "k": "70",
+                        "v": "64376da697c7209705099ffc4541e417"
+                    },
+                    {
+                        "k": "72",
+                        "v": "1603cf5406c77a37041b08c3379a3003"
+                    },
+                    {
+                        "k": "73",
+                        "v": "8ece86f8ff045ef6c8b69161d8de1517"
+                    },
+                    {
+                        "k": "74",
+                        "v": "788a5291f96f3971d0b754cb7d4179dc"
+                    },
+                    {
+                        "k": "75",
+                        "v": "81123f5ec2ba3fe85e7076da1a146d34"
+                    },
+                    {
+                        "k": "76",
+                        "v": "9498bc83cecbb3c07639bc5482c72e99"
+                    },
+                    {
+                        "k": "77",
+                        "v": "47f3eff61338a6af6ad73690347dd34e"
+                    },
+                    {
+                        "k": "78",
+                        "v": "79379678e709cb6c0f55794e9b882563"
+                    },
+                    {
+                        "k": "80",
+                        "v": "69ef5bfc15d64dae79e5eacc268b5019"
+                    },
+                    {
+                        "k": "81",
+                        "v": "866ea706f6cd4eb7dd2e712eed1552c1"
+                    },
+                    {
+                        "k": "82",
+                        "v": "54a7605faa3cff4169487f661ed8278e"
+                    },
+                    {
+                        "k": "83",
+                        "v": "eab70ade791700e2390120cd6917f1a5"
+                    },
+                    {
+                        "k": "85",
+                        "v": "d2d50219ce4e025af6f3d97592e6c82f"
+                    },
+                    {
+                        "k": "86",
+                        "v": "35101fca8885748ebf426919a75b808d"
+                    },
+                    {
+                        "k": "88",
+                        "v": "ff3b6193f6e17810860dc007f2bae042"
+                    },
+                    {
+                        "k": "89",
+                        "v": "136f82e373b7a8dce420d728f0c48a2e"
+                    },
+                    {
+                        "k": "91",
+                        "v": "9fe4d29ffe6755df41f50b29c9bf47fd"
+                    },
+                    {
+                        "k": "92",
+                        "v": "87ba361eec622b92ff194a9b42e17319"
+                    },
+                    {
+                        "k": "93",
+                        "v": "a8fb7475b228a1b36cc15b7e04d95b1e"
+                    },
+                    {
+                        "k": "94",
+                        "v": "6d54ee1867ca0d741c7d44cabb2cb9d2"
+                    },
+                    {
+                        "k": "96",
+                        "v": "a63fea7483317905c8bb0529c2db21a4"
+                    },
+                    {
+                        "k": "98",
+                        "v": "ce92f3208373e6464c9de0c2f04d8fb1"
+                    },
+                    {
+                        "k": "99",
+                        "v": "973c98fb76f434fd1a9e089ad7ca3623"
+                    },
+                    {
+                        "k": "100",
+                        "v": "fc676719e7adf73e9a4639817bc0a2a7"
+                    },
+                    {
+                        "k": "102",
+                        "v": "5fddbd523821ad1ce6d46ab3b345d72f"
+                    },
+                    {
+                        "k": "103",
+                        "v": "59361291686fd7cebf3981836238abbb"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2021-04-21T20:14:56",
+                        "lastModified": "2021-04-22T07:28:25",
                         "name": "Public",
-                        "hash": "ba4c9d213cd8a44b8233d10f5dd7292a",
+                        "hash": "d174625eb412515f26f99b1a5182eb4a",
                         "children": [
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T19:32:01",
+                                "lastModified": "2021-04-22T07:14:04",
                                 "name": "Landmarks Points Guide [LOOK_AT_ME].png",
                                 "hash": "b04733a4150c4d4a5b4f95971496a34f",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T19:32:00",
+                                "lastModified": "2021-04-22T07:14:04",
                                 "name": "camelia petal a1.jpg",
                                 "hash": "578c0890f7a34bc6acd7d6db3b68132f",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-04-21T19:35:51",
+                                "lastModified": "2021-04-22T07:14:06",
                                 "name": "Textures",
-                                "hash": "3e1d353ef9cfb4a0c89a945184e67681",
+                                "hash": "ceea1c334518fffd271578534f8545e7",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T19:35:50",
+                                        "lastModified": "2021-04-22T07:14:04",
                                         "name": "texture-green-minus2pix 3.png",
                                         "hash": "79f9f80d8720b2939aa576ed44ac3fb4",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T19:32:01",
+                                        "lastModified": "2021-04-22T07:14:04",
                                         "name": "texture-green-minus2pix 2.png",
                                         "hash": "79f9f80d8720b2939aa576ed44ac3fb4",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T19:32:01",
+                                        "lastModified": "2021-04-22T07:14:04",
                                         "name": "camelia_petal_minus1.png",
                                         "hash": "eb2052366ff798909f51073f16fd9c0b",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T19:32:01",
+                                        "lastModified": "2021-04-22T07:14:04",
                                         "name": "alpha.png",
                                         "hash": "40389a22836e06ba42c107da5d3b68a7",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T19:32:00",
+                                        "lastModified": "2021-04-22T07:14:04",
                                         "name": "cgaxis_models_26_03_01.lsmat",
-                                        "hash": "674ea84a0ff3dcd4ac3f2a343424e405",
+                                        "hash": "f2c7ff2d6d9d2e0d953348e9526f9ee2",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T19:35:50",
+                                        "lastModified": "2021-04-22T07:14:04",
                                         "name": "alpha 3.png",
                                         "hash": "40389a22836e06ba42c107da5d3b68a7",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T19:32:01",
+                                        "lastModified": "2021-04-22T07:14:04",
                                         "name": "alpha 2.png",
                                         "hash": "40389a22836e06ba42c107da5d3b68a7",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T19:32:01",
+                                        "lastModified": "2021-04-22T07:14:04",
                                         "name": "MaterialParams.png",
                                         "hash": "af2715bddfbca2d4e72f470d285c5010",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T19:32:00",
+                                        "lastModified": "2021-04-22T07:14:04",
                                         "name": "Base.png",
                                         "hash": "cb607d7b25a160872c49fb4d2635cc33",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T19:32:00",
+                                        "lastModified": "2021-04-22T07:14:04",
                                         "name": "Normal.png",
                                         "hash": "8a0173d0b987e1abfebd4ef9e3304c0b",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T19:32:01",
+                                        "lastModified": "2021-04-22T07:14:04",
                                         "name": "texture-green-minus2pix.png",
                                         "hash": "79f9f80d8720b2939aa576ed44ac3fb4",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T19:32:00",
+                                        "lastModified": "2021-04-22T07:14:04",
                                         "name": "echopark.hdr",
                                         "hash": "0cf0e87a54f33218fcf92a12d7f0ede2",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T19:32:00",
+                                        "lastModified": "2021-04-22T07:14:04",
                                         "name": "camellia.png",
                                         "hash": "0f8c4587730c9503bc02e6e6073cb540",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T19:32:00",
+                                        "lastModified": "2021-04-22T07:14:04",
                                         "name": "white.png",
                                         "hash": "0c8dcfed2f50bb81ac5276a14967c005",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T19:32:03",
+                                        "lastModified": "2021-04-22T07:14:06",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -3925,34 +3925,34 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-04-21T20:14:56",
+                                "lastModified": "2021-04-22T07:28:26",
                                 "name": "materials",
-                                "hash": "f7f199bfa2661d7ba18eaa40ff4af500",
+                                "hash": "7027811b0a0f058bdd637b8eb49565cb",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T20:14:56",
+                                        "lastModified": "2021-04-22T07:28:25",
                                         "name": "avkanim 2.lsmat",
-                                        "hash": "b11534ca7fcb7fae78104fcc44db9d91",
+                                        "hash": "1c932ea9b735bc89bdd0a2e95be448ae",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T20:14:56",
+                                        "lastModified": "2021-04-22T07:28:26",
                                         "name": "roots1.lsmat",
-                                        "hash": "f22c58c44da74d1b9ad7bb894bb51be0",
+                                        "hash": "fd0ce900662f488aaa9176afe79216a1",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T20:14:56",
+                                        "lastModified": "2021-04-22T07:28:25",
                                         "name": "GrowingCloud.lsmat",
-                                        "hash": "95cadd9f131cc1991b7d338e1563806b",
+                                        "hash": "ff0b2e9fe57cf930f70962f1f856874c",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T19:32:03",
+                                        "lastModified": "2021-04-22T07:14:06",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -3961,68 +3961,68 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T20:14:55",
+                                "lastModified": "2021-04-22T07:28:25",
                                 "name": "koterPinkCam.lsmat",
-                                "hash": "9213748dd07cde5ce642559ec2c60439",
+                                "hash": "d95e179a5c029d717378655632a8031b",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T19:32:00",
+                                "lastModified": "2021-04-22T07:14:04",
                                 "name": "petal.fbx",
                                 "hash": "1b83013be606095f5e1a7be1f4177924",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T19:32:00",
+                                "lastModified": "2021-04-22T07:14:04",
                                 "name": "cgaxis_models_26_06_06.jpg",
                                 "hash": "9498bc83cecbb3c07639bc5482c72e99",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-04-21T19:32:03",
+                                "lastModified": "2021-04-22T07:14:06",
                                 "name": "FaceLandmarks Template Resources",
-                                "hash": "d58cfc8890342d2402bbe96691fb12bb",
+                                "hash": "319c4a9b4d0ea9c9872313e6615625e1",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-04-21T19:32:03",
+                                        "lastModified": "2021-04-22T07:14:06",
                                         "name": "Textures",
                                         "hash": "2776181aab7f8f1a14de9b1300015a0e",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:00",
+                                                "lastModified": "2021-04-22T07:14:04",
                                                 "name": "magnifying_body_materialParams.png",
                                                 "hash": "dce89e0b205fa124c712f05732075dc4",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:00",
+                                                "lastModified": "2021-04-22T07:14:04",
                                                 "name": "magnifying_body_normal.png",
                                                 "hash": "ea41f5b23885eab217f3370d4f128c50",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:01",
+                                                "lastModified": "2021-04-22T07:14:04",
                                                 "name": "stripe.png",
                                                 "hash": "468e32e8cb062444a31ffff8025e32a5",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:00",
+                                                "lastModified": "2021-04-22T07:14:04",
                                                 "name": "magnifying_body_base.png",
                                                 "hash": "21bea38a0c61ec09f788064bf98aece3",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:03",
+                                                "lastModified": "2021-04-22T07:14:06",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -4031,83 +4031,83 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-04-21T20:14:55",
+                                        "lastModified": "2021-04-22T07:28:25",
                                         "name": "Materials",
-                                        "hash": "0598f87b38a99990495341558fae35b5",
+                                        "hash": "0e9b9cbedac604d2683e011be16eefee",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:00",
+                                                "lastModified": "2021-04-22T07:14:04",
                                                 "name": "eyelid_green.lsmat",
-                                                "hash": "622e959ba94839763ec1eea34e9fc2bd",
+                                                "hash": "482f1575e5b767a4f0dc3a0b8bea3f96",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T20:14:55",
+                                                "lastModified": "2021-04-22T07:28:25",
                                                 "name": "refraction.lsmat",
-                                                "hash": "f119c302816a0f247dae215e527b9cb1",
+                                                "hash": "8817fc4285011d24211de958e318d579",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:01",
+                                                "lastModified": "2021-04-22T07:14:04",
                                                 "name": "white_eye.lsmat",
-                                                "hash": "92f040d3286c878d60d541444cd4abb6",
+                                                "hash": "3d1ae07af984970e465c94f9ee73593e",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:00",
+                                                "lastModified": "2021-04-22T07:14:04",
                                                 "name": "magnify.lsmat",
-                                                "hash": "d1921c34c20f8844d48bb347375dff88",
+                                                "hash": "ec78f20a3f8f5dbe6b1933619403f3f7",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:01",
+                                                "lastModified": "2021-04-22T07:14:04",
                                                 "name": "black_eye.lsmat",
-                                                "hash": "3b01302fd92fbc02a53575b13c5f1fed",
+                                                "hash": "2e369d36ebee1d69ad60e30ddd2c055d",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:01",
+                                                "lastModified": "2021-04-22T07:14:04",
                                                 "name": "mustache.lsmat",
-                                                "hash": "bf2cef7ce6514fb02250f645bbd2df1d",
+                                                "hash": "b71fc97cb06b30225b085a264395ece4",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:01",
+                                                "lastModified": "2021-04-22T07:14:04",
                                                 "name": "eyelid_yellow.lsmat",
-                                                "hash": "3b00aa4552ab05a4154dbd38bb5e8e00",
+                                                "hash": "cd58fe2e618428ff3e148aebd1477f85",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:00",
+                                                "lastModified": "2021-04-22T07:14:04",
                                                 "name": "hand.lsmat",
-                                                "hash": "688d4c60eeb67bc4279a382af2919119",
+                                                "hash": "3ef2113e33b3b7f57825a5e03862c1c7",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:01",
+                                                "lastModified": "2021-04-22T07:14:04",
                                                 "name": "silver.lsmat",
-                                                "hash": "c062d24634b1337b040b10c96f6308d9",
+                                                "hash": "dd53ec0622d9afda699a73a490d5fe53",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:00",
+                                                "lastModified": "2021-04-22T07:14:04",
                                                 "name": "tear.lsmat",
-                                                "hash": "9f2eee095adfe2c8c134f2caf3779df1",
+                                                "hash": "08c94020c402927fadc336153a7e7a56",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:03",
+                                                "lastModified": "2021-04-22T07:14:06",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -4116,77 +4116,77 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-04-21T19:32:03",
+                                        "lastModified": "2021-04-22T07:14:06",
                                         "name": "Prefabs",
-                                        "hash": "5fcc92595a2416423e93b32beb193abc",
+                                        "hash": "3d3530027b2897c196acca28632ac20a",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:00",
+                                                "lastModified": "2021-04-22T07:14:04",
                                                 "name": "Left Tear.oprfb",
-                                                "hash": "449fcc836c2b2a86c0a14bcb94a92ec6",
+                                                "hash": "ac373f002ab2f8f5ae99a093a9203d72",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:03",
+                                                "lastModified": "2021-04-22T07:14:06",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:00",
+                                                "lastModified": "2021-04-22T07:14:04",
                                                 "name": "Right Tear.oprfb",
-                                                "hash": "897a4bcab93a25d5e487f2421f7b12e7",
+                                                "hash": "513658650534b36012d89f886c454ed7",
                                                 "children": ""
                                             }
                                         ]
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T19:32:01",
+                                        "lastModified": "2021-04-22T07:14:04",
                                         "name": "camelliaModeled.fbx",
                                         "hash": "f5cda65c113609c6da022536241fbf6a",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-04-21T19:32:03",
+                                        "lastModified": "2021-04-22T07:14:06",
                                         "name": "Models",
                                         "hash": "f5e1ca83416df3e27b03552ef222a860",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:00",
+                                                "lastModified": "2021-04-22T07:14:04",
                                                 "name": "Hand.fbx",
                                                 "hash": "767b7c9c009c2bea14f1a32ad02f575f",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:00",
+                                                "lastModified": "2021-04-22T07:14:04",
                                                 "name": "Eye.fbx",
                                                 "hash": "02347444e6c3942e84e19fac77df67ab",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:01",
+                                                "lastModified": "2021-04-22T07:14:04",
                                                 "name": "Mustache.fbx",
                                                 "hash": "869adc903a1a74888e0c5710689d9563",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:00",
+                                                "lastModified": "2021-04-22T07:14:04",
                                                 "name": "Tear.fbx",
                                                 "hash": "93d5bacbfd2523d528ac6283b2a6eb6d",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:03",
+                                                "lastModified": "2021-04-22T07:14:06",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -4195,7 +4195,7 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T19:32:03",
+                                        "lastModified": "2021-04-22T07:14:06",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -4204,96 +4204,103 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T19:32:00",
+                                "lastModified": "2021-04-22T07:14:04",
                                 "name": "cgaxis_models_26_11_01_bump.jpg",
                                 "hash": "ce92f3208373e6464c9de0c2f04d8fb1",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T19:32:00",
+                                "lastModified": "2021-03-29T11:10:03",
+                                "name": "Script 2.js",
+                                "hash": "59361291686fd7cebf3981836238abbb",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2021-04-22T07:14:04",
                                 "name": "Camellia_041521.fbx",
                                 "hash": "eab70ade791700e2390120cd6917f1a5",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T19:32:00",
+                                "lastModified": "2021-04-22T07:14:04",
                                 "name": "Script.js",
                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T19:32:00",
+                                "lastModified": "2021-04-22T07:14:04",
                                 "name": "rose petal mask a1.jpg",
                                 "hash": "81123f5ec2ba3fe85e7076da1a146d34",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T20:14:56",
+                                "lastModified": "2021-04-22T07:28:25",
                                 "name": "petals.lsmat",
-                                "hash": "6fc94a5830210150768e409181c3f67e",
+                                "hash": "717ae0bf4cadd1bac8ea43665363fc63",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T19:32:00",
+                                "lastModified": "2021-04-22T07:14:04",
                                 "name": "cgaxis_models_26_03_01_bump.jpg",
                                 "hash": "37d55f44654c8bccd8d211694074ef76",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T19:32:01",
+                                "lastModified": "2021-04-22T07:14:04",
                                 "name": "petal2.fbx",
                                 "hash": "35101fca8885748ebf426919a75b808d",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T19:32:00",
+                                "lastModified": "2021-04-22T07:14:04",
                                 "name": "singleFlower.fbx",
                                 "hash": "64376da697c7209705099ffc4541e417",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-04-21T20:14:49",
+                                "lastModified": "2021-04-22T07:41:16",
                                 "name": "Scripts",
-                                "hash": "79b155cc807601fec3468beca046d388",
+                                "hash": "8f6d812fc04ae10709df6855b0ceb7ca",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-04-21T19:32:03",
+                                        "lastModified": "2021-04-22T07:14:06",
                                         "name": "Facelandmarks Helpers",
                                         "hash": "73b30b381b66c692bd768ab61b468fd1",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:00",
+                                                "lastModified": "2021-04-22T07:14:04",
                                                 "name": "FaceLandmarksDistanceResponse.js",
                                                 "hash": "69468b66ecb81bbbc4bb801a2588efb4",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:00",
+                                                "lastModified": "2021-04-22T07:14:04",
                                                 "name": "Behavior.js",
                                                 "hash": "91c13f7497081d3638dd81f8c7b017fd",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:01",
+                                                "lastModified": "2021-04-22T07:14:04",
                                                 "name": "FaceLandmarksDistanceTrigger.js",
                                                 "hash": "01831b26cf7ce5ebcf9e030f32a2724d",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-21T19:32:03",
+                                                "lastModified": "2021-04-22T07:14:06",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -4302,35 +4309,35 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T19:32:01",
+                                        "lastModified": "2021-04-22T07:14:04",
                                         "name": "changing_texture.js",
                                         "hash": "2a8c238d8a1dc2126ede41e333812319",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T20:14:49",
+                                        "lastModified": "2021-04-22T07:41:16",
                                         "name": "mouthOpen.js",
-                                        "hash": "ce6f1b85a84d2761fb83adf9e63559dd",
+                                        "hash": "0ca713e13c390822cba46b26875c9e7f",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T19:32:01",
+                                        "lastModified": "2021-04-22T07:14:04",
                                         "name": "PinToFaceLandmarks.js",
                                         "hash": "50b1d3c93e91ddf9d94e0713f8ff428d",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-02-23T20:14:38",
+                                        "lastModified": "2021-04-22T07:14:04",
                                         "name": "FaceLandmarksDistanceTrigger.js",
                                         "hash": "01831b26cf7ce5ebcf9e030f32a2724d",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T19:32:03",
+                                        "lastModified": "2021-04-22T07:14:06",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -4339,111 +4346,111 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T19:32:00",
+                                "lastModified": "2021-04-22T07:14:04",
                                 "name": "rose petal normals.jpg",
                                 "hash": "5db92d45c0afe5a7dcac6866aed549d4",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T19:32:00",
+                                "lastModified": "2021-04-22T07:14:04",
                                 "name": "Sphere.mesh",
                                 "hash": "ffbce66d7c12d942b13208740e9d0059",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T19:32:00",
+                                "lastModified": "2021-04-22T07:14:04",
                                 "name": "rose bud a1.jpg",
                                 "hash": "d96ecae9126b7faa38be4381fafc4c1e",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T19:32:01",
+                                "lastModified": "2021-04-22T07:14:04",
                                 "name": "roots.fbx",
                                 "hash": "6d54ee1867ca0d741c7d44cabb2cb9d2",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T19:32:00",
+                                "lastModified": "2021-04-22T07:14:04",
                                 "name": "rose bud a2.jpg",
                                 "hash": "3fb33a106dc44196920afee3e5de58db",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T19:32:00",
+                                "lastModified": "2021-04-22T07:14:04",
                                 "name": "2021-04-14.png",
                                 "hash": "54a7605faa3cff4169487f661ed8278e",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T19:32:00",
+                                "lastModified": "2021-04-22T07:14:04",
                                 "name": "avkan2.fbx",
                                 "hash": "a79ec1ef285d1c95493964655cdc1095",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T19:32:00",
+                                "lastModified": "2021-04-22T07:14:04",
                                 "name": "cgaxis_models_26_03_01.jpg",
                                 "hash": "34fa0b44fa3e5c92af428fc5050272ee",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T19:32:00",
+                                "lastModified": "2021-04-22T07:14:04",
                                 "name": "cgaxis_models_26_06_06_bump.jpg",
                                 "hash": "47f3eff61338a6af6ad73690347dd34e",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T19:32:00",
+                                "lastModified": "2021-04-22T07:14:04",
                                 "name": "cgaxis_models_26_11_01.jpg",
                                 "hash": "973c98fb76f434fd1a9e089ad7ca3623",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T19:32:00",
+                                "lastModified": "2021-04-22T07:14:04",
                                 "name": "leaf.fbx",
                                 "hash": "79379678e709cb6c0f55794e9b882563",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T19:32:03",
+                                "lastModified": "2021-04-22T07:14:07",
                                 "name": "folder.lock",
                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-04-21T19:32:03",
+                                "lastModified": "2021-04-22T07:14:06",
                                 "name": "avkan2.fbm",
                                 "hash": "399a755072cbe7006a18f8bd8b7b0856",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T19:32:01",
+                                        "lastModified": "2021-04-22T07:14:04",
                                         "name": "cgaxis_models_26_11_01_bump.jpg",
                                         "hash": "ce92f3208373e6464c9de0c2f04d8fb1",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T19:32:01",
+                                        "lastModified": "2021-04-22T07:14:04",
                                         "name": "cgaxis_models_26_11_01.jpg",
                                         "hash": "973c98fb76f434fd1a9e089ad7ca3623",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-21T19:32:03",
+                                        "lastModified": "2021-04-22T07:14:06",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -4452,7 +4459,7 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-21T19:32:01",
+                                "lastModified": "2021-04-22T07:14:04",
                                 "name": "avkan3.fbx",
                                 "hash": "fc676719e7adf73e9a4639817bc0a2a7",
                                 "children": ""
@@ -4590,7 +4597,7 @@
                                 "uid": "1619058844863999:40041",
                                 "fileId": "531",
                                 "originalId": "18446744073709551615",
-                                "publicId": "100",
+                                "publicId": "9",
                                 "source": "\/Users\/shirin\/Downloads\/avkanim\/combineV2\/Public\/Scripts\/FaceLandmarksDistanceTrigger.js",
                                 "additional": ""
                             }
@@ -4605,7 +4612,7 @@
                         "uid": "-1:-1",
                         "fileId": "18446744073709551615",
                         "originalId": "18446744073709551615",
-                        "publicId": "9",
+                        "publicId": "10",
                         "source": "",
                         "additional": "",
                         "resources": [
@@ -4618,7 +4625,7 @@
                                 "uid": "-1:-1",
                                 "fileId": "18446744073709551615",
                                 "originalId": "18446744073709551615",
-                                "publicId": "10",
+                                "publicId": "11",
                                 "source": "",
                                 "additional": "",
                                 "resources": [
@@ -4631,7 +4638,7 @@
                                         "uid": "-1:-1",
                                         "fileId": "105",
                                         "originalId": "18446744073709551615",
-                                        "publicId": "11",
+                                        "publicId": "12",
                                         "source": "",
                                         "additional": {
                                             "materialMapping": [
@@ -4893,7 +4900,7 @@
                                         "uid": "-1:-1",
                                         "fileId": "80",
                                         "originalId": "18446744073709551615",
-                                        "publicId": "12",
+                                        "publicId": "13",
                                         "source": "",
                                         "additional": {
                                             "materialMapping": ""
@@ -4990,7 +4997,7 @@
                                         "uid": "-1:-1",
                                         "fileId": "158",
                                         "originalId": "18446744073709551615",
-                                        "publicId": "13",
+                                        "publicId": "14",
                                         "source": "",
                                         "additional": {
                                             "materialMapping": [
@@ -5336,7 +5343,7 @@
                                         "uid": "-1:-1",
                                         "fileId": "179",
                                         "originalId": "18446744073709551615",
-                                        "publicId": "14",
+                                        "publicId": "15",
                                         "source": "",
                                         "additional": {
                                             "materialMapping": ""
@@ -5449,7 +5456,7 @@
                                 "uid": "-1:-1",
                                 "fileId": "18446744073709551615",
                                 "originalId": "18446744073709551615",
-                                "publicId": "15",
+                                "publicId": "16",
                                 "source": "",
                                 "additional": "",
                                 "resources": [
@@ -5462,7 +5469,7 @@
                                         "uid": "1582330633417590:36327",
                                         "fileId": "71",
                                         "originalId": "72",
-                                        "publicId": "16",
+                                        "publicId": "17",
                                         "source": "",
                                         "additional": ""
                                     },
@@ -5475,7 +5482,7 @@
                                         "uid": "1582330641560806:38458",
                                         "fileId": "73",
                                         "originalId": "74",
-                                        "publicId": "17",
+                                        "publicId": "18",
                                         "source": "",
                                         "additional": ""
                                     },
@@ -5488,7 +5495,7 @@
                                         "uid": "1582681544688312:5931",
                                         "fileId": "98",
                                         "originalId": "99",
-                                        "publicId": "18",
+                                        "publicId": "19",
                                         "source": "",
                                         "additional": ""
                                     },
@@ -5501,7 +5508,7 @@
                                         "uid": "1582765152526629:156605",
                                         "fileId": "131",
                                         "originalId": "132",
-                                        "publicId": "19",
+                                        "publicId": "20",
                                         "source": "",
                                         "additional": ""
                                     },
@@ -5514,7 +5521,7 @@
                                         "uid": "1582742616143395:17088",
                                         "fileId": "128",
                                         "originalId": "129",
-                                        "publicId": "20",
+                                        "publicId": "21",
                                         "source": "",
                                         "additional": ""
                                     },
@@ -5527,7 +5534,7 @@
                                         "uid": "1582676704462672:38481",
                                         "fileId": "82",
                                         "originalId": "83",
-                                        "publicId": "21",
+                                        "publicId": "22",
                                         "source": "",
                                         "additional": ""
                                     },
@@ -5540,7 +5547,7 @@
                                         "uid": "1582254524676588:821766",
                                         "fileId": "66",
                                         "originalId": "68",
-                                        "publicId": "22",
+                                        "publicId": "23",
                                         "source": "",
                                         "additional": ""
                                     },
@@ -5553,7 +5560,7 @@
                                         "uid": "1582767688230631:325706",
                                         "fileId": "168",
                                         "originalId": "169",
-                                        "publicId": "23",
+                                        "publicId": "24",
                                         "source": "",
                                         "additional": ""
                                     },
@@ -5566,7 +5573,7 @@
                                         "uid": "1582765967738866:185173",
                                         "fileId": "155",
                                         "originalId": "156",
-                                        "publicId": "24",
+                                        "publicId": "25",
                                         "source": "",
                                         "additional": ""
                                     },
@@ -5579,7 +5586,7 @@
                                         "uid": "1582829862371333:535925",
                                         "fileId": "181",
                                         "originalId": "182",
-                                        "publicId": "25",
+                                        "publicId": "26",
                                         "source": "",
                                         "additional": ""
                                     }
@@ -5594,7 +5601,7 @@
                                 "uid": "-1:-1",
                                 "fileId": "18446744073709551615",
                                 "originalId": "18446744073709551615",
-                                "publicId": "26",
+                                "publicId": "27",
                                 "source": "",
                                 "additional": "",
                                 "resources": [
@@ -5607,7 +5614,7 @@
                                         "uid": "1582676825628863:46681",
                                         "fileId": "86",
                                         "originalId": "87",
-                                        "publicId": "27",
+                                        "publicId": "28",
                                         "source": "",
                                         "additional": ""
                                     },
@@ -5620,7 +5627,7 @@
                                         "uid": "1582765983357724:188518",
                                         "fileId": "160",
                                         "originalId": "161",
-                                        "publicId": "28",
+                                        "publicId": "29",
                                         "source": "",
                                         "additional": ""
                                     },
@@ -5633,7 +5640,7 @@
                                         "uid": "1582765991381829:189988",
                                         "fileId": "162",
                                         "originalId": "163",
-                                        "publicId": "29",
+                                        "publicId": "30",
                                         "source": "",
                                         "additional": ""
                                     },
@@ -5646,7 +5653,7 @@
                                         "uid": "1582765996901522:191463",
                                         "fileId": "164",
                                         "originalId": "165",
-                                        "publicId": "30",
+                                        "publicId": "31",
                                         "source": "",
                                         "additional": ""
                                     }
@@ -5661,7 +5668,7 @@
                                 "uid": "-1:-1",
                                 "fileId": "18446744073709551615",
                                 "originalId": "18446744073709551615",
-                                "publicId": "31",
+                                "publicId": "32",
                                 "source": "",
                                 "additional": "",
                                 "resources": [
@@ -5674,7 +5681,7 @@
                                         "uid": "1582830435031782:623578",
                                         "fileId": "188",
                                         "originalId": "189",
-                                        "publicId": "32",
+                                        "publicId": "33",
                                         "source": "",
                                         "additional": ""
                                     },
@@ -5687,7 +5694,7 @@
                                         "uid": "1582860979158261:837150",
                                         "fileId": "190",
                                         "originalId": "191",
-                                        "publicId": "33",
+                                        "publicId": "34",
                                         "source": "",
                                         "additional": ""
                                     }
@@ -5702,7 +5709,7 @@
                                 "uid": "-1:-1",
                                 "fileId": "458",
                                 "originalId": "18446744073709551615",
-                                "publicId": "34",
+                                "publicId": "35",
                                 "source": "\/Users\/zivschneider\/Brown Institute Dropbox\/Ziv Schneider\/CHANEL\/CamelliaModeling\/camelliaModeled.fbx",
                                 "additional": {
                                     "materialMapping": [
@@ -6094,7 +6101,7 @@
                                         "resources": ""
                                     },
                                     {
-                                        "name": "Materials010",
+                                        "name": "Materials0100",
                                         "type": "0",
                                         "subtype": "-1",
                                         "resourceId": "-1",
@@ -6102,7 +6109,7 @@
                                         "uid": "-1:-1",
                                         "fileId": "18446744073709551615",
                                         "originalId": "18446744073709551615",
-                                        "publicId": "35",
+                                        "publicId": "36",
                                         "source": "",
                                         "additional": "",
                                         "resources": [
@@ -6115,7 +6122,7 @@
                                                 "uid": "1618603854824331:213246",
                                                 "fileId": "455",
                                                 "originalId": "456",
-                                                "publicId": "36",
+                                                "publicId": "37",
                                                 "source": "",
                                                 "additional": ""
                                             }
@@ -6147,7 +6154,7 @@
                         "uid": "-1:-1",
                         "fileId": "18446744073709551615",
                         "originalId": "18446744073709551615",
-                        "publicId": "37",
+                        "publicId": "38",
                         "source": "",
                         "additional": "",
                         "resources": [
@@ -6190,7 +6197,7 @@
                                 "uid": "1582768077806669:364960",
                                 "fileId": "172",
                                 "originalId": "173",
-                                "publicId": "38",
+                                "publicId": "39",
                                 "source": "",
                                 "additional": ""
                             },
@@ -6203,7 +6210,7 @@
                                 "uid": "1582768077842217:364972",
                                 "fileId": "174",
                                 "originalId": "175",
-                                "publicId": "39",
+                                "publicId": "40",
                                 "source": "",
                                 "additional": ""
                             },
@@ -6216,7 +6223,7 @@
                                 "uid": "-1:-1",
                                 "fileId": "196",
                                 "originalId": "18446744073709551615",
-                                "publicId": "40",
+                                "publicId": "41",
                                 "source": "",
                                 "additional": "",
                                 "resources": [
@@ -6257,7 +6264,7 @@
                                 "uid": "1618254915670095:585162",
                                 "fileId": "236",
                                 "originalId": "237",
-                                "publicId": "41",
+                                "publicId": "42",
                                 "source": "",
                                 "additional": ""
                             },
@@ -6270,7 +6277,7 @@
                                 "uid": "1618425023273488:131432",
                                 "fileId": "348",
                                 "originalId": "349",
-                                "publicId": "42",
+                                "publicId": "43",
                                 "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-uOBSnv\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                                 "additional": ""
                             },
@@ -6283,7 +6290,7 @@
                                 "uid": "1618425023480197:131460",
                                 "fileId": "350",
                                 "originalId": "351",
-                                "publicId": "43",
+                                "publicId": "44",
                                 "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-uOBSnv\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                                 "additional": ""
                             },
@@ -6296,7 +6303,7 @@
                                 "uid": "1618958744557561:232743",
                                 "fileId": "471",
                                 "originalId": "472",
-                                "publicId": "44",
+                                "publicId": "45",
                                 "source": "\/private\/var\/folders\/dp\/mbcvd3r959z86qgz1_4vpr4m0000gn\/T\/Lens Studio-iAUHEz\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                                 "additional": ""
                             },
@@ -6309,7 +6316,7 @@
                                 "uid": "1618958744751411:232772",
                                 "fileId": "474",
                                 "originalId": "475",
-                                "publicId": "45",
+                                "publicId": "46",
                                 "source": "\/private\/var\/folders\/dp\/mbcvd3r959z86qgz1_4vpr4m0000gn\/T\/Lens Studio-iAUHEz\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                                 "additional": ""
                             },
@@ -6322,7 +6329,7 @@
                                 "uid": "1618958901338139:271604",
                                 "fileId": "489",
                                 "originalId": "490",
-                                "publicId": "46",
+                                "publicId": "47",
                                 "source": "\/Users\/shirin\/other_projects\/chanelxnycml\/eyeflower4\/Public\/Textures\/camelia_petal_minus1.png",
                                 "additional": ""
                             },
@@ -6335,7 +6342,7 @@
                                 "uid": "1618966451236300:1019749",
                                 "fileId": "510",
                                 "originalId": "511",
-                                "publicId": "47",
+                                "publicId": "48",
                                 "source": "\/private\/var\/folders\/dp\/mbcvd3r959z86qgz1_4vpr4m0000gn\/T\/Lens Studio-cTplww\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                                 "additional": ""
                             },
@@ -6348,7 +6355,7 @@
                                 "uid": "1618966451361983:1019765",
                                 "fileId": "513",
                                 "originalId": "514",
-                                "publicId": "48",
+                                "publicId": "49",
                                 "source": "\/private\/var\/folders\/dp\/mbcvd3r959z86qgz1_4vpr4m0000gn\/T\/Lens Studio-cTplww\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                                 "additional": ""
                             },
@@ -6361,7 +6368,7 @@
                                 "uid": "1618966451525033:1019798",
                                 "fileId": "515",
                                 "originalId": "516",
-                                "publicId": "49",
+                                "publicId": "50",
                                 "source": "\/private\/var\/folders\/dp\/mbcvd3r959z86qgz1_4vpr4m0000gn\/T\/Lens Studio-cTplww\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                                 "additional": ""
                             },
@@ -6374,7 +6381,7 @@
                                 "uid": "1619058951056334:68197",
                                 "fileId": "532",
                                 "originalId": "533",
-                                "publicId": "101",
+                                "publicId": "51",
                                 "source": "\/private\/var\/folders\/dp\/mbcvd3r959z86qgz1_4vpr4m0000gn\/T\/Lens Studio-COPLaX\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                                 "additional": ""
                             },
@@ -6387,7 +6394,7 @@
                                 "uid": "1619058951358613:68234",
                                 "fileId": "535",
                                 "originalId": "536",
-                                "publicId": "102",
+                                "publicId": "52",
                                 "source": "\/private\/var\/folders\/dp\/mbcvd3r959z86qgz1_4vpr4m0000gn\/T\/Lens Studio-COPLaX\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                                 "additional": ""
                             }
@@ -6402,7 +6409,7 @@
                         "uid": "1582052933048467:16017",
                         "fileId": "6",
                         "originalId": "7",
-                        "publicId": "50",
+                        "publicId": "53",
                         "source": "",
                         "additional": ""
                     },
@@ -6415,7 +6422,7 @@
                         "uid": "1617935191269488:2084639",
                         "fileId": "211",
                         "originalId": "212",
-                        "publicId": "51",
+                        "publicId": "54",
                         "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-anaZgP\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                         "additional": ""
                     },
@@ -6428,7 +6435,7 @@
                         "uid": "1617935191284696:2084651",
                         "fileId": "213",
                         "originalId": "214",
-                        "publicId": "52",
+                        "publicId": "55",
                         "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-anaZgP\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                         "additional": ""
                     },
@@ -6441,7 +6448,7 @@
                         "uid": "-1:-1",
                         "fileId": "216",
                         "originalId": "18446744073709551615",
-                        "publicId": "53",
+                        "publicId": "56",
                         "source": "\/Users\/zivschneider\/Brown Institute Dropbox\/Ziv Schneider\/CHANEL\/avkan2.fbx",
                         "additional": {
                             "materialMapping": [
@@ -6495,7 +6502,7 @@
                                 "resources": ""
                             },
                             {
-                                "name": "Materials010",
+                                "name": "Materials0100",
                                 "type": "0",
                                 "subtype": "-1",
                                 "resourceId": "-1",
@@ -6503,7 +6510,7 @@
                                 "uid": "-1:-1",
                                 "fileId": "18446744073709551615",
                                 "originalId": "18446744073709551615",
-                                "publicId": "54",
+                                "publicId": "57",
                                 "source": "",
                                 "additional": "",
                                 "resources": [
@@ -6516,7 +6523,7 @@
                                         "uid": "1617935191231808:2084624",
                                         "fileId": "209",
                                         "originalId": "210",
-                                        "publicId": "55",
+                                        "publicId": "58",
                                         "source": "",
                                         "additional": ""
                                     }
@@ -6546,7 +6553,7 @@
                         "uid": "1618252238831369:121670",
                         "fileId": "220",
                         "originalId": "221",
-                        "publicId": "56",
+                        "publicId": "59",
                         "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-LFNLQZ\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
                         "additional": ""
                     },
@@ -6559,7 +6566,7 @@
                         "uid": "1618252294042318:139509",
                         "fileId": "222",
                         "originalId": "18446744073709551615",
-                        "publicId": "57",
+                        "publicId": "60",
                         "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-LFNLQZ\/\/system\/\/emergencyFiles\/emergencyJs.js",
                         "additional": ""
                     },
@@ -6572,7 +6579,7 @@
                         "uid": "1618254252232899:486099",
                         "fileId": "227",
                         "originalId": "228",
-                        "publicId": "58",
+                        "publicId": "61",
                         "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-LFNLQZ\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                         "additional": ""
                     },
@@ -6585,7 +6592,7 @@
                         "uid": "1618254252267747:486115",
                         "fileId": "229",
                         "originalId": "230",
-                        "publicId": "59",
+                        "publicId": "62",
                         "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-LFNLQZ\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                         "additional": ""
                     },
@@ -6598,7 +6605,7 @@
                         "uid": "-1:-1",
                         "fileId": "248",
                         "originalId": "18446744073709551615",
-                        "publicId": "60",
+                        "publicId": "63",
                         "source": "\/Users\/zivschneider\/Brown Institute Dropbox\/Ziv Schneider\/CHANEL\/sculpting\/petal.fbx",
                         "additional": {
                             "materialMapping": [
@@ -6652,7 +6659,7 @@
                                 "resources": ""
                             },
                             {
-                                "name": "Materials010",
+                                "name": "Materials0100",
                                 "type": "0",
                                 "subtype": "-1",
                                 "resourceId": "-1",
@@ -6660,7 +6667,7 @@
                                 "uid": "-1:-1",
                                 "fileId": "18446744073709551615",
                                 "originalId": "18446744073709551615",
-                                "publicId": "61",
+                                "publicId": "64",
                                 "source": "",
                                 "additional": "",
                                 "resources": [
@@ -6673,7 +6680,7 @@
                                         "uid": "1618255371893133:671475",
                                         "fileId": "245",
                                         "originalId": "246",
-                                        "publicId": "62",
+                                        "publicId": "65",
                                         "source": "",
                                         "additional": ""
                                     }
@@ -6703,7 +6710,7 @@
                         "uid": "1618276804416044:209028",
                         "fileId": "268",
                         "originalId": "269",
-                        "publicId": "63",
+                        "publicId": "66",
                         "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-CTpDfb\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                         "additional": ""
                     },
@@ -6716,7 +6723,7 @@
                         "uid": "1618276804666150:209048",
                         "fileId": "270",
                         "originalId": "271",
-                        "publicId": "64",
+                        "publicId": "67",
                         "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-CTpDfb\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                         "additional": ""
                     },
@@ -6729,7 +6736,7 @@
                         "uid": "1618276804923090:209068",
                         "fileId": "272",
                         "originalId": "273",
-                        "publicId": "65",
+                        "publicId": "68",
                         "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-CTpDfb\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                         "additional": ""
                     },
@@ -6742,7 +6749,7 @@
                         "uid": "1618276805174854:209092",
                         "fileId": "274",
                         "originalId": "275",
-                        "publicId": "66",
+                        "publicId": "69",
                         "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-CTpDfb\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                         "additional": ""
                     },
@@ -6755,7 +6762,7 @@
                         "uid": "-1:-1",
                         "fileId": "277",
                         "originalId": "18446744073709551615",
-                        "publicId": "67",
+                        "publicId": "70",
                         "source": "\/Users\/zivschneider\/Brown Institute Dropbox\/Ziv Schneider\/CHANEL\/3Dassets\/singleFlower.fbx",
                         "additional": {
                             "materialMapping": [
@@ -6843,7 +6850,7 @@
                                 "resources": ""
                             },
                             {
-                                "name": "Materials010",
+                                "name": "Materials0100",
                                 "type": "0",
                                 "subtype": "-1",
                                 "resourceId": "-1",
@@ -6851,7 +6858,7 @@
                                 "uid": "-1:-1",
                                 "fileId": "18446744073709551615",
                                 "originalId": "18446744073709551615",
-                                "publicId": "68",
+                                "publicId": "71",
                                 "source": "",
                                 "additional": "",
                                 "resources": [
@@ -6864,7 +6871,7 @@
                                         "uid": "1618276803140664:208947",
                                         "fileId": "262",
                                         "originalId": "263",
-                                        "publicId": "69",
+                                        "publicId": "72",
                                         "source": "",
                                         "additional": ""
                                     },
@@ -6877,7 +6884,7 @@
                                         "uid": "1618276803504678:208970",
                                         "fileId": "264",
                                         "originalId": "265",
-                                        "publicId": "70",
+                                        "publicId": "73",
                                         "source": "",
                                         "additional": ""
                                     },
@@ -6890,7 +6897,7 @@
                                         "uid": "1618276803904757:208997",
                                         "fileId": "266",
                                         "originalId": "267",
-                                        "publicId": "71",
+                                        "publicId": "74",
                                         "source": "",
                                         "additional": ""
                                     }
@@ -6920,7 +6927,7 @@
                         "uid": "1618278117248897:480157",
                         "fileId": "279",
                         "originalId": "280",
-                        "publicId": "72",
+                        "publicId": "75",
                         "source": "\/Users\/zivschneider\/Brown Institute Dropbox\/Ziv Schneider\/CHANEL\/Camellia\/Public\/rose petal mask a1.jpg",
                         "additional": ""
                     },
@@ -6933,7 +6940,7 @@
                         "uid": "1618367136673710:1392475",
                         "fileId": "285",
                         "originalId": "286",
-                        "publicId": "73",
+                        "publicId": "76",
                         "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-fXohPf\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                         "additional": ""
                     },
@@ -6946,7 +6953,7 @@
                         "uid": "1618367136854984:1392495",
                         "fileId": "287",
                         "originalId": "288",
-                        "publicId": "74",
+                        "publicId": "77",
                         "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-fXohPf\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                         "additional": ""
                     },
@@ -6959,7 +6966,7 @@
                         "uid": "-1:-1",
                         "fileId": "290",
                         "originalId": "18446744073709551615",
-                        "publicId": "75",
+                        "publicId": "78",
                         "source": "\/Users\/zivschneider\/Brown Institute Dropbox\/Ziv Schneider\/CHANEL\/3Dassets\/leaf.fbx",
                         "additional": {
                             "materialMapping": [
@@ -7013,7 +7020,7 @@
                                 "resources": ""
                             },
                             {
-                                "name": "Materials010",
+                                "name": "Materials0100",
                                 "type": "0",
                                 "subtype": "-1",
                                 "resourceId": "-1",
@@ -7021,7 +7028,7 @@
                                 "uid": "-1:-1",
                                 "fileId": "18446744073709551615",
                                 "originalId": "18446744073709551615",
-                                "publicId": "76",
+                                "publicId": "79",
                                 "source": "",
                                 "additional": "",
                                 "resources": [
@@ -7034,7 +7041,7 @@
                                         "uid": "1618367136253194:1392440",
                                         "fileId": "283",
                                         "originalId": "284",
-                                        "publicId": "77",
+                                        "publicId": "80",
                                         "source": "",
                                         "additional": ""
                                     }
@@ -7064,7 +7071,7 @@
                         "uid": "1618425022792178:131332",
                         "fileId": "346",
                         "originalId": "347",
-                        "publicId": "78",
+                        "publicId": "81",
                         "source": "",
                         "additional": ""
                     },
@@ -7077,7 +7084,7 @@
                         "uid": "1618425261504288:173075",
                         "fileId": "354",
                         "originalId": "355",
-                        "publicId": "79",
+                        "publicId": "82",
                         "source": "\/Users\/zivschneider\/Desktop\/2021-04-14.png",
                         "additional": ""
                     },
@@ -7090,7 +7097,7 @@
                         "uid": "-1:-1",
                         "fileId": "399",
                         "originalId": "18446744073709551615",
-                        "publicId": "80",
+                        "publicId": "83",
                         "source": "\/Users\/zivschneider\/Brown Institute Dropbox\/Ziv Schneider\/CHANEL\/CamelliaModeling\/Camellia_041521.fbx",
                         "additional": {
                             "materialMapping": [
@@ -7365,7 +7372,7 @@
                                 "resources": ""
                             },
                             {
-                                "name": "Materials010",
+                                "name": "Materials0100",
                                 "type": "0",
                                 "subtype": "-1",
                                 "resourceId": "-1",
@@ -7373,7 +7380,7 @@
                                 "uid": "-1:-1",
                                 "fileId": "18446744073709551615",
                                 "originalId": "18446744073709551615",
-                                "publicId": "81",
+                                "publicId": "84",
                                 "source": "",
                                 "additional": "",
                                 "resources": [
@@ -7386,7 +7393,7 @@
                                         "uid": "1618548866433465:48737",
                                         "fileId": "396",
                                         "originalId": "397",
-                                        "publicId": "82",
+                                        "publicId": "85",
                                         "source": "",
                                         "additional": ""
                                     }
@@ -7429,7 +7436,7 @@
                         "uid": "-1:-1",
                         "fileId": "465",
                         "originalId": "18446744073709551615",
-                        "publicId": "83",
+                        "publicId": "86",
                         "source": "\/Users\/zivschneider\/Brown Institute Dropbox\/Ziv Schneider\/CHANEL\/CamelliaModeling\/petal2.fbx",
                         "additional": {
                             "materialMapping": [
@@ -7483,7 +7490,7 @@
                                 "resources": ""
                             },
                             {
-                                "name": "Materials010",
+                                "name": "Materials0100",
                                 "type": "0",
                                 "subtype": "-1",
                                 "resourceId": "-1",
@@ -7491,7 +7498,7 @@
                                 "uid": "-1:-1",
                                 "fileId": "18446744073709551615",
                                 "originalId": "18446744073709551615",
-                                "publicId": "84",
+                                "publicId": "87",
                                 "source": "",
                                 "additional": "",
                                 "resources": [
@@ -7504,7 +7511,7 @@
                                         "uid": "1618936321538665:5743972",
                                         "fileId": "462",
                                         "originalId": "463",
-                                        "publicId": "85",
+                                        "publicId": "88",
                                         "source": "",
                                         "additional": ""
                                     }
@@ -7534,7 +7541,7 @@
                         "uid": "1618259020267884:1535026",
                         "fileId": "254",
                         "originalId": "255",
-                        "publicId": "86",
+                        "publicId": "89",
                         "source": "",
                         "additional": ""
                     },
@@ -7547,7 +7554,7 @@
                         "uid": "-1:-1",
                         "fileId": "18446744073709551615",
                         "originalId": "18446744073709551615",
-                        "publicId": "87",
+                        "publicId": "90",
                         "source": "",
                         "additional": "",
                         "resources": [
@@ -7560,7 +7567,7 @@
                                 "uid": "1618958744406920:232645",
                                 "fileId": "469",
                                 "originalId": "470",
-                                "publicId": "88",
+                                "publicId": "91",
                                 "source": "",
                                 "additional": ""
                             },
@@ -7573,7 +7580,7 @@
                                 "uid": "1618962208451034:960014",
                                 "fileId": "497",
                                 "originalId": "498",
-                                "publicId": "89",
+                                "publicId": "92",
                                 "source": "",
                                 "additional": ""
                             },
@@ -7586,7 +7593,7 @@
                                 "uid": "1618966451036739:1019633",
                                 "fileId": "508",
                                 "originalId": "509",
-                                "publicId": "90",
+                                "publicId": "93",
                                 "source": "",
                                 "additional": ""
                             }
@@ -7614,7 +7621,7 @@
                         "uid": "-1:-1",
                         "fileId": "506",
                         "originalId": "18446744073709551615",
-                        "publicId": "91",
+                        "publicId": "94",
                         "source": "\/Users\/shirin\/other_projects\/chanelxnycml\/combineV1\/Public\/roots.fbx",
                         "additional": {
                             "materialMapping": [
@@ -7681,7 +7688,7 @@
                                 "resources": ""
                             },
                             {
-                                "name": "Materials10",
+                                "name": "Materials100",
                                 "type": "0",
                                 "subtype": "-1",
                                 "resourceId": "-1",
@@ -7689,7 +7696,7 @@
                                 "uid": "-1:-1",
                                 "fileId": "18446744073709551615",
                                 "originalId": "18446744073709551615",
-                                "publicId": "92",
+                                "publicId": "95",
                                 "source": "",
                                 "additional": "",
                                 "resources": [
@@ -7702,7 +7709,7 @@
                                         "uid": "1618966300276130:989407",
                                         "fileId": "503",
                                         "originalId": "504",
-                                        "publicId": "93",
+                                        "publicId": "96",
                                         "source": "",
                                         "additional": ""
                                     }
@@ -7732,7 +7739,7 @@
                         "uid": "-1:-1",
                         "fileId": "18446744073709551615",
                         "originalId": "18446744073709551615",
-                        "publicId": "94",
+                        "publicId": "97",
                         "source": "",
                         "additional": "",
                         "resources": [
@@ -7745,7 +7752,7 @@
                                 "uid": "1619035834685247:21558",
                                 "fileId": "520",
                                 "originalId": "521",
-                                "publicId": "95",
+                                "publicId": "98",
                                 "source": "\/Users\/zivschneider\/Brown Institute Dropbox\/Ziv Schneider\/CHANEL\/repo\/snap\/combineV1\/Public\/avkan2.fbm\/cgaxis_models_26_11_01_bump.jpg",
                                 "additional": ""
                             },
@@ -7758,7 +7765,7 @@
                                 "uid": "1619035834728858:21565",
                                 "fileId": "522",
                                 "originalId": "523",
-                                "publicId": "96",
+                                "publicId": "99",
                                 "source": "\/Users\/zivschneider\/Brown Institute Dropbox\/Ziv Schneider\/CHANEL\/repo\/snap\/combineV1\/Public\/avkan2.fbm\/cgaxis_models_26_11_01.jpg",
                                 "additional": ""
                             }
@@ -7773,7 +7780,7 @@
                         "uid": "-1:-1",
                         "fileId": "529",
                         "originalId": "18446744073709551615",
-                        "publicId": "97",
+                        "publicId": "100",
                         "source": "\/Users\/zivschneider\/Brown Institute Dropbox\/Ziv Schneider\/CHANEL\/repo\/snap\/combineV1\/Public\/avkan3.fbx",
                         "additional": {
                             "materialMapping": [
@@ -7827,7 +7834,7 @@
                                 "resources": ""
                             },
                             {
-                                "name": "Materials00",
+                                "name": "Materials000",
                                 "type": "0",
                                 "subtype": "-1",
                                 "resourceId": "-1",
@@ -7835,7 +7842,7 @@
                                 "uid": "-1:-1",
                                 "fileId": "18446744073709551615",
                                 "originalId": "18446744073709551615",
-                                "publicId": "98",
+                                "publicId": "101",
                                 "source": "",
                                 "additional": "",
                                 "resources": [
@@ -7848,7 +7855,7 @@
                                         "uid": "1619035851606748:25571",
                                         "fileId": "526",
                                         "originalId": "527",
-                                        "publicId": "99",
+                                        "publicId": "102",
                                         "source": "",
                                         "additional": ""
                                     }
@@ -7868,6 +7875,19 @@
                                 "additional": ""
                             }
                         ]
+                    },
+                    {
+                        "name": "Script 2",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "269",
+                        "dependency": "0",
+                        "uid": "1619100927341800:31006",
+                        "fileId": "540",
+                        "originalId": "18446744073709551615",
+                        "publicId": "103",
+                        "source": "\/private\/var\/folders\/dp\/mbcvd3r959z86qgz1_4vpr4m0000gn\/T\/Lens Studio-rityeh\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                        "additional": ""
                     }
                 ]
             }

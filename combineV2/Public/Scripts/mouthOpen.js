@@ -12,7 +12,7 @@ var countAvkan = 0;
 var countPetals = 0;
 var updateAvkan = false;
 var avkanState = null;
-var startWait = 30; //seconds
+var startWait = 3; //seconds
 var longWait = 8; //seconds
 var mediumWait = 5; //seconds
 var shortWait = 0.5; //seconds
@@ -53,10 +53,10 @@ global.onMouthOpened = function() {
     timeOpen = getTime();
     timeStampsOpen.push(timeOpen);  
     
-    timeStampsLongArray =  timeStampsOpen.filter(function (time) { return time > (timeOpen-5)});
+    timeStampsLongArray =  timeStampsOpen.filter(function (time) { return time > (timeOpen-15)});
     print("calculating talking" + timeStampsLongArray)
-    
-    if (timeStampsLongArray.length >= 3 ) {
+
+    if (timeStampsLongArray.length >= 2 ) {
         isTalking = true;
     }  
 }
@@ -65,7 +65,7 @@ var mouthOpenedEvent = script.createEvent("MouthOpenedEvent");
 mouthOpenedEvent.bind(onMouthOpened);
 
 function isStopSpeaking() {
-    timeStampsShortArray =  timeStampsOpen.filter(function (time) { return time > (getTime()-7)});
+    timeStampsShortArray =  timeStampsOpen.filter(function (time) { return time > (getTime()-10)});
     print("calculating not talking" + timeStampsShortArray)   
     if (timeStampsShortArray.length <= 1) {
         isTalking = false;
@@ -114,13 +114,13 @@ function onUpdate (time) {
     }
     
      if (isTalking && (speed > 0)) {
-        script.petalsMaterials.mainPass.matTime -= 0.0003
+        script.petalsMaterials.mainPass.matTime -= 0.0007
         updateAvkanState();
         if(rootSpeed > 0){
         script.rootsMaterials.mainPass.rootTime -= 0.00008;
         }  
     } else if (hasStarted && !isTalking && (speed < 0.6)) {
-        script.petalsMaterials.mainPass.matTime += 0.0002;
+        script.petalsMaterials.mainPass.matTime += 0.0004;
             updateAvkanState();
             rightEyeFinish =true;
         if (startingBackground && rootSpeed < 0.4){
