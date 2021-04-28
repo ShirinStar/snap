@@ -1,9 +1,9 @@
 {
     "lens_id": "",
-    "document_id": "y9uvBLaOlg-FJAXNvP_U",
+    "document_id": "toc-WMzpCn_jpxcyESai",
     "original_document_id": "UchxVzKYpSRxTPOlOw_q",
     "version": "27",
-    "lastChanged": "1619630668334",
+    "lastChanged": "1619649778496",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -45,15 +45,16 @@
                         "Models"
                     ],
                     [
-                        "Script 2"
-                    ],
-                    [
                         "Scripts",
                         "FaceLandmarksDistanceTrigger"
                     ],
                     [
                         "Scripts",
                         "Facelandmarks Helpers"
+                    ],
+                    [
+                        "Scripts",
+                        "timeZone"
                     ],
                     [
                         "Textures"
@@ -71,6 +72,10 @@
                         "texture-green-minus2pix 3"
                     ],
                     [
+                        "Textures",
+                        "white_petal_minus1"
+                    ],
+                    [
                         "avkan2"
                     ],
                     [
@@ -85,6 +90,10 @@
                     [
                         "leaf",
                         "Meshes"
+                    ],
+                    [
+                        "materials",
+                        "WhiteFlowerGrowingCloud"
                     ],
                     [
                         "petal"
@@ -1527,9 +1536,25 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "269",
-                    "uid": "1619100927341800:31006",
-                    "name": "Files\/File540.js",
+                    "resId": "270",
+                    "uid": "1619633458603367:27418",
+                    "name": "Files\/File541.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "271",
+                    "uid": "1619642959324461:74092",
+                    "name": "Files\/File542",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "272",
+                    "uid": "1619643075153058:94643",
+                    "name": "Files\/File544.png",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -3022,8 +3047,32 @@
                     "v": "Files\/File539.pvr"
                 },
                 {
-                    "k": "540",
-                    "v": "Files\/File540.js"
+                    "k": "541",
+                    "v": "Files\/File541.js"
+                },
+                {
+                    "k": "542",
+                    "v": "Files\/File542"
+                },
+                {
+                    "k": "543",
+                    "v": "Files\/File543.lsmat"
+                },
+                {
+                    "k": "544",
+                    "v": "Files\/File544.pvr"
+                },
+                {
+                    "k": "545",
+                    "v": "Files\/File545.png"
+                },
+                {
+                    "k": "546",
+                    "v": "Files\/File546.png"
+                },
+                {
+                    "k": "547",
+                    "v": "Files\/File547.pvr"
                 }
             ]
         },
@@ -3071,6 +3120,10 @@
                     {
                         "k": "9",
                         "v": "Scripts\/FaceLandmarksDistanceTrigger.js"
+                    },
+                    {
+                        "k": "10",
+                        "v": "Scripts\/timeZone.js"
                     },
                     {
                         "k": "11",
@@ -3178,11 +3231,11 @@
                     },
                     {
                         "k": "37",
-                        "v": "..\/AdditionalFiles\/FaceLandmarks Template Resources\/camelliaModeled\/Materials0100200"
+                        "v": "..\/AdditionalFiles\/FaceLandmarks Template Resources\/camelliaModeled\/Materials01002000000"
                     },
                     {
                         "k": "38",
-                        "v": "..\/AdditionalFiles\/FaceLandmarks Template Resources\/camelliaModeled\/Materials0100200\/Mat.lsmat"
+                        "v": "..\/AdditionalFiles\/FaceLandmarks Template Resources\/camelliaModeled\/Materials01002000000\/Mat.lsmat"
                     },
                     {
                         "k": "39",
@@ -3246,207 +3299,211 @@
                     },
                     {
                         "k": "54",
-                        "v": "Landmarks Points Guide [LOOK_AT_ME].png"
+                        "v": "Textures\/white_petal_minus1.png"
                     },
                     {
                         "k": "55",
-                        "v": "cgaxis_models_26_11_01.jpg"
+                        "v": "Landmarks Points Guide [LOOK_AT_ME].png"
                     },
                     {
                         "k": "56",
-                        "v": "cgaxis_models_26_11_01_bump.jpg"
+                        "v": "cgaxis_models_26_11_01.jpg"
                     },
                     {
                         "k": "57",
-                        "v": "avkan2.fbx"
+                        "v": "cgaxis_models_26_11_01_bump.jpg"
                     },
                     {
                         "k": "58",
-                        "v": "..\/AdditionalFiles\/avkan2\/Materials0100200"
+                        "v": "avkan2.fbx"
                     },
                     {
                         "k": "59",
-                        "v": "..\/AdditionalFiles\/avkan2\/Materials0100200\/cgaxis_models_26_11_01.lsmat"
+                        "v": "..\/AdditionalFiles\/avkan2\/Materials01002000000"
                     },
                     {
                         "k": "60",
-                        "v": "Sphere.mesh"
+                        "v": "..\/AdditionalFiles\/avkan2\/Materials01002000000\/cgaxis_models_26_11_01.lsmat"
                     },
                     {
                         "k": "61",
-                        "v": "Script.js"
+                        "v": "Sphere.mesh"
                     },
                     {
                         "k": "62",
-                        "v": "cgaxis_models_26_03_01.jpg"
+                        "v": "Script.js"
                     },
                     {
                         "k": "63",
-                        "v": "cgaxis_models_26_03_01_bump.jpg"
+                        "v": "cgaxis_models_26_03_01.jpg"
                     },
                     {
                         "k": "64",
-                        "v": "petal.fbx"
+                        "v": "cgaxis_models_26_03_01_bump.jpg"
                     },
                     {
                         "k": "65",
-                        "v": "..\/AdditionalFiles\/petal\/Materials0100200"
+                        "v": "petal.fbx"
                     },
                     {
                         "k": "66",
-                        "v": "..\/AdditionalFiles\/petal\/Materials0100200\/cgaxis_models_26_03_01.lsmat"
+                        "v": "..\/AdditionalFiles\/petal\/Materials01002000000"
                     },
                     {
                         "k": "67",
-                        "v": "rose bud a1.jpg"
+                        "v": "..\/AdditionalFiles\/petal\/Materials01002000000\/cgaxis_models_26_03_01.lsmat"
                     },
                     {
                         "k": "68",
-                        "v": "rose bud a2.jpg"
+                        "v": "rose bud a1.jpg"
                     },
                     {
                         "k": "69",
-                        "v": "camelia petal a1.jpg"
+                        "v": "rose bud a2.jpg"
                     },
                     {
                         "k": "70",
-                        "v": "rose petal normals.jpg"
+                        "v": "camelia petal a1.jpg"
                     },
                     {
                         "k": "71",
-                        "v": "singleFlower.fbx"
+                        "v": "rose petal normals.jpg"
                     },
                     {
                         "k": "72",
-                        "v": "..\/AdditionalFiles\/singleFlower\/Materials0100200"
+                        "v": "singleFlower.fbx"
                     },
                     {
                         "k": "73",
-                        "v": "..\/AdditionalFiles\/singleFlower\/Materials0100200\/bud 1.lsmat"
+                        "v": "..\/AdditionalFiles\/singleFlower\/Materials01002000000"
                     },
                     {
                         "k": "74",
-                        "v": "..\/AdditionalFiles\/singleFlower\/Materials0100200\/bud 2.lsmat"
+                        "v": "..\/AdditionalFiles\/singleFlower\/Materials01002000000\/bud 1.lsmat"
                     },
                     {
                         "k": "75",
-                        "v": "..\/AdditionalFiles\/singleFlower\/Materials0100200\/flower 1.lsmat"
+                        "v": "..\/AdditionalFiles\/singleFlower\/Materials01002000000\/bud 2.lsmat"
                     },
                     {
                         "k": "76",
-                        "v": "rose petal mask a1.jpg"
+                        "v": "..\/AdditionalFiles\/singleFlower\/Materials01002000000\/flower 1.lsmat"
                     },
                     {
                         "k": "77",
-                        "v": "cgaxis_models_26_06_06.jpg"
+                        "v": "rose petal mask a1.jpg"
                     },
                     {
                         "k": "78",
-                        "v": "cgaxis_models_26_06_06_bump.jpg"
+                        "v": "cgaxis_models_26_06_06.jpg"
                     },
                     {
                         "k": "79",
-                        "v": "leaf.fbx"
+                        "v": "cgaxis_models_26_06_06_bump.jpg"
                     },
                     {
                         "k": "80",
-                        "v": "..\/AdditionalFiles\/leaf\/Materials0100200"
+                        "v": "leaf.fbx"
                     },
                     {
                         "k": "81",
-                        "v": "..\/AdditionalFiles\/leaf\/Materials0100200\/leaf.lsmat"
+                        "v": "..\/AdditionalFiles\/leaf\/Materials01002000000"
                     },
                     {
                         "k": "82",
-                        "v": "koterPinkCam.lsmat"
+                        "v": "..\/AdditionalFiles\/leaf\/Materials01002000000\/leaf.lsmat"
                     },
                     {
                         "k": "83",
-                        "v": "2021-04-14.png"
+                        "v": "koterPinkCam.lsmat"
                     },
                     {
                         "k": "84",
-                        "v": "Camellia_041521.fbx"
+                        "v": "2021-04-14.png"
                     },
                     {
                         "k": "85",
-                        "v": "..\/AdditionalFiles\/Camellia_041521\/Materials0100200"
+                        "v": "Camellia_041521.fbx"
                     },
                     {
                         "k": "86",
-                        "v": "..\/AdditionalFiles\/Camellia_041521\/Materials0100200\/Mat.lsmat"
+                        "v": "..\/AdditionalFiles\/Camellia_041521\/Materials01002000000"
                     },
                     {
                         "k": "87",
-                        "v": "petal2.fbx"
+                        "v": "..\/AdditionalFiles\/Camellia_041521\/Materials01002000000\/Mat.lsmat"
                     },
                     {
                         "k": "88",
-                        "v": "..\/AdditionalFiles\/petal2\/Materials0100200"
+                        "v": "petal2.fbx"
                     },
                     {
                         "k": "89",
-                        "v": "..\/AdditionalFiles\/petal2\/Materials0100200\/cgaxis_models_26_11_01.lsmat"
+                        "v": "..\/AdditionalFiles\/petal2\/Materials01002000000"
                     },
                     {
                         "k": "90",
-                        "v": "petals.lsmat"
+                        "v": "..\/AdditionalFiles\/petal2\/Materials01002000000\/cgaxis_models_26_11_01.lsmat"
                     },
                     {
                         "k": "91",
-                        "v": "materials"
+                        "v": "petals.lsmat"
                     },
                     {
                         "k": "92",
-                        "v": "materials\/GrowingCloud.lsmat"
+                        "v": "materials"
                     },
                     {
                         "k": "93",
-                        "v": "materials\/avkanim 2.lsmat"
+                        "v": "materials\/PinkFlowerGrowingCloud.lsmat"
                     },
                     {
                         "k": "94",
-                        "v": "materials\/roots1.lsmat"
+                        "v": "materials\/avkanim 2.lsmat"
                     },
                     {
                         "k": "95",
-                        "v": "roots.fbx"
+                        "v": "materials\/roots1.lsmat"
                     },
                     {
                         "k": "96",
-                        "v": "..\/AdditionalFiles\/roots\/Materials100200"
+                        "v": "materials\/WhiteFlowerGrowingCloud.lsmat"
                     },
                     {
                         "k": "97",
-                        "v": "..\/AdditionalFiles\/roots\/Materials100200\/lambert3.lsmat"
+                        "v": "roots.fbx"
                     },
                     {
                         "k": "98",
-                        "v": "avkan2.fbm"
+                        "v": "..\/AdditionalFiles\/roots\/Materials1002000000"
                     },
                     {
                         "k": "99",
-                        "v": "avkan2.fbm\/cgaxis_models_26_11_01_bump.jpg"
+                        "v": "..\/AdditionalFiles\/roots\/Materials1002000000\/lambert3.lsmat"
                     },
                     {
                         "k": "100",
-                        "v": "avkan2.fbm\/cgaxis_models_26_11_01.jpg"
+                        "v": "avkan2.fbm"
                     },
                     {
                         "k": "101",
-                        "v": "avkan3.fbx"
+                        "v": "avkan2.fbm\/cgaxis_models_26_11_01_bump.jpg"
                     },
                     {
                         "k": "102",
-                        "v": "..\/AdditionalFiles\/avkan3\/Materials000200"
+                        "v": "avkan2.fbm\/cgaxis_models_26_11_01.jpg"
                     },
                     {
                         "k": "103",
-                        "v": "..\/AdditionalFiles\/avkan3\/Materials000200\/cgaxis_models_26_11_01.lsmat"
+                        "v": "avkan3.fbx"
                     },
                     {
                         "k": "104",
-                        "v": "Script 2.js"
+                        "v": "..\/AdditionalFiles\/avkan3\/Materials0002000000"
+                    },
+                    {
+                        "k": "105",
+                        "v": "..\/AdditionalFiles\/avkan3\/Materials0002000000\/cgaxis_models_26_11_01.lsmat"
                     }
                 ],
                 "hashes": [
@@ -3468,11 +3525,11 @@
                     },
                     {
                         "k": "7",
-                        "v": "2a8c238d8a1dc2126ede41e333812319"
+                        "v": "f7379fa4d8a60b831182854079179923"
                     },
                     {
                         "k": "8",
-                        "v": "b531534e037a556b81f864a0b69a0efd"
+                        "v": "4c286d2e4bec2e08a6750129fb6340be"
                     },
                     {
                         "k": "9",
@@ -3480,7 +3537,7 @@
                     },
                     {
                         "k": "10",
-                        "v": "87487abe2ff7da8920e632ae90d03e9b"
+                        "v": "90c754f733970cae5465e79c05f361e7"
                     },
                     {
                         "k": "13",
@@ -3500,43 +3557,43 @@
                     },
                     {
                         "k": "18",
-                        "v": "36a198ca0a5a8c4069714f505acc8736"
+                        "v": "23c9aa589aef33e61582ba5be6197b2c"
                     },
                     {
                         "k": "19",
-                        "v": "ee8949728fcbbd8aa623b3cf8e4b6fee"
+                        "v": "dcc4adbd41583e0a88c4c0af12d1528b"
                     },
                     {
                         "k": "20",
-                        "v": "c8ae948ee4ace775f21d3c99c417e91f"
+                        "v": "2e4fe78c8f0856a5d009b203d432354a"
                     },
                     {
                         "k": "21",
-                        "v": "9f7d3a624d2db0fc2545fa149e05b35d"
+                        "v": "0cc68b4fe0b9934c1f19b01e4788be18"
                     },
                     {
                         "k": "22",
-                        "v": "cc9890adac79bd6399ab4910d2e50595"
+                        "v": "776ccf8ae847fb0b94bce8d4961859cf"
                     },
                     {
                         "k": "23",
-                        "v": "fe7218ed49e8173f994dcfff7fa86f7e"
+                        "v": "ec926dd1f237771c6ecf6135654b14b4"
                     },
                     {
                         "k": "24",
-                        "v": "93b9da1f2f30c862db2e3306342dfede"
+                        "v": "4f8d4882cbbe652bde0387c3f3d8deff"
                     },
                     {
                         "k": "25",
-                        "v": "171d6108baa3d3fe801e29c8c149dbb7"
+                        "v": "29c4917844877107fbf287137a36507c"
                     },
                     {
                         "k": "26",
-                        "v": "b802d04cc20dbf977c805c0752277dc1"
+                        "v": "4ca1ebb759f8a4172edff995b4df33fb"
                     },
                     {
                         "k": "27",
-                        "v": "79c1054b87415afb954f2908c0c9ab12"
+                        "v": "c7e96c5a7e99fd7798589dee5eda1a07"
                     },
                     {
                         "k": "29",
@@ -3556,11 +3613,11 @@
                     },
                     {
                         "k": "34",
-                        "v": "7f2e20b2553be337581de753da75b6de"
+                        "v": "5f8f30e906c5ab0809cec8a135d0d23a"
                     },
                     {
                         "k": "35",
-                        "v": "39bf424eecc1c7392de43eee1538be82"
+                        "v": "baff1ed53903d8672d9a3a4aa702d019"
                     },
                     {
                         "k": "36",
@@ -3568,7 +3625,7 @@
                     },
                     {
                         "k": "38",
-                        "v": "6be69bc082ce01287c18dfc357a6054e"
+                        "v": "2739b8dc495bbeeb5073a3ee8659c1b3"
                     },
                     {
                         "k": "40",
@@ -3584,7 +3641,7 @@
                     },
                     {
                         "k": "43",
-                        "v": "d048c4a566d5bfa23fedbbe3e7868ce4"
+                        "v": "c8cafe6b5ff4ef833de72cc443d5fe2a"
                     },
                     {
                         "k": "44",
@@ -3628,297 +3685,308 @@
                     },
                     {
                         "k": "54",
-                        "v": "b04733a4150c4d4a5b4f95971496a34f"
+                        "v": "382256854303269181614cf76795cdf7"
                     },
                     {
                         "k": "55",
-                        "v": "973c98fb76f434fd1a9e089ad7ca3623"
+                        "v": "b04733a4150c4d4a5b4f95971496a34f"
                     },
                     {
                         "k": "56",
-                        "v": "ce92f3208373e6464c9de0c2f04d8fb1"
-                    },
-                    {
-                        "k": "57",
-                        "v": "a79ec1ef285d1c95493964655cdc1095"
-                    },
-                    {
-                        "k": "59",
-                        "v": "0e32f6ed15b0472526f73c887b37da08"
-                    },
-                    {
-                        "k": "60",
-                        "v": "ffbce66d7c12d942b13208740e9d0059"
-                    },
-                    {
-                        "k": "61",
-                        "v": "d41d8cd98f00b204e9800998ecf8427e"
-                    },
-                    {
-                        "k": "62",
-                        "v": "34fa0b44fa3e5c92af428fc5050272ee"
-                    },
-                    {
-                        "k": "63",
-                        "v": "37d55f44654c8bccd8d211694074ef76"
-                    },
-                    {
-                        "k": "64",
-                        "v": "1b83013be606095f5e1a7be1f4177924"
-                    },
-                    {
-                        "k": "66",
-                        "v": "b68bfaeee9acead19914a734ed6578e5"
-                    },
-                    {
-                        "k": "67",
-                        "v": "d96ecae9126b7faa38be4381fafc4c1e"
-                    },
-                    {
-                        "k": "68",
-                        "v": "3fb33a106dc44196920afee3e5de58db"
-                    },
-                    {
-                        "k": "69",
-                        "v": "578c0890f7a34bc6acd7d6db3b68132f"
-                    },
-                    {
-                        "k": "70",
-                        "v": "5db92d45c0afe5a7dcac6866aed549d4"
-                    },
-                    {
-                        "k": "71",
-                        "v": "64376da697c7209705099ffc4541e417"
-                    },
-                    {
-                        "k": "73",
-                        "v": "b2b89270e22d4d84a6b9d8c22aa87902"
-                    },
-                    {
-                        "k": "74",
-                        "v": "ec4151105a063fecbd558d976b24c953"
-                    },
-                    {
-                        "k": "75",
-                        "v": "59027f869893233c87fbbe4908ed2c2e"
-                    },
-                    {
-                        "k": "76",
-                        "v": "81123f5ec2ba3fe85e7076da1a146d34"
-                    },
-                    {
-                        "k": "77",
-                        "v": "9498bc83cecbb3c07639bc5482c72e99"
-                    },
-                    {
-                        "k": "78",
-                        "v": "47f3eff61338a6af6ad73690347dd34e"
-                    },
-                    {
-                        "k": "79",
-                        "v": "79379678e709cb6c0f55794e9b882563"
-                    },
-                    {
-                        "k": "81",
-                        "v": "7b9e6caef3594188fd2b122544e2ae32"
-                    },
-                    {
-                        "k": "82",
-                        "v": "9f93d702b0d6f6de2e03cb471f9093ed"
-                    },
-                    {
-                        "k": "83",
-                        "v": "54a7605faa3cff4169487f661ed8278e"
-                    },
-                    {
-                        "k": "84",
-                        "v": "eab70ade791700e2390120cd6917f1a5"
-                    },
-                    {
-                        "k": "86",
-                        "v": "f941701704455760591f7f6a749552ee"
-                    },
-                    {
-                        "k": "87",
-                        "v": "35101fca8885748ebf426919a75b808d"
-                    },
-                    {
-                        "k": "89",
-                        "v": "b82fe7147d8f0c39545a66c64a758957"
-                    },
-                    {
-                        "k": "90",
-                        "v": "5e784777451375e13fae08c2f3ed0396"
-                    },
-                    {
-                        "k": "92",
-                        "v": "4cffd50ccc6442992b12946731e8f0fd"
-                    },
-                    {
-                        "k": "93",
-                        "v": "8c610fbb42349e8a061ec4478db70d7c"
-                    },
-                    {
-                        "k": "94",
-                        "v": "3d49908b3f8dcc74c43b63dce9a15ba9"
-                    },
-                    {
-                        "k": "95",
-                        "v": "6d54ee1867ca0d741c7d44cabb2cb9d2"
-                    },
-                    {
-                        "k": "97",
-                        "v": "1d8443aed0665d75591839e6ff2b98ff"
-                    },
-                    {
-                        "k": "99",
-                        "v": "ce92f3208373e6464c9de0c2f04d8fb1"
-                    },
-                    {
-                        "k": "100",
                         "v": "973c98fb76f434fd1a9e089ad7ca3623"
                     },
                     {
+                        "k": "57",
+                        "v": "ce92f3208373e6464c9de0c2f04d8fb1"
+                    },
+                    {
+                        "k": "58",
+                        "v": "a79ec1ef285d1c95493964655cdc1095"
+                    },
+                    {
+                        "k": "60",
+                        "v": "3b07f83c79e5c900da3a87e5ea3df9c1"
+                    },
+                    {
+                        "k": "61",
+                        "v": "ffbce66d7c12d942b13208740e9d0059"
+                    },
+                    {
+                        "k": "62",
+                        "v": "d41d8cd98f00b204e9800998ecf8427e"
+                    },
+                    {
+                        "k": "63",
+                        "v": "34fa0b44fa3e5c92af428fc5050272ee"
+                    },
+                    {
+                        "k": "64",
+                        "v": "37d55f44654c8bccd8d211694074ef76"
+                    },
+                    {
+                        "k": "65",
+                        "v": "1b83013be606095f5e1a7be1f4177924"
+                    },
+                    {
+                        "k": "67",
+                        "v": "d2f8cf05fc9107a924d7b517a336f623"
+                    },
+                    {
+                        "k": "68",
+                        "v": "d96ecae9126b7faa38be4381fafc4c1e"
+                    },
+                    {
+                        "k": "69",
+                        "v": "3fb33a106dc44196920afee3e5de58db"
+                    },
+                    {
+                        "k": "70",
+                        "v": "578c0890f7a34bc6acd7d6db3b68132f"
+                    },
+                    {
+                        "k": "71",
+                        "v": "5db92d45c0afe5a7dcac6866aed549d4"
+                    },
+                    {
+                        "k": "72",
+                        "v": "64376da697c7209705099ffc4541e417"
+                    },
+                    {
+                        "k": "74",
+                        "v": "ded9f305aa018f0a09d5f1119279e018"
+                    },
+                    {
+                        "k": "75",
+                        "v": "ed9e664275090f338a3ffac9b8cfae6a"
+                    },
+                    {
+                        "k": "76",
+                        "v": "55f0fdd92d900a075d96c3250c6378eb"
+                    },
+                    {
+                        "k": "77",
+                        "v": "81123f5ec2ba3fe85e7076da1a146d34"
+                    },
+                    {
+                        "k": "78",
+                        "v": "9498bc83cecbb3c07639bc5482c72e99"
+                    },
+                    {
+                        "k": "79",
+                        "v": "47f3eff61338a6af6ad73690347dd34e"
+                    },
+                    {
+                        "k": "80",
+                        "v": "79379678e709cb6c0f55794e9b882563"
+                    },
+                    {
+                        "k": "82",
+                        "v": "dfd2007162911f21d191911c9b496537"
+                    },
+                    {
+                        "k": "83",
+                        "v": "744a19b60ce18ba625d7bea4f5352497"
+                    },
+                    {
+                        "k": "84",
+                        "v": "54a7605faa3cff4169487f661ed8278e"
+                    },
+                    {
+                        "k": "85",
+                        "v": "eab70ade791700e2390120cd6917f1a5"
+                    },
+                    {
+                        "k": "87",
+                        "v": "7a127759c1dc4c7f8029d07a5cc66b5d"
+                    },
+                    {
+                        "k": "88",
+                        "v": "35101fca8885748ebf426919a75b808d"
+                    },
+                    {
+                        "k": "90",
+                        "v": "ffe5e2e0e9072621db579358cd8c9421"
+                    },
+                    {
+                        "k": "91",
+                        "v": "12750aaf72c651083302782620920c93"
+                    },
+                    {
+                        "k": "93",
+                        "v": "5277e6b0d18790c46fd41906ef0e3fab"
+                    },
+                    {
+                        "k": "94",
+                        "v": "5bc67183e622b35974b9fa2896ae459c"
+                    },
+                    {
+                        "k": "95",
+                        "v": "35bd26780367ca419106746964237090"
+                    },
+                    {
+                        "k": "96",
+                        "v": "c228ab117bfd6606a577ec568156e9d8"
+                    },
+                    {
+                        "k": "97",
+                        "v": "6d54ee1867ca0d741c7d44cabb2cb9d2"
+                    },
+                    {
+                        "k": "99",
+                        "v": "5e2ae93175a47dee0a377725df0b02c2"
+                    },
+                    {
                         "k": "101",
-                        "v": "fc676719e7adf73e9a4639817bc0a2a7"
+                        "v": "ce92f3208373e6464c9de0c2f04d8fb1"
+                    },
+                    {
+                        "k": "102",
+                        "v": "973c98fb76f434fd1a9e089ad7ca3623"
                     },
                     {
                         "k": "103",
-                        "v": "e7f9bec27cfb5a8753f42d0cecb23ed9"
+                        "v": "fc676719e7adf73e9a4639817bc0a2a7"
                     },
                     {
-                        "k": "104",
-                        "v": "59361291686fd7cebf3981836238abbb"
+                        "k": "105",
+                        "v": "a12f1e06199d681e41001cb57fd91ecb"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2021-04-28T10:18:04",
+                        "lastModified": "2021-04-28T15:42:31",
                         "name": "Public",
-                        "hash": "81d57c9a32bcf3dbdecf7e6f777c74ec",
+                        "hash": "9fdb157e37e000ed4adfae770e51f392",
                         "children": [
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:31",
+                                "lastModified": "2021-04-28T15:06:43",
                                 "name": "Landmarks Points Guide [LOOK_AT_ME].png",
                                 "hash": "b04733a4150c4d4a5b4f95971496a34f",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:31",
+                                "lastModified": "2021-04-28T15:06:43",
                                 "name": "camelia petal a1.jpg",
                                 "hash": "578c0890f7a34bc6acd7d6db3b68132f",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-04-28T09:48:34",
+                                "lastModified": "2021-04-28T15:06:45",
                                 "name": "Textures",
-                                "hash": "990390305c437021675af056c9bfd3cd",
+                                "hash": "8424e47fbd046e2105ba951af6ffcd48",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:31",
+                                        "lastModified": "2021-04-28T15:06:43",
                                         "name": "texture-green-minus2pix 3.png",
                                         "hash": "79f9f80d8720b2939aa576ed44ac3fb4",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:31",
+                                        "lastModified": "2021-04-28T15:06:43",
                                         "name": "texture-green-minus2pix 2.png",
                                         "hash": "79f9f80d8720b2939aa576ed44ac3fb4",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:31",
+                                        "lastModified": "2021-04-28T15:06:43",
+                                        "name": "white_petal_minus1.png",
+                                        "hash": "382256854303269181614cf76795cdf7",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-04-28T15:06:43",
                                         "name": "camelia_petal_minus1.png",
                                         "hash": "eb2052366ff798909f51073f16fd9c0b",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:31",
+                                        "lastModified": "2021-04-28T15:06:43",
                                         "name": "alpha.png",
                                         "hash": "40389a22836e06ba42c107da5d3b68a7",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:31",
+                                        "lastModified": "2021-04-28T15:06:43",
                                         "name": "cgaxis_models_26_03_01.lsmat",
-                                        "hash": "d048c4a566d5bfa23fedbbe3e7868ce4",
+                                        "hash": "c8cafe6b5ff4ef833de72cc443d5fe2a",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:31",
+                                        "lastModified": "2021-04-28T15:06:43",
                                         "name": "alpha 3.png",
                                         "hash": "40389a22836e06ba42c107da5d3b68a7",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:31",
+                                        "lastModified": "2021-04-28T15:06:43",
                                         "name": "alpha 2.png",
                                         "hash": "40389a22836e06ba42c107da5d3b68a7",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:31",
+                                        "lastModified": "2021-04-28T15:06:43",
                                         "name": "MaterialParams.png",
                                         "hash": "af2715bddfbca2d4e72f470d285c5010",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:31",
+                                        "lastModified": "2021-04-28T15:06:43",
                                         "name": "Base.png",
                                         "hash": "cb607d7b25a160872c49fb4d2635cc33",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:31",
+                                        "lastModified": "2021-04-28T15:06:43",
                                         "name": "Normal.png",
                                         "hash": "8a0173d0b987e1abfebd4ef9e3304c0b",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:31",
+                                        "lastModified": "2021-04-28T15:06:43",
                                         "name": "texture-green-minus2pix.png",
                                         "hash": "79f9f80d8720b2939aa576ed44ac3fb4",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:31",
+                                        "lastModified": "2021-04-28T15:06:43",
                                         "name": "echopark.hdr",
                                         "hash": "0cf0e87a54f33218fcf92a12d7f0ede2",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:31",
+                                        "lastModified": "2021-04-28T15:06:43",
                                         "name": "camellia.png",
                                         "hash": "0f8c4587730c9503bc02e6e6073cb540",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:31",
+                                        "lastModified": "2021-04-28T15:06:43",
                                         "name": "white.png",
                                         "hash": "0c8dcfed2f50bb81ac5276a14967c005",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:34",
+                                        "lastModified": "2021-04-28T15:06:45",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -3927,34 +3995,41 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-04-28T10:18:04",
+                                "lastModified": "2021-04-28T15:42:32",
                                 "name": "materials",
-                                "hash": "d6abc412088e29d38c500d47175a6182",
+                                "hash": "16eb12c93d48678ed802e6ae2fb592f5",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T10:18:04",
+                                        "lastModified": "2021-04-28T15:42:31",
+                                        "name": "PinkFlowerGrowingCloud.lsmat",
+                                        "hash": "5c3a7c754bab64c18db144f795c2d6c0",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-04-28T15:42:32",
+                                        "name": "WhiteFlowerGrowingCloud.lsmat",
+                                        "hash": "80f64bec5422d83f1582042d16a2cfaa",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-04-28T15:42:31",
                                         "name": "avkanim 2.lsmat",
-                                        "hash": "f48eeb3bbe3fe3ad6c2a4837735d89c1",
+                                        "hash": "3f98ee9d49ff1a681bceee94282d3ee6",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T10:18:04",
+                                        "lastModified": "2021-04-28T15:42:31",
                                         "name": "roots1.lsmat",
-                                        "hash": "9096ddeb6a6eb0f46e03c566acb207f6",
+                                        "hash": "95f0f15e52e172fd1f36ba2db93223f4",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T10:18:04",
-                                        "name": "GrowingCloud.lsmat",
-                                        "hash": "6a41b7d7db6431501d399a9e5830c746",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:34",
+                                        "lastModified": "2021-04-28T15:06:45",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -3963,68 +4038,68 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T10:18:04",
+                                "lastModified": "2021-04-28T15:42:31",
                                 "name": "koterPinkCam.lsmat",
-                                "hash": "a081d79f467de5cbd358d22d9e4e8e9b",
+                                "hash": "718e613bc13c38179045dc9c845d55f3",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:31",
+                                "lastModified": "2021-04-28T15:06:43",
                                 "name": "petal.fbx",
                                 "hash": "1b83013be606095f5e1a7be1f4177924",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:31",
+                                "lastModified": "2021-04-28T15:06:43",
                                 "name": "cgaxis_models_26_06_06.jpg",
                                 "hash": "9498bc83cecbb3c07639bc5482c72e99",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-04-28T09:48:34",
+                                "lastModified": "2021-04-28T15:06:45",
                                 "name": "FaceLandmarks Template Resources",
-                                "hash": "eede56626bfa888475b03af09c8b451b",
+                                "hash": "3b3c36b5fff3787cfdc39796dff48673",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-04-28T09:48:34",
+                                        "lastModified": "2021-04-28T15:06:45",
                                         "name": "Textures",
                                         "hash": "2776181aab7f8f1a14de9b1300015a0e",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:31",
+                                                "lastModified": "2021-04-28T15:06:43",
                                                 "name": "magnifying_body_materialParams.png",
                                                 "hash": "dce89e0b205fa124c712f05732075dc4",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:31",
+                                                "lastModified": "2021-04-28T15:06:43",
                                                 "name": "magnifying_body_normal.png",
                                                 "hash": "ea41f5b23885eab217f3370d4f128c50",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:31",
+                                                "lastModified": "2021-04-28T15:06:43",
                                                 "name": "stripe.png",
                                                 "hash": "468e32e8cb062444a31ffff8025e32a5",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:31",
+                                                "lastModified": "2021-04-28T15:06:43",
                                                 "name": "magnifying_body_base.png",
                                                 "hash": "21bea38a0c61ec09f788064bf98aece3",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:34",
+                                                "lastModified": "2021-04-28T15:06:45",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -4033,83 +4108,83 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-04-28T10:18:04",
+                                        "lastModified": "2021-04-28T15:42:31",
                                         "name": "Materials",
-                                        "hash": "d4781522d6d4da778da9b3c311edf4fc",
+                                        "hash": "8b7453c8d0a36478d2767d5ec0d1478f",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:31",
+                                                "lastModified": "2021-04-28T15:06:43",
                                                 "name": "eyelid_green.lsmat",
-                                                "hash": "9f7d3a624d2db0fc2545fa149e05b35d",
+                                                "hash": "0cc68b4fe0b9934c1f19b01e4788be18",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T10:18:04",
+                                                "lastModified": "2021-04-28T15:42:31",
                                                 "name": "refraction.lsmat",
-                                                "hash": "b1d65222ab00e70ed4255b231eaf63d8",
+                                                "hash": "7b60d2cf84ec90785424b441b559d242",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:31",
+                                                "lastModified": "2021-04-28T15:06:43",
                                                 "name": "white_eye.lsmat",
-                                                "hash": "36a198ca0a5a8c4069714f505acc8736",
+                                                "hash": "23c9aa589aef33e61582ba5be6197b2c",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:31",
+                                                "lastModified": "2021-04-28T15:06:43",
                                                 "name": "magnify.lsmat",
-                                                "hash": "171d6108baa3d3fe801e29c8c149dbb7",
+                                                "hash": "29c4917844877107fbf287137a36507c",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:31",
+                                                "lastModified": "2021-04-28T15:06:43",
                                                 "name": "black_eye.lsmat",
-                                                "hash": "ee8949728fcbbd8aa623b3cf8e4b6fee",
+                                                "hash": "dcc4adbd41583e0a88c4c0af12d1528b",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:31",
+                                                "lastModified": "2021-04-28T15:06:43",
                                                 "name": "mustache.lsmat",
-                                                "hash": "fe7218ed49e8173f994dcfff7fa86f7e",
+                                                "hash": "ec926dd1f237771c6ecf6135654b14b4",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:31",
+                                                "lastModified": "2021-04-28T15:06:43",
                                                 "name": "eyelid_yellow.lsmat",
-                                                "hash": "c8ae948ee4ace775f21d3c99c417e91f",
+                                                "hash": "2e4fe78c8f0856a5d009b203d432354a",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:31",
+                                                "lastModified": "2021-04-28T15:06:43",
                                                 "name": "hand.lsmat",
-                                                "hash": "b802d04cc20dbf977c805c0752277dc1",
+                                                "hash": "4ca1ebb759f8a4172edff995b4df33fb",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:31",
+                                                "lastModified": "2021-04-28T15:06:43",
                                                 "name": "silver.lsmat",
-                                                "hash": "93b9da1f2f30c862db2e3306342dfede",
+                                                "hash": "4f8d4882cbbe652bde0387c3f3d8deff",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:31",
+                                                "lastModified": "2021-04-28T15:06:43",
                                                 "name": "tear.lsmat",
-                                                "hash": "79c1054b87415afb954f2908c0c9ab12",
+                                                "hash": "c7e96c5a7e99fd7798589dee5eda1a07",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:34",
+                                                "lastModified": "2021-04-28T15:06:45",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -4118,77 +4193,77 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-04-28T09:48:34",
+                                        "lastModified": "2021-04-28T15:06:45",
                                         "name": "Prefabs",
-                                        "hash": "4c42977bdf025854d865d05812ed9d1c",
+                                        "hash": "fa31303135b5edcef9428abdab6e1a3a",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:31",
+                                                "lastModified": "2021-04-28T15:06:43",
                                                 "name": "Left Tear.oprfb",
-                                                "hash": "7f2e20b2553be337581de753da75b6de",
+                                                "hash": "5f8f30e906c5ab0809cec8a135d0d23a",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:34",
+                                                "lastModified": "2021-04-28T15:06:45",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:31",
+                                                "lastModified": "2021-04-28T15:06:43",
                                                 "name": "Right Tear.oprfb",
-                                                "hash": "39bf424eecc1c7392de43eee1538be82",
+                                                "hash": "baff1ed53903d8672d9a3a4aa702d019",
                                                 "children": ""
                                             }
                                         ]
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:31",
+                                        "lastModified": "2021-04-28T15:06:43",
                                         "name": "camelliaModeled.fbx",
                                         "hash": "f5cda65c113609c6da022536241fbf6a",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-04-28T09:48:34",
+                                        "lastModified": "2021-04-28T15:06:45",
                                         "name": "Models",
                                         "hash": "f5e1ca83416df3e27b03552ef222a860",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:31",
+                                                "lastModified": "2021-04-28T15:06:43",
                                                 "name": "Hand.fbx",
                                                 "hash": "767b7c9c009c2bea14f1a32ad02f575f",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:31",
+                                                "lastModified": "2021-04-28T15:06:43",
                                                 "name": "Eye.fbx",
                                                 "hash": "02347444e6c3942e84e19fac77df67ab",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:31",
+                                                "lastModified": "2021-04-28T15:06:43",
                                                 "name": "Mustache.fbx",
                                                 "hash": "869adc903a1a74888e0c5710689d9563",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:31",
+                                                "lastModified": "2021-04-28T15:06:43",
                                                 "name": "Tear.fbx",
                                                 "hash": "93d5bacbfd2523d528ac6283b2a6eb6d",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:34",
+                                                "lastModified": "2021-04-28T15:06:45",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -4197,7 +4272,7 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:34",
+                                        "lastModified": "2021-04-28T15:06:45",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -4206,103 +4281,96 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:31",
+                                "lastModified": "2021-04-28T15:06:43",
                                 "name": "cgaxis_models_26_11_01_bump.jpg",
                                 "hash": "ce92f3208373e6464c9de0c2f04d8fb1",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:31",
-                                "name": "Script 2.js",
-                                "hash": "59361291686fd7cebf3981836238abbb",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:31",
+                                "lastModified": "2021-04-28T15:06:43",
                                 "name": "Camellia_041521.fbx",
                                 "hash": "eab70ade791700e2390120cd6917f1a5",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:31",
+                                "lastModified": "2021-04-28T15:06:43",
                                 "name": "Script.js",
                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:31",
+                                "lastModified": "2021-04-28T15:06:43",
                                 "name": "rose petal mask a1.jpg",
                                 "hash": "81123f5ec2ba3fe85e7076da1a146d34",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T10:18:04",
+                                "lastModified": "2021-04-28T15:42:31",
                                 "name": "petals.lsmat",
-                                "hash": "8313fd2caa2098cde8dcfa73c9e69cf5",
+                                "hash": "18d397bcc5e1d8bc923ac81573e17bdf",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:31",
+                                "lastModified": "2021-04-28T15:06:43",
                                 "name": "cgaxis_models_26_03_01_bump.jpg",
                                 "hash": "37d55f44654c8bccd8d211694074ef76",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:31",
+                                "lastModified": "2021-04-28T15:06:43",
                                 "name": "petal2.fbx",
                                 "hash": "35101fca8885748ebf426919a75b808d",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:31",
+                                "lastModified": "2021-04-28T15:06:43",
                                 "name": "singleFlower.fbx",
                                 "hash": "64376da697c7209705099ffc4541e417",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-04-28T10:22:20",
+                                "lastModified": "2021-04-28T15:41:52",
                                 "name": "Scripts",
-                                "hash": "3c259a0692ea20acc3eadb559c213014",
+                                "hash": "bce4e1396295090bc82b6df2ace818b0",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-04-28T09:48:34",
+                                        "lastModified": "2021-04-28T15:06:45",
                                         "name": "Facelandmarks Helpers",
                                         "hash": "73b30b381b66c692bd768ab61b468fd1",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:31",
+                                                "lastModified": "2021-04-28T15:06:43",
                                                 "name": "FaceLandmarksDistanceResponse.js",
                                                 "hash": "69468b66ecb81bbbc4bb801a2588efb4",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:31",
+                                                "lastModified": "2021-04-28T15:06:43",
                                                 "name": "Behavior.js",
                                                 "hash": "91c13f7497081d3638dd81f8c7b017fd",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:31",
+                                                "lastModified": "2021-04-28T15:06:43",
                                                 "name": "FaceLandmarksDistanceTrigger.js",
                                                 "hash": "01831b26cf7ce5ebcf9e030f32a2724d",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-04-28T09:48:34",
+                                                "lastModified": "2021-04-28T15:06:45",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -4311,35 +4379,42 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:31",
+                                        "lastModified": "2021-04-28T15:06:43",
                                         "name": "changing_texture.js",
-                                        "hash": "2a8c238d8a1dc2126ede41e333812319",
+                                        "hash": "f7379fa4d8a60b831182854079179923",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T10:22:20",
+                                        "lastModified": "2021-04-28T15:41:52",
                                         "name": "mouthOpen.js",
-                                        "hash": "b531534e037a556b81f864a0b69a0efd",
+                                        "hash": "4c286d2e4bec2e08a6750129fb6340be",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:31",
+                                        "lastModified": "2021-04-28T15:37:23",
+                                        "name": "timeZone.js",
+                                        "hash": "90c754f733970cae5465e79c05f361e7",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-04-28T15:06:43",
                                         "name": "PinToFaceLandmarks.js",
                                         "hash": "50b1d3c93e91ddf9d94e0713f8ff428d",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:31",
+                                        "lastModified": "2021-04-28T15:06:43",
                                         "name": "FaceLandmarksDistanceTrigger.js",
                                         "hash": "01831b26cf7ce5ebcf9e030f32a2724d",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:33",
+                                        "lastModified": "2021-04-28T15:06:45",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -4348,111 +4423,111 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:31",
+                                "lastModified": "2021-04-28T15:06:43",
                                 "name": "rose petal normals.jpg",
                                 "hash": "5db92d45c0afe5a7dcac6866aed549d4",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:31",
+                                "lastModified": "2021-04-28T15:06:43",
                                 "name": "Sphere.mesh",
                                 "hash": "ffbce66d7c12d942b13208740e9d0059",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:31",
+                                "lastModified": "2021-04-28T15:06:43",
                                 "name": "rose bud a1.jpg",
                                 "hash": "d96ecae9126b7faa38be4381fafc4c1e",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:31",
+                                "lastModified": "2021-04-28T15:06:43",
                                 "name": "roots.fbx",
                                 "hash": "6d54ee1867ca0d741c7d44cabb2cb9d2",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:31",
+                                "lastModified": "2021-04-28T15:06:43",
                                 "name": "rose bud a2.jpg",
                                 "hash": "3fb33a106dc44196920afee3e5de58db",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:31",
+                                "lastModified": "2021-04-28T15:06:43",
                                 "name": "2021-04-14.png",
                                 "hash": "54a7605faa3cff4169487f661ed8278e",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:31",
+                                "lastModified": "2021-04-28T15:06:43",
                                 "name": "avkan2.fbx",
                                 "hash": "a79ec1ef285d1c95493964655cdc1095",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:31",
+                                "lastModified": "2021-04-28T15:06:43",
                                 "name": "cgaxis_models_26_03_01.jpg",
                                 "hash": "34fa0b44fa3e5c92af428fc5050272ee",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:31",
+                                "lastModified": "2021-04-28T15:06:43",
                                 "name": "cgaxis_models_26_06_06_bump.jpg",
                                 "hash": "47f3eff61338a6af6ad73690347dd34e",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:31",
+                                "lastModified": "2021-04-28T15:06:43",
                                 "name": "cgaxis_models_26_11_01.jpg",
                                 "hash": "973c98fb76f434fd1a9e089ad7ca3623",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:31",
+                                "lastModified": "2021-04-28T15:06:43",
                                 "name": "leaf.fbx",
                                 "hash": "79379678e709cb6c0f55794e9b882563",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:34",
+                                "lastModified": "2021-04-28T15:06:46",
                                 "name": "folder.lock",
                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-04-28T09:48:34",
+                                "lastModified": "2021-04-28T15:06:45",
                                 "name": "avkan2.fbm",
                                 "hash": "399a755072cbe7006a18f8bd8b7b0856",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:31",
+                                        "lastModified": "2021-04-28T15:06:43",
                                         "name": "cgaxis_models_26_11_01_bump.jpg",
                                         "hash": "ce92f3208373e6464c9de0c2f04d8fb1",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:31",
+                                        "lastModified": "2021-04-28T15:06:43",
                                         "name": "cgaxis_models_26_11_01.jpg",
                                         "hash": "973c98fb76f434fd1a9e089ad7ca3623",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-04-28T09:48:34",
+                                        "lastModified": "2021-04-28T15:06:45",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -4461,7 +4536,7 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-28T09:48:31",
+                                "lastModified": "2021-04-28T15:06:43",
                                 "name": "avkan3.fbx",
                                 "hash": "fc676719e7adf73e9a4639817bc0a2a7",
                                 "children": ""
@@ -4601,6 +4676,19 @@
                                 "originalId": "18446744073709551615",
                                 "publicId": "9",
                                 "source": "\/Users\/shirin\/Downloads\/avkanim\/combineV2\/Public\/Scripts\/FaceLandmarksDistanceTrigger.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "timeZone",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "270",
+                                "dependency": "0",
+                                "uid": "1619633458603367:27418",
+                                "fileId": "541",
+                                "originalId": "18446744073709551615",
+                                "publicId": "10",
+                                "source": "\/private\/var\/folders\/dp\/mbcvd3r959z86qgz1_4vpr4m0000gn\/T\/Lens Studio-HDMTID\/\/system\/\/emergencyFiles\/emergencyJs.js",
                                 "additional": ""
                             }
                         ]
@@ -6103,7 +6191,7 @@
                                         "resources": ""
                                     },
                                     {
-                                        "name": "Materials0100200",
+                                        "name": "Materials01002000000",
                                         "type": "0",
                                         "subtype": "-1",
                                         "resourceId": "-1",
@@ -6399,6 +6487,19 @@
                                 "publicId": "53",
                                 "source": "\/private\/var\/folders\/dp\/mbcvd3r959z86qgz1_4vpr4m0000gn\/T\/Lens Studio-COPLaX\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                                 "additional": ""
+                            },
+                            {
+                                "name": "white_petal_minus1",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "272",
+                                "dependency": "0",
+                                "uid": "1619643075153058:94643",
+                                "fileId": "544",
+                                "originalId": "545",
+                                "publicId": "54",
+                                "source": "\/Users\/shirin\/other_projects\/chanelxnycml\/snap_project\/combineV2\/Public\/Textures\/white_petal_minus1.png",
+                                "additional": ""
                             }
                         ]
                     },
@@ -6411,7 +6512,7 @@
                         "uid": "1582052933048467:16017",
                         "fileId": "6",
                         "originalId": "7",
-                        "publicId": "54",
+                        "publicId": "55",
                         "source": "",
                         "additional": ""
                     },
@@ -6424,7 +6525,7 @@
                         "uid": "1617935191269488:2084639",
                         "fileId": "211",
                         "originalId": "212",
-                        "publicId": "55",
+                        "publicId": "56",
                         "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-anaZgP\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                         "additional": ""
                     },
@@ -6437,7 +6538,7 @@
                         "uid": "1617935191284696:2084651",
                         "fileId": "213",
                         "originalId": "214",
-                        "publicId": "56",
+                        "publicId": "57",
                         "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-anaZgP\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                         "additional": ""
                     },
@@ -6450,7 +6551,7 @@
                         "uid": "-1:-1",
                         "fileId": "216",
                         "originalId": "18446744073709551615",
-                        "publicId": "57",
+                        "publicId": "58",
                         "source": "\/Users\/zivschneider\/Brown Institute Dropbox\/Ziv Schneider\/CHANEL\/avkan2.fbx",
                         "additional": {
                             "materialMapping": [
@@ -6504,7 +6605,7 @@
                                 "resources": ""
                             },
                             {
-                                "name": "Materials0100200",
+                                "name": "Materials01002000000",
                                 "type": "0",
                                 "subtype": "-1",
                                 "resourceId": "-1",
@@ -6512,7 +6613,7 @@
                                 "uid": "-1:-1",
                                 "fileId": "18446744073709551615",
                                 "originalId": "18446744073709551615",
-                                "publicId": "58",
+                                "publicId": "59",
                                 "source": "",
                                 "additional": "",
                                 "resources": [
@@ -6525,7 +6626,7 @@
                                         "uid": "1617935191231808:2084624",
                                         "fileId": "209",
                                         "originalId": "210",
-                                        "publicId": "59",
+                                        "publicId": "60",
                                         "source": "",
                                         "additional": ""
                                     }
@@ -6555,7 +6656,7 @@
                         "uid": "1618252238831369:121670",
                         "fileId": "220",
                         "originalId": "221",
-                        "publicId": "60",
+                        "publicId": "61",
                         "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-LFNLQZ\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
                         "additional": ""
                     },
@@ -6568,7 +6669,7 @@
                         "uid": "1618252294042318:139509",
                         "fileId": "222",
                         "originalId": "18446744073709551615",
-                        "publicId": "61",
+                        "publicId": "62",
                         "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-LFNLQZ\/\/system\/\/emergencyFiles\/emergencyJs.js",
                         "additional": ""
                     },
@@ -6581,7 +6682,7 @@
                         "uid": "1618254252232899:486099",
                         "fileId": "227",
                         "originalId": "228",
-                        "publicId": "62",
+                        "publicId": "63",
                         "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-LFNLQZ\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                         "additional": ""
                     },
@@ -6594,7 +6695,7 @@
                         "uid": "1618254252267747:486115",
                         "fileId": "229",
                         "originalId": "230",
-                        "publicId": "63",
+                        "publicId": "64",
                         "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-LFNLQZ\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                         "additional": ""
                     },
@@ -6607,7 +6708,7 @@
                         "uid": "-1:-1",
                         "fileId": "248",
                         "originalId": "18446744073709551615",
-                        "publicId": "64",
+                        "publicId": "65",
                         "source": "\/Users\/zivschneider\/Brown Institute Dropbox\/Ziv Schneider\/CHANEL\/sculpting\/petal.fbx",
                         "additional": {
                             "materialMapping": [
@@ -6661,7 +6762,7 @@
                                 "resources": ""
                             },
                             {
-                                "name": "Materials0100200",
+                                "name": "Materials01002000000",
                                 "type": "0",
                                 "subtype": "-1",
                                 "resourceId": "-1",
@@ -6669,7 +6770,7 @@
                                 "uid": "-1:-1",
                                 "fileId": "18446744073709551615",
                                 "originalId": "18446744073709551615",
-                                "publicId": "65",
+                                "publicId": "66",
                                 "source": "",
                                 "additional": "",
                                 "resources": [
@@ -6682,7 +6783,7 @@
                                         "uid": "1618255371893133:671475",
                                         "fileId": "245",
                                         "originalId": "246",
-                                        "publicId": "66",
+                                        "publicId": "67",
                                         "source": "",
                                         "additional": ""
                                     }
@@ -6712,7 +6813,7 @@
                         "uid": "1618276804416044:209028",
                         "fileId": "268",
                         "originalId": "269",
-                        "publicId": "67",
+                        "publicId": "68",
                         "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-CTpDfb\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                         "additional": ""
                     },
@@ -6725,7 +6826,7 @@
                         "uid": "1618276804666150:209048",
                         "fileId": "270",
                         "originalId": "271",
-                        "publicId": "68",
+                        "publicId": "69",
                         "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-CTpDfb\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                         "additional": ""
                     },
@@ -6738,7 +6839,7 @@
                         "uid": "1618276804923090:209068",
                         "fileId": "272",
                         "originalId": "273",
-                        "publicId": "69",
+                        "publicId": "70",
                         "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-CTpDfb\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                         "additional": ""
                     },
@@ -6751,7 +6852,7 @@
                         "uid": "1618276805174854:209092",
                         "fileId": "274",
                         "originalId": "275",
-                        "publicId": "70",
+                        "publicId": "71",
                         "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-CTpDfb\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                         "additional": ""
                     },
@@ -6764,7 +6865,7 @@
                         "uid": "-1:-1",
                         "fileId": "277",
                         "originalId": "18446744073709551615",
-                        "publicId": "71",
+                        "publicId": "72",
                         "source": "\/Users\/zivschneider\/Brown Institute Dropbox\/Ziv Schneider\/CHANEL\/3Dassets\/singleFlower.fbx",
                         "additional": {
                             "materialMapping": [
@@ -6852,7 +6953,7 @@
                                 "resources": ""
                             },
                             {
-                                "name": "Materials0100200",
+                                "name": "Materials01002000000",
                                 "type": "0",
                                 "subtype": "-1",
                                 "resourceId": "-1",
@@ -6860,7 +6961,7 @@
                                 "uid": "-1:-1",
                                 "fileId": "18446744073709551615",
                                 "originalId": "18446744073709551615",
-                                "publicId": "72",
+                                "publicId": "73",
                                 "source": "",
                                 "additional": "",
                                 "resources": [
@@ -6873,7 +6974,7 @@
                                         "uid": "1618276803140664:208947",
                                         "fileId": "262",
                                         "originalId": "263",
-                                        "publicId": "73",
+                                        "publicId": "74",
                                         "source": "",
                                         "additional": ""
                                     },
@@ -6886,7 +6987,7 @@
                                         "uid": "1618276803504678:208970",
                                         "fileId": "264",
                                         "originalId": "265",
-                                        "publicId": "74",
+                                        "publicId": "75",
                                         "source": "",
                                         "additional": ""
                                     },
@@ -6899,7 +7000,7 @@
                                         "uid": "1618276803904757:208997",
                                         "fileId": "266",
                                         "originalId": "267",
-                                        "publicId": "75",
+                                        "publicId": "76",
                                         "source": "",
                                         "additional": ""
                                     }
@@ -6929,7 +7030,7 @@
                         "uid": "1618278117248897:480157",
                         "fileId": "279",
                         "originalId": "280",
-                        "publicId": "76",
+                        "publicId": "77",
                         "source": "\/Users\/zivschneider\/Brown Institute Dropbox\/Ziv Schneider\/CHANEL\/Camellia\/Public\/rose petal mask a1.jpg",
                         "additional": ""
                     },
@@ -6942,7 +7043,7 @@
                         "uid": "1618367136673710:1392475",
                         "fileId": "285",
                         "originalId": "286",
-                        "publicId": "77",
+                        "publicId": "78",
                         "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-fXohPf\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                         "additional": ""
                     },
@@ -6955,7 +7056,7 @@
                         "uid": "1618367136854984:1392495",
                         "fileId": "287",
                         "originalId": "288",
-                        "publicId": "78",
+                        "publicId": "79",
                         "source": "\/private\/var\/folders\/nx\/z7k5g6_x0bbgyrc_0hh5frnh0000gn\/T\/Lens Studio-fXohPf\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                         "additional": ""
                     },
@@ -6968,7 +7069,7 @@
                         "uid": "-1:-1",
                         "fileId": "290",
                         "originalId": "18446744073709551615",
-                        "publicId": "79",
+                        "publicId": "80",
                         "source": "\/Users\/zivschneider\/Brown Institute Dropbox\/Ziv Schneider\/CHANEL\/3Dassets\/leaf.fbx",
                         "additional": {
                             "materialMapping": [
@@ -7022,7 +7123,7 @@
                                 "resources": ""
                             },
                             {
-                                "name": "Materials0100200",
+                                "name": "Materials01002000000",
                                 "type": "0",
                                 "subtype": "-1",
                                 "resourceId": "-1",
@@ -7030,7 +7131,7 @@
                                 "uid": "-1:-1",
                                 "fileId": "18446744073709551615",
                                 "originalId": "18446744073709551615",
-                                "publicId": "80",
+                                "publicId": "81",
                                 "source": "",
                                 "additional": "",
                                 "resources": [
@@ -7043,7 +7144,7 @@
                                         "uid": "1618367136253194:1392440",
                                         "fileId": "283",
                                         "originalId": "284",
-                                        "publicId": "81",
+                                        "publicId": "82",
                                         "source": "",
                                         "additional": ""
                                     }
@@ -7073,7 +7174,7 @@
                         "uid": "1618425022792178:131332",
                         "fileId": "346",
                         "originalId": "347",
-                        "publicId": "82",
+                        "publicId": "83",
                         "source": "",
                         "additional": ""
                     },
@@ -7086,7 +7187,7 @@
                         "uid": "1618425261504288:173075",
                         "fileId": "354",
                         "originalId": "355",
-                        "publicId": "83",
+                        "publicId": "84",
                         "source": "\/Users\/zivschneider\/Desktop\/2021-04-14.png",
                         "additional": ""
                     },
@@ -7099,7 +7200,7 @@
                         "uid": "-1:-1",
                         "fileId": "399",
                         "originalId": "18446744073709551615",
-                        "publicId": "84",
+                        "publicId": "85",
                         "source": "\/Users\/zivschneider\/Brown Institute Dropbox\/Ziv Schneider\/CHANEL\/CamelliaModeling\/Camellia_041521.fbx",
                         "additional": {
                             "materialMapping": [
@@ -7374,7 +7475,7 @@
                                 "resources": ""
                             },
                             {
-                                "name": "Materials0100200",
+                                "name": "Materials01002000000",
                                 "type": "0",
                                 "subtype": "-1",
                                 "resourceId": "-1",
@@ -7382,7 +7483,7 @@
                                 "uid": "-1:-1",
                                 "fileId": "18446744073709551615",
                                 "originalId": "18446744073709551615",
-                                "publicId": "85",
+                                "publicId": "86",
                                 "source": "",
                                 "additional": "",
                                 "resources": [
@@ -7395,7 +7496,7 @@
                                         "uid": "1618548866433465:48737",
                                         "fileId": "396",
                                         "originalId": "397",
-                                        "publicId": "86",
+                                        "publicId": "87",
                                         "source": "",
                                         "additional": ""
                                     }
@@ -7438,7 +7539,7 @@
                         "uid": "-1:-1",
                         "fileId": "465",
                         "originalId": "18446744073709551615",
-                        "publicId": "87",
+                        "publicId": "88",
                         "source": "\/Users\/zivschneider\/Brown Institute Dropbox\/Ziv Schneider\/CHANEL\/CamelliaModeling\/petal2.fbx",
                         "additional": {
                             "materialMapping": [
@@ -7492,7 +7593,7 @@
                                 "resources": ""
                             },
                             {
-                                "name": "Materials0100200",
+                                "name": "Materials01002000000",
                                 "type": "0",
                                 "subtype": "-1",
                                 "resourceId": "-1",
@@ -7500,7 +7601,7 @@
                                 "uid": "-1:-1",
                                 "fileId": "18446744073709551615",
                                 "originalId": "18446744073709551615",
-                                "publicId": "88",
+                                "publicId": "89",
                                 "source": "",
                                 "additional": "",
                                 "resources": [
@@ -7513,7 +7614,7 @@
                                         "uid": "1618936321538665:5743972",
                                         "fileId": "462",
                                         "originalId": "463",
-                                        "publicId": "89",
+                                        "publicId": "90",
                                         "source": "",
                                         "additional": ""
                                     }
@@ -7543,7 +7644,7 @@
                         "uid": "1618259020267884:1535026",
                         "fileId": "254",
                         "originalId": "255",
-                        "publicId": "90",
+                        "publicId": "91",
                         "source": "",
                         "additional": ""
                     },
@@ -7556,12 +7657,12 @@
                         "uid": "-1:-1",
                         "fileId": "18446744073709551615",
                         "originalId": "18446744073709551615",
-                        "publicId": "91",
+                        "publicId": "92",
                         "source": "",
                         "additional": "",
                         "resources": [
                             {
-                                "name": "GrowingCloud",
+                                "name": "PinkFlowerGrowingCloud",
                                 "type": "2",
                                 "subtype": "1",
                                 "resourceId": "241",
@@ -7569,7 +7670,7 @@
                                 "uid": "1618958744406920:232645",
                                 "fileId": "469",
                                 "originalId": "470",
-                                "publicId": "92",
+                                "publicId": "93",
                                 "source": "",
                                 "additional": ""
                             },
@@ -7582,7 +7683,7 @@
                                 "uid": "1618962208451034:960014",
                                 "fileId": "497",
                                 "originalId": "498",
-                                "publicId": "93",
+                                "publicId": "94",
                                 "source": "",
                                 "additional": ""
                             },
@@ -7595,7 +7696,20 @@
                                 "uid": "1618966451036739:1019633",
                                 "fileId": "508",
                                 "originalId": "509",
-                                "publicId": "94",
+                                "publicId": "95",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "WhiteFlowerGrowingCloud",
+                                "type": "2",
+                                "subtype": "1",
+                                "resourceId": "271",
+                                "dependency": "0",
+                                "uid": "1619642959324461:74092",
+                                "fileId": "542",
+                                "originalId": "543",
+                                "publicId": "96",
                                 "source": "",
                                 "additional": ""
                             }
@@ -7623,7 +7737,7 @@
                         "uid": "-1:-1",
                         "fileId": "506",
                         "originalId": "18446744073709551615",
-                        "publicId": "95",
+                        "publicId": "97",
                         "source": "\/Users\/shirin\/other_projects\/chanelxnycml\/combineV1\/Public\/roots.fbx",
                         "additional": {
                             "materialMapping": [
@@ -7690,7 +7804,7 @@
                                 "resources": ""
                             },
                             {
-                                "name": "Materials100200",
+                                "name": "Materials1002000000",
                                 "type": "0",
                                 "subtype": "-1",
                                 "resourceId": "-1",
@@ -7698,7 +7812,7 @@
                                 "uid": "-1:-1",
                                 "fileId": "18446744073709551615",
                                 "originalId": "18446744073709551615",
-                                "publicId": "96",
+                                "publicId": "98",
                                 "source": "",
                                 "additional": "",
                                 "resources": [
@@ -7711,7 +7825,7 @@
                                         "uid": "1618966300276130:989407",
                                         "fileId": "503",
                                         "originalId": "504",
-                                        "publicId": "97",
+                                        "publicId": "99",
                                         "source": "",
                                         "additional": ""
                                     }
@@ -7741,7 +7855,7 @@
                         "uid": "-1:-1",
                         "fileId": "18446744073709551615",
                         "originalId": "18446744073709551615",
-                        "publicId": "98",
+                        "publicId": "100",
                         "source": "",
                         "additional": "",
                         "resources": [
@@ -7754,7 +7868,7 @@
                                 "uid": "1619035834685247:21558",
                                 "fileId": "520",
                                 "originalId": "521",
-                                "publicId": "99",
+                                "publicId": "101",
                                 "source": "\/Users\/zivschneider\/Brown Institute Dropbox\/Ziv Schneider\/CHANEL\/repo\/snap\/combineV1\/Public\/avkan2.fbm\/cgaxis_models_26_11_01_bump.jpg",
                                 "additional": ""
                             },
@@ -7767,7 +7881,7 @@
                                 "uid": "1619035834728858:21565",
                                 "fileId": "522",
                                 "originalId": "523",
-                                "publicId": "100",
+                                "publicId": "102",
                                 "source": "\/Users\/zivschneider\/Brown Institute Dropbox\/Ziv Schneider\/CHANEL\/repo\/snap\/combineV1\/Public\/avkan2.fbm\/cgaxis_models_26_11_01.jpg",
                                 "additional": ""
                             }
@@ -7782,7 +7896,7 @@
                         "uid": "-1:-1",
                         "fileId": "529",
                         "originalId": "18446744073709551615",
-                        "publicId": "101",
+                        "publicId": "103",
                         "source": "\/Users\/zivschneider\/Brown Institute Dropbox\/Ziv Schneider\/CHANEL\/repo\/snap\/combineV1\/Public\/avkan3.fbx",
                         "additional": {
                             "materialMapping": [
@@ -7836,7 +7950,7 @@
                                 "resources": ""
                             },
                             {
-                                "name": "Materials000200",
+                                "name": "Materials0002000000",
                                 "type": "0",
                                 "subtype": "-1",
                                 "resourceId": "-1",
@@ -7844,7 +7958,7 @@
                                 "uid": "-1:-1",
                                 "fileId": "18446744073709551615",
                                 "originalId": "18446744073709551615",
-                                "publicId": "102",
+                                "publicId": "104",
                                 "source": "",
                                 "additional": "",
                                 "resources": [
@@ -7857,7 +7971,7 @@
                                         "uid": "1619035851606748:25571",
                                         "fileId": "526",
                                         "originalId": "527",
-                                        "publicId": "103",
+                                        "publicId": "105",
                                         "source": "",
                                         "additional": ""
                                     }
@@ -7877,19 +7991,6 @@
                                 "additional": ""
                             }
                         ]
-                    },
-                    {
-                        "name": "Script 2",
-                        "type": "4",
-                        "subtype": "0",
-                        "resourceId": "269",
-                        "dependency": "0",
-                        "uid": "1619100927341800:31006",
-                        "fileId": "540",
-                        "originalId": "18446744073709551615",
-                        "publicId": "104",
-                        "source": "\/private\/var\/folders\/dp\/mbcvd3r959z86qgz1_4vpr4m0000gn\/T\/Lens Studio-rityeh\/\/system\/\/emergencyFiles\/emergencyJs.js",
-                        "additional": ""
                     }
                 ]
             }
@@ -10083,6 +10184,33 @@
                                     "settings_hash": "2049"
                                 },
                                 "v": "539"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1619643075153058:94643",
+                    "v": {
+                        "infos": {
+                            "originalSize": "160263",
+                            "compressedSize": "71426",
+                            "originalRAM": "1048576",
+                            "compressedRAM": "131072",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "546",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "382256854303269181614cf76795cdf7",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "547"
                             }
                         ]
                     }

@@ -9,6 +9,7 @@ var count = 0;
 script.flowerTex.mainMaterial = script.flowerMaterial[0]
 
 function onTap(eventData) {
+    print(script.flowerTex.mainMaterial)
     count++;
     if(count >= script.flowerMaterial.length) {
         count = 0;
