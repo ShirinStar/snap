@@ -13,7 +13,7 @@ var countAvkan = 0;
 var updateAvkan = false;
 var avkanState = null;
 
-var startWait = 10; //seconds
+var startWait = 5; //seconds
 var longWait = 8; //seconds
 var mediumWait = 5; //seconds
 var shortWait = 0.5; //seconds
@@ -73,18 +73,23 @@ function getTimeZone() {
 
 print(getTimeZone())
 
+var PST = '-07:00';
+var CT = '-05:00';//central
+var EST = '-04:00';
 
 function changeMaterialTimeZone() {
-    //PST
-    if (getTimeZone() === '-07:00') {
+    if (getTimeZone() === PST) {
         for (var i = 0 ; i < script.meshVisualPetals.length; i++) {
         script.meshVisualPetals[i].mainMaterial  = script.whitePetalsMaterials;
         }
     } 
-    //EST
-    if(getTimeZone() === '-04:00') {
+    else if (getTimeZone() === CT) {
         for (var i = 0 ; i < script.meshVisualPetals.length; i++) {
         script.meshVisualPetals[i].mainMaterial  = script.rightEyePetalsMaterials;
+        }
+    } else {
+        for (var i = 0 ; i < script.meshVisualPetals.length; i++) {
+       script.meshVisualPetals[i].mainMaterial  = script.rightEyePetalsMaterials; 
         }
     }
  }
