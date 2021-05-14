@@ -1,5 +1,4 @@
 //@input Asset.Material rightEyePetalsMaterials;
-//@input Asset.Material whitePetalsMaterials;
 //@input Asset.Material hairLeaves;
 //@input Asset.Material rootsMaterials;
 //@input SceneObject[] avkans;
@@ -15,7 +14,7 @@ var countAvkan = 0;
 var updateAvkan = false;
 var avkanState = null;
 
-var startWait = 5; //seconds
+var startWait = 1; //seconds
 var longWait = 8; //seconds
 var mediumWait = 5; //seconds
 var shortWait = 0.5; //seconds
@@ -31,12 +30,7 @@ var growingSteps = [
     objName: 'rightEyePetalsMaterials', 
     currentTime: 0,
     maxTime: 0.06
-    },
-    { 
-    objName: 'whitePetalsMaterials', 
-    currentTime: 0,
-    maxTime: 0.06
-    },    
+    },  
     { 
     objName: 'avkans', 
     inProgress: false
@@ -55,7 +49,6 @@ var growingSteps = [
 
 //when starting - everything is off
 script.rightEyePetalsMaterials.mainPass.matTime=0;
-script.whitePetalsMaterials.mainPass.matTime=0;
 script.rootsMaterials.mainPass.matTime=0;
 script.hairLeaves.mainPass.matTime=0;
 
@@ -70,38 +63,6 @@ delayedStart.bind(function(){
 })
 
 delayedStart.reset(startWait);
-
-/////TIME ZONE//////
-var currentTextureIndex = script.rightEyePetalsMaterials;
-
-function getTimeZone() {
-    var offset = new Date().getTimezoneOffset(), o = Math.abs(offset);
-    return (offset < 0 ? "+" : "-") + ("00" + Math.floor(o / 60)).slice(-2) + ":" + ("00" + (o % 60)).slice(-2);
-}
-
-print(getTimeZone())
-
-var PST = '-07:00';
-var CT = '-05:00';//central
-var EST = '-04:00';
-
-function changeMaterialTimeZone() {
-    if (getTimeZone() === PST) {
-        for (var i = 0 ; i < script.meshVisualPetals.length; i++) {
-        script.meshVisualPetals[i].mainMaterial  = script.whitePetalsMaterials;
-        }
-    } 
-    else if (getTimeZone() === CT) {
-        for (var i = 0 ; i < script.meshVisualPetals.length; i++) {
-        script.meshVisualPetals[i].mainMaterial  = script.rightEyePetalsMaterials;
-        }
-    } else {
-        for (var i = 0 ; i < script.meshVisualPetals.length; i++) {
-       script.meshVisualPetals[i].mainMaterial  = script.rightEyePetalsMaterials; 
-        }
-    }
- }
-////////////
 
 
   
@@ -179,9 +140,7 @@ delayedPrevStep.bind(function(){
 function isDoneGrowing(currentMaterial) {
     if (currentMaterial.objName==='rightEyePetalsMaterials') {
        return script[currentMaterial.objName].mainPass.matTime > currentMaterial.maxTime;
-    } else if (currentMaterial.objName==='whitePetalsMaterials') {
-        return script[currentMaterial.objName].mainPass.matTime > currentMaterial.maxTime;
-    } else if (currentMaterial.objName==='hairLeaves') { 
+    }  else if (currentMaterial.objName==='hairLeaves') { 
        return script[currentMaterial.objName].mainPass.matTime > currentMaterial.maxTime;
     } else if (currentMaterial.objName==='rootsMaterials') {
         return script[currentMaterial.objName].mainPass.matTime > currentMaterial.maxTime;
@@ -193,8 +152,6 @@ function isDoneGrowing(currentMaterial) {
 //what needs to happen with every material increase
 function takeStep(currentMaterial) {
     if (currentMaterial.objName==='rightEyePetalsMaterials') { 
-      return script[currentMaterial.objName].mainPass.matTime += 0.0002;
-    } else if (currentMaterial.objName==='whitePetalsMaterials') { 
       return script[currentMaterial.objName].mainPass.matTime += 0.0002;
     } else if (currentMaterial.objName==='hairLeaves') { 
       return script[currentMaterial.objName].mainPass.matTime += 0.0002;
@@ -209,8 +166,6 @@ function takeStep(currentMaterial) {
 function isDoneShrinking(currentMaterial) {
     if (currentMaterial.objName==='rightEyePetalsMaterials') {
        return script[currentMaterial.objName].mainPass.matTime < 0;
-    } else if (currentMaterial.objName==='whitePetalsMaterials') {
-       return script[currentMaterial.objName].mainPass.matTime < 0;
     } else if (currentMaterial.objName==='hairLeaves') { 
       return script[currentMaterial.objName].mainPass.matTime < 0;
     } else if (currentMaterial.objName==='rootsMaterials') {
@@ -224,8 +179,6 @@ function isDoneShrinking(currentMaterial) {
 function reverseStep(currentMaterial) {
     if (currentMaterial.objName==='rightEyePetalsMaterials') { 
       return script[currentMaterial.objName].mainPass.matTime -= 0.0006;
-    } else if (currentMaterial.objName==='whitePetalsMaterials') { 
-      return script[currentMaterial.objName].mainPass.matTime -= 0.0006;
     }  else if (currentMaterial.objName==='hairLeaves') { 
       return script[currentMaterial.objName].mainPass.matTime -= 0.0006;
     } else if (currentMaterial.objName==='rootsMaterials') {
@@ -238,7 +191,6 @@ function reverseStep(currentMaterial) {
 
 //every frame///
 function onUpdate (time) {
-  changeMaterialTimeZone();
     
   newTime = getTime();
   if (newTime - oldTime > 1) {
