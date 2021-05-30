@@ -1,4 +1,4 @@
-
+//@input float startDelayTime = 0;
 //@input Asset.Material greenLeaves;
 //@input SceneObject[] littleFlower;
 //@input SceneObject[] avkans;
@@ -26,13 +26,15 @@ var offset = 0.0;
 var facePlaying = false;
 
 var bgPlaying= false;
-
+var startGreenLeaves = false;
 var bigEyeGrow = false;
 
-var startWait = 1; //seconds
-var longWait = 8; //seconds
-var mediumWait = 5; //seconds
-var shortWait = 0.5; //seconds
+var startWait = script.startDelayTime; 
+var timeBetweenSteps = 5;
+var timeBetweenShrinking = 5
+var timeBetweenAvkan = 0.5; //seconds
+
+var timeBetweenStart = 0;
 
 var hasStarted = false;
 var hasUpdatedNextStep = false;
@@ -41,19 +43,30 @@ var hasUpdatedPrevStep = false;
 var currentStep = 0;
 
 var growingSteps = [
-
     { 
     objName: 'greenLeaves', 
     currentTime: 0,
     maxTime: 0.06
     },
     { 
+    objName: 'spacer1', 
+    waitTime: 10
+    }, 
+    { 
     objName: 'littleFlower', 
     inProgress: false
     }, 
     { 
+    objName: 'spacer2',  
+    waitTime: 20
+    }, 
+    { 
     objName: 'avkans', 
     inProgress: false
+    }, 
+    { 
+    objName: 'spacer3', 
+    waitTime: 20
     }, 
      { 
      objName: 'faceAnimation', 
@@ -61,9 +74,17 @@ var growingSteps = [
       maxTime: 0.06
     }, 
     { 
+    objName: 'spacer4', 
+    waitTime: 15
+    }, 
+    { 
      objName: 'bgColor', 
      currentTime: 0,
      maxTime: 1
+    }, 
+    { 
+    objName: 'spacer5', 
+    waitTime: 10
     }, 
     { 
     objName: 'rightEyePetalsMaterials', 
@@ -72,8 +93,10 @@ var growingSteps = [
     } 
 ]
 
+
 //when starting - everything is off
 script.greenLeaves.mainPass.matTime=0;
+
 for (var i=0; i< script.littleFlower.length; i++) {
     script.littleFlower[i].enabled = false;
 }
@@ -134,14 +157,14 @@ function updateAvkanState() {
     if(updateAvkan===false) {
        updateAvkan = true;
         avkanState = isTalking;
-       delayedAvkan.reset(mediumWait);
+       delayedAvkan.reset(timeBetweenSteps);
     }            
 }
 
 function showAvkan() {
     if(countAvkan < script.avkans.length) {
         script.avkans[countAvkan].enabled = !avkanState;
-        delayedAvkan.reset(shortWait);
+        delayedAvkan.reset(timeBetweenAvkan);
         countAvkan++;
     } else {
         countAvkan = 0;
@@ -160,26 +183,20 @@ function updateLittleFlowerState() {
     if(updateLittleFlower===false) {
        updateLittleFlower = true;
        LittleFlowerState = isTalking;
-       delayedLittleFlower.reset(mediumWait);
+       delayedLittleFlower.reset(timeBetweenSteps);
     }            
 }
 
 function showLittleFlower() {
     if(countLittleFlower < script.littleFlower.length) {
         script.littleFlower[countLittleFlower].enabled = !LittleFlowerState;
-        delayedLittleFlower.reset(shortWait);
+        delayedLittleFlower.reset(timeBetweenAvkan);
         countLittleFlower++;
     } else {
         countLittleFlower = 0;
         updateLittleFlower =false;
     }
 }
-
-//var delayedFace = script.createEvent("DelayedCallbackEvent");
-//delayedFace.bind(function(){
-//    faceGrowing();
-//})
-
 
 //faceAnimation 
 function faceGrowing() {
@@ -197,7 +214,7 @@ function faceShrinking() {
     facePlaying = false
     }
 }
-//
+
 
 //bgColor
 function bgColorShow() {
@@ -250,14 +267,24 @@ delayedPrevStep.bind(function(){
 function isDoneGrowing(currentMaterial) {
     if (currentMaterial.objName==='greenLeaves') { 
        return script[currentMaterial.objName].mainPass.matTime > currentMaterial.maxTime;
+    } else if (currentMaterial.objName==='spacer1') {
+        return (getTime() - timeBetweenStart) > currentMaterial.waitTime;
     } else if (currentMaterial.objName==='littleFlower') {
         return countLittleFlower===script.littleFlower.length -1;
+    } else if (currentMaterial.objName==='spacer2') {
+        return (getTime() - timeBetweenStart) > currentMaterial.waitTime;
     } else if (currentMaterial.objName==='avkans') {
         return countAvkan===script.avkans.length -1;
+    } else if (currentMaterial.objName==='spacer3') {
+        return (getTime() - timeBetweenStart) > currentMaterial.waitTime
     } else if (currentMaterial.objName==='faceAnimation') {
          return facePlaying == true
-    }  else if (currentMaterial.objName==='bgColor') {
+    }  else if (currentMaterial.objName==='spacer4') {
+        return (getTime() - timeBetweenStart) > currentMaterial.waitTime
+    } else if (currentMaterial.objName==='bgColor') {
         return bgPlaying == true;
+    }  else if (currentMaterial.objName==='spacer5') {
+        return (getTime() - timeBetweenStart) > currentMaterial.waitTime
     } else if (currentMaterial.objName==='rightEyePetalsMaterials') {
        return script[currentMaterial.objName].mainPass.matTime > currentMaterial.maxTime;
     } 
@@ -266,7 +293,7 @@ function isDoneGrowing(currentMaterial) {
 //what needs to happen with every material increase
 function takeStep(currentMaterial) {
    if (currentMaterial.objName==='greenLeaves') { 
-      return script[currentMaterial.objName].mainPass.matTime += 0.0002;
+        return script.greenLeaves.mainPass.matTime += 0.0002;
     } else if (currentMaterial.objName ==='littleFlower') {
         updateLittleFlowerState();
     } else if (currentMaterial.objName ==='avkans') {
@@ -286,14 +313,24 @@ function takeStep(currentMaterial) {
 function isDoneShrinking(currentMaterial) {
     if (currentMaterial.objName==='greenLeaves') { 
       return script[currentMaterial.objName].mainPass.matTime < 0;
+    } else if (currentMaterial.objName==='spacer1') {
+        return (getTime() - timeBetweenStart) > timeBetweenShrinking;
     } else if (currentMaterial.objName==='littleFlower') {
         return countLittleFlower===script.littleFlower.length -1;
+    } else if (currentMaterial.objName==='spacer2') {
+        return (getTime() - timeBetweenStart) > timeBetweenShrinking;
     } else if (currentMaterial.objName==='avkans') {
         return countAvkan===script.avkans.length -1;
+    } else if (currentMaterial.objName==='spacer3') {
+        return (getTime() - timeBetweenStart) > timeBetweenShrinking;
     }  else if (currentMaterial.objName==='faceAnimation') {
        return facePlaying == false;
+    }  else if (currentMaterial.objName==='spacer4') {
+        return (getTime() - timeBetweenStart) > timeBetweenShrinking;
     }  else if (currentMaterial.objName==='bgColor') {
         return bgPlaying == false;
+    }  else if (currentMaterial.objName==='spacer5') {
+        return (getTime() - timeBetweenStart) > timeBetweenShrinking;
     } else if (currentMaterial.objName==='rightEyePetalsMaterials') {
         return script[currentMaterial.objName].mainPass.matTime < 0;
     }
@@ -302,7 +339,7 @@ function isDoneShrinking(currentMaterial) {
 //what needs to happen with every material decrease
 function reverseStep(currentMaterial) {
     if (currentMaterial.objName==='greenLeaves') { 
-      return script[currentMaterial.objName].mainPass.matTime -= 0.0006;
+       return script.greenLeaves.mainPass.matTime -= 0.0006;
     } else if (currentMaterial.objName ==='littleFlower') {
         updateLittleFlowerState();
     } else if (currentMaterial.objName ==='avkans') {
@@ -332,7 +369,8 @@ function onUpdate (time) {
        if(isDoneShrinking(currentMaterial)) {
             if(!hasUpdatedPrevStep) {
                 hasUpdatedPrevStep = true;
-                delayedPrevStep.reset(mediumWait);
+                delayedPrevStep.reset(timeBetweenSteps);
+                timeBetweenStart = getTime()
             }
         } else {
             reverseStep(currentMaterial);
@@ -341,9 +379,10 @@ function onUpdate (time) {
     } else if (hasStarted && !isTalking) { 
         if (isDoneGrowing(currentMaterial)) {
             if(!hasUpdatedNextStep) {
-                print('updating next step')
-                hasUpdatedNextStep =true;
-                delayedNextStep.reset(mediumWait);
+                hasUpdatedNextStep = true;
+                delayedNextStep.reset(timeBetweenSteps);
+                timeBetweenStart = getTime()
+               
             }
         } else {
             takeStep(currentMaterial);
