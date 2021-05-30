@@ -39,14 +39,14 @@ function changeFlowerTex() {
         script.BGMaterial.mainPass.edgeColor = new vec4(0.998, 0.809, 0.947, 1.0);
     } else if (getTimeZone() === '-08:00') {
         //currentTextureIndex = 4;
-        script.flowerMaterial.mainPass.flowerColor = new vec4(1, 0.738, 0.942, 1.0);
-        script.littleFlower.mainPass.baseColor = new vec4(1, 0.738, 0.942, 1.0);
-        script.BGMaterial.mainPass.edgeColor = new vec4(1, 0.738, 0.942, 1.0);
+        script.flowerMaterial.mainPass.flowerColor = new vec4(1, 0.788, 0.942, 1.0);
+        script.littleFlower.mainPass.baseColor = new vec4(1, 0.788, 0.942, 1.0);
+        script.BGMaterial.mainPass.edgeColor = new vec4(1, 0.788, 0.942, 1.0);
     } else if (getTimeZone() === '-07:00') {
         //currentTextureIndex = 5;
-        script.flowerMaterial.mainPass.flowerColor = new vec4(0.98, 0.728, 0.979, 1.0);
-        script.littleFlower.mainPass.baseColor = new vec4(0.98, 0.728, 0.979, 1.0);
-        script.BGMaterial.mainPass.edgeColor = new vec4(0.98, 0.728, 0.979, 1.0);
+        script.flowerMaterial.mainPass.flowerColor = new vec4(0.98, 0.768, 0.979, 1.0);
+        script.littleFlower.mainPass.baseColor = new vec4(0.98, 0.768, 0.979, 1.0);
+        script.BGMaterial.mainPass.edgeColor = new vec4(0.98, 0.768, 0.979, 1.0);
     } else if (getTimeZone() === '-06:00') {
         //currentTextureIndex = 6;
          script.flowerMaterial.mainPass.flowerColor = new vec4(1, 0.63, 0.984, 1.0);
