@@ -1,13 +1,13 @@
 // -----JS CODE-----
 // @input Asset.Texture faceAnimation
-//@input SceneObject faceMesh
 
 var loops = 1;
 var offset = 0.0;
 
-script.faceMesh.enabled =true
+//script.faceMesh.enabled =true
 
-script.faceAnimation.control.play(loops, offset);
+//script.faceAnimation.control.play(loops, offset);
+//script.faceAnimation.control.pause()
 //script.faceAnimation.control.isReversed= true
 
 

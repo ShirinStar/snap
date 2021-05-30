@@ -3,7 +3,7 @@
     "document_id": "bRbNHJaaj5XRqdWbU0bW",
     "original_document_id": "UchxVzKYpSRxTPOlOw_q",
     "version": "28",
-    "lastChanged": "1622144338330",
+    "lastChanged": "1622329590899",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -30,49 +30,7 @@
     "view": {
         "ResourceUiComponent": {
             "collapsedList": [
-                [
-                    [
-                        "Textures"
-                    ],
-                    [
-                        "_animations"
-                    ],
-                    [
-                        "_internalLensStuff"
-                    ],
-                    [
-                        "_materials"
-                    ],
-                    [
-                        "_models"
-                    ],
-                    [
-                        "_models",
-                        "avkan3"
-                    ],
-                    [
-                        "_scripts"
-                    ],
-                    [
-                        "_scripts",
-                        "2DanimationControl"
-                    ],
-                    [
-                        "_scripts",
-                        "Facelandmarks Helpers"
-                    ],
-                    [
-                        "_scripts",
-                        "ShowHint"
-                    ],
-                    [
-                        "_textures"
-                    ],
-                    [
-                        "_textures",
-                        "echopark"
-                    ]
-                ]
+                ""
             ]
         },
         "SceneTreeUiComponent": {
@@ -176,8 +134,6 @@
                     "1620848656524420:1497492",
                     "1620848656538289:1497558",
                     "1620849760730820:1783047",
-                    "1621266533046744:578838",
-                    "1621266533063581:578842",
                     "1621266533198575:578925",
                     "1621266533360164:579344",
                     "1621266533436129:579476",
@@ -203,12 +159,11 @@
                     "1621266533893425:580182",
                     "1621266533909213:580210",
                     "1621266533915823:580214",
-                    "1621266533938628:580262",
                     "1621266535558425:581477",
                     "1621266535582829:581536",
-                    "1621266535937365:582008",
                     "1621266535984792:582076",
                     "1621688413046473:1388033",
+                    "1621975118835539:324119",
                     "1621975118836516:324126",
                     "1621975118957077:324295",
                     "1621975118960995:324328",
@@ -216,8 +171,7 @@
                     "1621975118969101:324398",
                     "1621975118974684:324431",
                     "1621975118978930:324464",
-                    "1621975118984292:324497",
-                    "1622084391861433:220651"
+                    "1621975118984292:324497"
                 ]
             ]
         },
@@ -290,7 +244,7 @@
             "foldedOwnerSceneObjects": ""
         },
         "Material::UiComponent": {
-            "active_graph_asset": "1621266528262161:578102"
+            "active_graph_asset": "1621449833355195:1363980"
         },
         "Script::UiComponent": {
             "active_graph_asset": "-1:-1"
@@ -1540,7 +1494,8 @@
                 "52": "1621975118984953:324499",
                 "53": "1622083255011131:112500",
                 "54": "1622084391861433:220651",
-                "55": "1622084391889847:220675"
+                "55": "1622084391889847:220675",
+                "56": "1622327672108232:1201622"
             }
         },
         "LayerComponent": {
@@ -2958,7 +2913,7 @@
                     },
                     {
                         "k": "8",
-                        "v": "5d02533a1d8ca38c5aa1796fce3abecf"
+                        "v": "7721bec0345b5c3a0f9bfdcd89c56a15"
                     },
                     {
                         "k": "9",
@@ -3202,7 +3157,7 @@
                     },
                     {
                         "k": "81",
-                        "v": "961b50482b532baa107d5eec6ee22a85"
+                        "v": "2cb6bb339cb234faf428e6399727bac8"
                     },
                     {
                         "k": "82",
@@ -3214,7 +3169,7 @@
                     },
                     {
                         "k": "84",
-                        "v": "9c4a2466558fd6e66960deb7b486ba77"
+                        "v": "1bea23d3846b100d4c96cbbf81e992da"
                     },
                     {
                         "k": "85",
@@ -3238,7 +3193,7 @@
                     },
                     {
                         "k": "90",
-                        "v": "9f0e1080165f26ad8f1dd1ab1558e767"
+                        "v": "36530aebffa55ac3b4d73d49f03416ea"
                     },
                     {
                         "k": "91",
@@ -3254,11 +3209,11 @@
                     },
                     {
                         "k": "94",
-                        "v": "063d09bc84f909fc960a788eea4e6995"
+                        "v": "e3a65835a23b44fe8f6972b83989f182"
                     },
                     {
                         "k": "95",
-                        "v": "09a7435cb395cf9f4df47392e91d9259"
+                        "v": "d25620e27e39d0eff2051e2735fd6ce8"
                     },
                     {
                         "k": "96",
@@ -3302,7 +3257,7 @@
                     },
                     {
                         "k": "106",
-                        "v": "2637070ba15f88a519afd8a70e95790f"
+                        "v": "89b21ab341b4c52086ce0dcf44716331"
                     },
                     {
                         "k": "107",
@@ -3710,7 +3665,7 @@
                     },
                     {
                         "k": "2003",
-                        "v": "8dbe811fb8587fa042b06dd9e23d8cd2"
+                        "v": "83537450a1470861f654092af23e90b2"
                     },
                     {
                         "k": "2004",
@@ -3822,7 +3777,7 @@
                     },
                     {
                         "k": "2034",
-                        "v": "12de8f3207bea457f0e6f4c0982c7452"
+                        "v": "b1bfd47fa99924c55903fbb280bce65f"
                     },
                     {
                         "k": "2035",
@@ -3834,11 +3789,11 @@
                     },
                     {
                         "k": "2037",
-                        "v": "eb4c8063caf900073da2eed33c626360"
+                        "v": "3f9cdc6ae6893ada9abe3f40993557c5"
                     },
                     {
                         "k": "2040",
-                        "v": "de54e9f994ab80efcb7a6540b780f32a"
+                        "v": "b9c8467dadc95116b91e12f706ebf9a9"
                     },
                     {
                         "k": "2041",
@@ -3850,11 +3805,11 @@
                     },
                     {
                         "k": "2043",
-                        "v": "95ff11bb2d6c67c375acd871e59c05ea"
+                        "v": "1692b0f983c4709685408f166bd5b090"
                     },
                     {
                         "k": "2044",
-                        "v": "0c2627c661a27a26b2bafa5cb215c3fa"
+                        "v": "fbe037c869ea84dd48f763e0abdf0df5"
                     },
                     {
                         "k": "2045",
@@ -3864,9 +3819,9 @@
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2021-05-27T12:27:01",
+                        "lastModified": "2021-05-29T16:04:21",
                         "name": "Public",
-                        "hash": "b4f5076d7f7b2948056d627198c5f0d0",
+                        "hash": "358578522f1a5dbfb3b954525a38aaf0",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -3921,16 +3876,16 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-05-27T12:27:01",
+                                "lastModified": "2021-05-29T16:04:21",
                                 "name": "Color Correction.lsmat",
-                                "hash": "6ae859fa89a5ab29257060a7c0338ea8",
+                                "hash": "ab5748f855ba8e4ea6180eb1e65a65bb",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-05-27T12:33:34",
+                                "lastModified": "2021-05-29T16:05:38",
                                 "name": "_scripts",
-                                "hash": "a561aa1e33ce56f1c82d51abd99f2bdc",
+                                "hash": "3b2d4faca082eb3f64822f96ba964ec0",
                                 "children": [
                                     {
                                         "isFolder": "true",
@@ -3977,9 +3932,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-27T12:25:06",
+                                        "lastModified": "2021-05-29T16:05:38",
                                         "name": "mouthOpen.js",
-                                        "hash": "5d02533a1d8ca38c5aa1796fce3abecf",
+                                        "hash": "7721bec0345b5c3a0f9bfdcd89c56a15",
                                         "children": ""
                                     },
                                     {
@@ -3991,9 +3946,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-25T16:08:04",
+                                        "lastModified": "2021-05-29T16:01:40",
                                         "name": "2DanimationControl.js",
-                                        "hash": "0c2627c661a27a26b2bafa5cb215c3fa",
+                                        "hash": "fbe037c869ea84dd48f763e0abdf0df5",
                                         "children": ""
                                     },
                                     {
@@ -4043,9 +3998,9 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-05-27T12:27:01",
+                                "lastModified": "2021-05-29T16:04:21",
                                 "name": "Gauss Blur 2.lsmat",
-                                "hash": "baecbeb38b5101c2923f815358d032d1",
+                                "hash": "76261f49e0c6c0d9a289638ecedd17b5",
                                 "children": ""
                             },
                             {
@@ -4393,29 +4348,29 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-05-27T12:27:01",
+                                "lastModified": "2021-05-29T16:04:21",
                                 "name": "_materials",
-                                "hash": "aaa11ae08404679919574d5e210e9f44",
+                                "hash": "1d7264eee09cae8fd2a1c0eb124d30e2",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-27T12:27:00",
+                                        "lastModified": "2021-05-29T16:04:20",
                                         "name": "DisintegrateBackground.lsmat",
-                                        "hash": "3c5f5a03721598e49ccac7ce802b8a91",
+                                        "hash": "b0a23c5069d7fb9d637216a8a602cd5f",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-27T12:27:00",
+                                        "lastModified": "2021-05-29T16:04:21",
                                         "name": "DisintegrateFace.lsmat",
-                                        "hash": "b0add4acc0d8bddb69d42bdb075a1215",
+                                        "hash": "1512a59d5dd33fa6dca126c5881b6589",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-27T12:27:01",
+                                        "lastModified": "2021-05-29T16:04:21",
                                         "name": "Flowerpetal.lsmat",
-                                        "hash": "8d7f7e0b4b7f4cd119a385d5f7039b1a",
+                                        "hash": "fe3e2f32e73d0622e7f89825273d2e5e",
                                         "children": ""
                                     },
                                     {
@@ -4434,9 +4389,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-27T12:27:01",
+                                        "lastModified": "2021-05-29T16:04:21",
                                         "name": "DisintegrateBackground 2.lsmat",
-                                        "hash": "414751f2ed4cb5dd7213e8a46ce7a377",
+                                        "hash": "bfa0cc075a2e8638f27ddca9c2cf4548",
                                         "children": ""
                                     },
                                     {
@@ -4455,9 +4410,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-27T12:27:01",
+                                        "lastModified": "2021-05-29T16:04:21",
                                         "name": "Flowerpetal 2.lsmat",
-                                        "hash": "2e73d88f55e5036a97980b770488a008",
+                                        "hash": "311f84550085c6563b698b8d3bbdac66",
                                         "children": ""
                                     },
                                     {
@@ -4476,16 +4431,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-27T12:27:01",
+                                        "lastModified": "2021-05-29T16:04:21",
                                         "name": "FlowerGrowingMaterial.lsmat",
-                                        "hash": "991fb4df8cae3cfce1a89df7774f7a89",
+                                        "hash": "12346a0059e203327298c350d5a21f55",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-27T12:27:00",
+                                        "lastModified": "2021-05-29T16:04:20",
                                         "name": "growingleaf 2.lsmat",
-                                        "hash": "41207f19880e93e8c100330346723295",
+                                        "hash": "524fce994caf2be78d0fc56870e4d5c1",
                                         "children": ""
                                     },
                                     {
@@ -4504,9 +4459,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-27T12:27:00",
+                                        "lastModified": "2021-05-29T16:04:20",
                                         "name": "Avkanim.lsmat",
-                                        "hash": "d33efbffe5404f2a129f8ee365efb8e5",
+                                        "hash": "570554404bd9d19d02452adffb07ac63",
                                         "children": ""
                                     },
                                     {
@@ -4520,9 +4475,9 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-05-27T12:27:01",
+                                "lastModified": "2021-05-29T16:04:21",
                                 "name": "Gauss Blur.lsmat",
-                                "hash": "4944f4948ff8d449d33179c007c55fd0",
+                                "hash": "4192be393350dae73cc920d42d7bf89c",
                                 "children": ""
                             },
                             {
@@ -7054,14 +7009,8 @@
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1622082917554592:73755",
-                        "path_list": [
-                            "_animations",
-                            "animation 2"
-                        ]
-                    }
+                "objects": [
+                    "1618959227266625:333546"
                 ]
             }
         },
