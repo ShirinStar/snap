@@ -3,7 +3,7 @@
     "document_id": "bRbNHJaaj5XRqdWbU0bW",
     "original_document_id": "UchxVzKYpSRxTPOlOw_q",
     "version": "28",
-    "lastChanged": "1622415083914",
+    "lastChanged": "1622574870941",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -46,9 +46,6 @@
                     ],
                     [
                         "_internalLensStuff"
-                    ],
-                    [
-                        "_materials"
                     ],
                     [
                         "_models"
@@ -190,8 +187,6 @@
                     "1621266533893425:580182",
                     "1621266533909213:580210",
                     "1621266533915823:580214",
-                    "1621266535558425:581477",
-                    "1621266535582829:581536",
                     "1621266535984792:582076",
                     "1621688413046473:1388033",
                     "1621975118835539:324119",
@@ -4281,7 +4276,7 @@
                     },
                     {
                         "k": "10",
-                        "v": "74d4520046787a19466a8e4b25da4dbf"
+                        "v": "7b89c4e469849b6eac29d04cdc58e0c4"
                     },
                     {
                         "k": "12",
@@ -4517,7 +4512,7 @@
                     },
                     {
                         "k": "81",
-                        "v": "32af80bc81431d9fcb89a694ad1b21cf"
+                        "v": "4a2d0f98447e4203fc377b7fa489c185"
                     },
                     {
                         "k": "82",
@@ -4529,7 +4524,7 @@
                     },
                     {
                         "k": "84",
-                        "v": "8ad1a20745fd6e72a3d92d9922d52d0a"
+                        "v": "b6e7ab179d669f9e4760d20f083010b2"
                     },
                     {
                         "k": "85",
@@ -4553,7 +4548,7 @@
                     },
                     {
                         "k": "90",
-                        "v": "75892ddc904c43bfaecce810b398857c"
+                        "v": "ead3c375e84cba49e08577ef48402e0a"
                     },
                     {
                         "k": "91",
@@ -4569,11 +4564,11 @@
                     },
                     {
                         "k": "94",
-                        "v": "2341d479816deb7c46add92749421c21"
+                        "v": "3baa45c9f2c911021a1466408286985f"
                     },
                     {
                         "k": "95",
-                        "v": "7e08fe58f5bb0b6073f32f5f3a70e880"
+                        "v": "299d73c37dba497b0eb66b7d94f7d9c1"
                     },
                     {
                         "k": "96",
@@ -4617,7 +4612,7 @@
                     },
                     {
                         "k": "106",
-                        "v": "5caabf87173071be7c8ef4dbd8996086"
+                        "v": "872e374d48492260a2028f8f2dfd7001"
                     },
                     {
                         "k": "107",
@@ -5025,7 +5020,7 @@
                     },
                     {
                         "k": "2003",
-                        "v": "7b2c8488218a735792c3f7ed593060c2"
+                        "v": "8eca849d7c4225a63b7ad6a816fdf32d"
                     },
                     {
                         "k": "2004",
@@ -5137,7 +5132,7 @@
                     },
                     {
                         "k": "2034",
-                        "v": "3b5330a7a471cc1af6361a4f0b0bbf2b"
+                        "v": "9c3c8a0a7d438f8230c1c3c898f9cd5e"
                     },
                     {
                         "k": "2035",
@@ -5149,11 +5144,11 @@
                     },
                     {
                         "k": "2037",
-                        "v": "36a8e6e713301a7f491fca2c502a1821"
+                        "v": "087dbf12fafc4f755986f4c66fa4e671"
                     },
                     {
                         "k": "2040",
-                        "v": "769033657849a7fce704895c46398e50"
+                        "v": "8994d7725eb271f3669477e17654f1de"
                     },
                     {
                         "k": "2041",
@@ -5165,7 +5160,7 @@
                     },
                     {
                         "k": "2043",
-                        "v": "51322e240747580d2be78dd93f489598"
+                        "v": "0e900bd05ac2c9d186ab7a97719092dc"
                     },
                     {
                         "k": "2044",
@@ -5177,11 +5172,11 @@
                     },
                     {
                         "k": "2046",
-                        "v": "a7fd1ed6626206c08b4326ea5e02e7bd"
+                        "v": "328b9d4f6a4dbc0c9d3e6bdabf1d1cd7"
                     },
                     {
                         "k": "2047",
-                        "v": "13d974e148ba0186243e0b35fc5d03bb"
+                        "v": "1989761a6cd62e3d4cfc73f79b061d45"
                     },
                     {
                         "k": "2048",
@@ -5475,9 +5470,9 @@
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2021-05-30T15:51:15",
+                        "lastModified": "2021-05-30T15:51:21",
                         "name": "Public",
-                        "hash": "ad67c340a5f5e00784d9a510ebba3d52",
+                        "hash": "5c25168188eeb724b278ddd1bf5ed51b",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -6314,16 +6309,16 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-05-30T15:51:15",
+                                "lastModified": "2021-05-30T15:51:21",
                                 "name": "Color Correction.lsmat",
-                                "hash": "da1e0d062fb0722aec2b593f9adcd43b",
+                                "hash": "3b5330a7a471cc1af6361a4f0b0bbf2b",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-05-30T15:30:38",
+                                "lastModified": "2021-06-01T12:09:36",
                                 "name": "_scripts",
-                                "hash": "e2f9fac124313e3d11246f03ed567f5c",
+                                "hash": "6887171e74e7ed7a9d45ed25a4958f60",
                                 "children": [
                                     {
                                         "isFolder": "true",
@@ -6377,9 +6372,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-30T15:30:38",
+                                        "lastModified": "2021-06-01T12:09:36",
                                         "name": "timeZone.js",
-                                        "hash": "74d4520046787a19466a8e4b25da4dbf",
+                                        "hash": "7b89c4e469849b6eac29d04cdc58e0c4",
                                         "children": ""
                                     },
                                     {
@@ -6436,9 +6431,9 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-05-30T15:51:15",
+                                "lastModified": "2021-05-30T15:51:21",
                                 "name": "Gauss Blur 2.lsmat",
-                                "hash": "85207d49398b8247ab2efeb3580dbaaa",
+                                "hash": "769033657849a7fce704895c46398e50",
                                 "children": ""
                             },
                             {
@@ -6786,36 +6781,36 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-05-30T15:51:15",
+                                "lastModified": "2021-05-30T15:51:21",
                                 "name": "_materials",
-                                "hash": "7df0a61784721c2886e98cf4fa41170b",
+                                "hash": "97bfc4a05d1671f166d0255cb9dccfea",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-30T15:51:14",
+                                        "lastModified": "2021-05-30T15:51:21",
                                         "name": "BGGrowingMaterial.lsmat",
-                                        "hash": "19cead01896c5514ebf9c5b8a8742a98",
+                                        "hash": "a7fd1ed6626206c08b4326ea5e02e7bd",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-30T15:51:14",
+                                        "lastModified": "2021-05-30T15:51:20",
                                         "name": "DisintegrateBackground.lsmat",
-                                        "hash": "c2fe0730833f4881821ba9a720c3046d",
+                                        "hash": "2341d479816deb7c46add92749421c21",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-30T15:51:14",
+                                        "lastModified": "2021-05-30T15:51:20",
                                         "name": "DisintegrateFace.lsmat",
-                                        "hash": "079e1196b96ff4f35106c5fdc50389c2",
+                                        "hash": "7e08fe58f5bb0b6073f32f5f3a70e880",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-30T15:51:14",
+                                        "lastModified": "2021-05-30T15:51:21",
                                         "name": "Flowerpetal.lsmat",
-                                        "hash": "91f8c452db939ed8afe5bc273fd4a836",
+                                        "hash": "32af80bc81431d9fcb89a694ad1b21cf",
                                         "children": ""
                                     },
                                     {
@@ -6834,9 +6829,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-30T15:51:14",
+                                        "lastModified": "2021-05-30T15:51:20",
                                         "name": "DisintegrateBackground 2.lsmat",
-                                        "hash": "40a89249f3d23948c819794f8ec627e2",
+                                        "hash": "5caabf87173071be7c8ef4dbd8996086",
                                         "children": ""
                                     },
                                     {
@@ -6855,9 +6850,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-30T15:51:14",
+                                        "lastModified": "2021-05-30T15:51:21",
                                         "name": "Flowerpetal 2.lsmat",
-                                        "hash": "65f0646aaf447af3cf55b01f1752ad79",
+                                        "hash": "7b2c8488218a735792c3f7ed593060c2",
                                         "children": ""
                                     },
                                     {
@@ -6876,23 +6871,23 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-30T15:51:14",
+                                        "lastModified": "2021-05-30T15:51:21",
                                         "name": "FlowerGrowingMaterial.lsmat",
-                                        "hash": "058e047416a385b3bec520a78c0f0287",
+                                        "hash": "51322e240747580d2be78dd93f489598",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-30T15:51:13",
+                                        "lastModified": "2021-05-30T15:51:20",
                                         "name": "growingleaf 2.lsmat",
-                                        "hash": "e49bc65b74bd4ecf5e85877b5d588f93",
+                                        "hash": "8ad1a20745fd6e72a3d92d9922d52d0a",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-30T15:51:15",
+                                        "lastModified": "2021-05-30T15:51:21",
                                         "name": "roots1.lsmat",
-                                        "hash": "09c43ec770d3f6766189d8fd665c6dc2",
+                                        "hash": "13d974e148ba0186243e0b35fc5d03bb",
                                         "children": ""
                                     },
                                     {
@@ -6911,9 +6906,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-30T15:51:14",
+                                        "lastModified": "2021-05-30T15:51:20",
                                         "name": "Avkanim.lsmat",
-                                        "hash": "5814498c68e5bde1249d839a34f6911e",
+                                        "hash": "75892ddc904c43bfaecce810b398857c",
                                         "children": ""
                                     },
                                     {
@@ -6927,9 +6922,9 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-05-30T15:51:15",
+                                "lastModified": "2021-05-30T15:51:21",
                                 "name": "Gauss Blur.lsmat",
-                                "hash": "9d46faffe956ece93f75552be72653d8",
+                                "hash": "36a8e6e713301a7f491fca2c502a1821",
                                 "children": ""
                             },
                             {
@@ -10796,7 +10791,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1622415004812372:1506238"
+                    "1622080833636997:1979416"
                 ]
             }
         },
