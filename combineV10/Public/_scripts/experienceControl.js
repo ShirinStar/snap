@@ -50,10 +50,10 @@ var loops = 1;
 var offset = 0.0;
 var faceEyePlaying = false;
 var faceCheekPlaying = false;
-
 var bgPlaying= false;
 var startGreenLeaves = false;
 var bigEyeGrow = false;
+var occluderOff = false;
 
 var startWait = script.startDelayTime; 
 var timeBetweenSteps = 5;
@@ -195,14 +195,15 @@ for (var i=0; i< script.littleFlowerGroup2.length; i++) {
 for (var i=0; i< script.avkans.length; i++) {
     script.avkans[i].enabled = false;
 }
+
 script.faceEyeAnimation.control.play(loops, offset);
 script.faceEyeAnimation.control.pause();
 script.faceCheekAnimation.control.play(loops, offset);
 script.faceCheekAnimation.control.pause();
 
 for (var i=0; i< script.BgBranchesAnimation.length; i++) {
-script.BgBranchesAnimation[i].control.play(loops, offset);
-script.BgBranchesAnimation[i].control.pause();
+    script.BgBranchesAnimation[i].control.play(loops, offset);
+    script.BgBranchesAnimation[i].control.pause();
 }
 
 script.whiteBG.control.play(loops, offset);
@@ -393,12 +394,17 @@ function faceCheekShrinking() {
 
 
 //bgColor
+var delayedOccluder = script.createEvent("DelayedCallbackEvent");
+delayedOccluder.bind(function(){
+    script.occluder.enabled = false;
+})
+
 function bgColorShow() {
     if(!bgPlaying) {
         script.whiteBG.control.play(loops, offset);
         script.whiteBG.control.isReversed= false;
-        script.occluder.enabled = false;
         script.extraLeftEye.enabled = true;
+        delayedOccluder.reset(2)
         bgPlaying = true;
     }
 }
@@ -471,7 +477,7 @@ delayedExtraEyeOut.bind(function(){
 
 function checkExtraEye() {
     if(!bigEyeGrow) {
-       delayedExtraEyeOut.reset(3)
+       delayedExtraEyeOut.reset(4)
     } else {
         script.extraRightEye.enabled = true;
     }
@@ -661,7 +667,7 @@ function reverseStep(currentMaterial) {
     } else if (currentMaterial.objName==='whiteBG') {
        bgColorNotShow();
     } else if (currentMaterial.objName==='rightEyePetalsMaterials') { 
-        script[currentMaterial.objName].mainPass.matTime -= 0.0006;
+        script[currentMaterial.objName].mainPass.matTime -= 0.0005;
         bigEyeGrow = false;
         checkExtraEye();
     } 

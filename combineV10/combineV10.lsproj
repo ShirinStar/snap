@@ -3,7 +3,7 @@
     "document_id": "HD6iqT9pImECftaX4UC9",
     "original_document_id": "UchxVzKYpSRxTPOlOw_q",
     "version": "28",
-    "lastChanged": "1622680303442",
+    "lastChanged": "1622692694333",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -47,6 +47,9 @@
                         "_models"
                     ],
                     [
+                        "_scripts"
+                    ],
+                    [
                         "_scripts",
                         "Facelandmarks Helpers"
                     ],
@@ -60,6 +63,7 @@
             "collapsedList": [
                 [
                     "101:100",
+                    "1517446348227994:84813",
                     "1582053048417771:25265",
                     "1582076507101145:1411403",
                     "1582165768195055:250154",
@@ -2393,8 +2397,7 @@
                 "53": "1622578626998304:289782",
                 "54": "1622578627178399:289942",
                 "55": "1622579213079245:411935",
-                "56": "1622593713008946:597385",
-                "57": "1622668794654157:396792"
+                "56": "1622668794654157:396792"
             }
         },
         "LayerComponent": {
@@ -4996,7 +4999,7 @@
                     },
                     {
                         "k": "8",
-                        "v": "347afee4af5ac95e72c3ef1772be4460"
+                        "v": "d5a93adc27a5d36114c5358f2f34796e"
                     },
                     {
                         "k": "9",
@@ -5240,7 +5243,7 @@
                     },
                     {
                         "k": "81",
-                        "v": "eb49c668a0a5ef48df35eb1086dcd01f"
+                        "v": "da1f3d07223757e9c1b4f9d674a6d60b"
                     },
                     {
                         "k": "82",
@@ -5276,7 +5279,7 @@
                     },
                     {
                         "k": "90",
-                        "v": "230dfb9701cddd7885976c40ba9bc6e7"
+                        "v": "2e1d658378275538bb0de351f7e5a0c1"
                     },
                     {
                         "k": "91",
@@ -5748,7 +5751,7 @@
                     },
                     {
                         "k": "2003",
-                        "v": "4e9fecae75a1f16fd98de8eeb026c9a4"
+                        "v": "c470cdad618fa99c78f5893fc383a22b"
                     },
                     {
                         "k": "2004",
@@ -5900,7 +5903,7 @@
                     },
                     {
                         "k": "2046",
-                        "v": "2e5434561c8b2c66954d423c57dc6173"
+                        "v": "6a3dba80c56705a17712724f827ec607"
                     },
                     {
                         "k": "2047",
@@ -6296,7 +6299,7 @@
                     },
                     {
                         "k": "2165",
-                        "v": "8faa081eb6fee6e10808818ac95a6e11"
+                        "v": "d00233e7404c2ee92c8c711d48d3ec59"
                     },
                     {
                         "k": "2166",
@@ -6316,7 +6319,7 @@
                     },
                     {
                         "k": "2170",
-                        "v": "5f9df4c0c625fa327d8e5b79377552c1"
+                        "v": "57d6cd4657638f6f276cb8eb8b1b200e"
                     },
                     {
                         "k": "2171",
@@ -6336,23 +6339,23 @@
                     },
                     {
                         "k": "2175",
-                        "v": "17b00f15c8626690e710b42511e4439d"
+                        "v": "b2aad72d67cb333b1567a7f139250405"
                     },
                     {
                         "k": "2176",
-                        "v": "f47e3ede139d3a2aee1606b867f8dc81"
+                        "v": "e58c2dd37b46baedba99618b34892579"
                     },
                     {
                         "k": "2177",
-                        "v": "f327515b391277aa69edf14fd6a2884a"
+                        "v": "33b39b50f75557901ea4ef59e930988d"
                     },
                     {
                         "k": "2178",
-                        "v": "c2194bfb617bd8458e1f2eedf7687949"
+                        "v": "fbbeb6632ad34bb30fb4d545f622f377"
                     },
                     {
                         "k": "2179",
-                        "v": "80941101e3d4b80576b04b150677e99c"
+                        "v": "859e7f78e6e19eee9dc6ed1beee22258"
                     },
                     {
                         "k": "2180",
@@ -6436,7 +6439,7 @@
                         "isFolder": "true",
                         "lastModified": "2021-06-02T16:46:58",
                         "name": "Public",
-                        "hash": "97033b9692819f3b44bc98243c2c47bd",
+                        "hash": "4b04d5e161416222929e9799752575af",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -7483,9 +7486,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-06-02T17:19:44",
+                                "lastModified": "2021-06-02T20:58:02",
                                 "name": "_scripts",
-                                "hash": "7c3359e18bacafaced6620a474ac4407",
+                                "hash": "a4af4003ee2c57f251da52a7d126aef0",
                                 "children": [
                                     {
                                         "isFolder": "true",
@@ -7525,9 +7528,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-06-02T17:19:44",
+                                        "lastModified": "2021-06-02T20:58:02",
                                         "name": "experienceControl.js",
-                                        "hash": "347afee4af5ac95e72c3ef1772be4460",
+                                        "hash": "d5a93adc27a5d36114c5358f2f34796e",
                                         "children": ""
                                     },
                                     {
@@ -7553,9 +7556,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-06-01T17:39:40",
+                                        "lastModified": "2021-06-02T17:31:40",
                                         "name": "ShowHint.js",
-                                        "hash": "b2cccdab0a187fdf7fe0fffcbaf1b52f",
+                                        "hash": "03bee649364d6155e3e3fe71dd08aa44",
                                         "children": ""
                                     },
                                     {
@@ -8043,15 +8046,15 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-06-02T17:31:32",
+                                "lastModified": "2021-06-02T17:31:41",
                                 "name": "_materials",
-                                "hash": "878a3eff04be46e5709fddd507bda4b4",
+                                "hash": "4652efcd4bc4bd0cde3e4822541c5166",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-06-02T17:31:31",
+                                        "lastModified": "2021-06-02T17:31:41",
                                         "name": "growingleaf1.lsmat",
-                                        "hash": "b3a115732faa983b683bf5bcb405d5a6",
+                                        "hash": "8faa081eb6fee6e10808818ac95a6e11",
                                         "children": ""
                                     },
                                     {
@@ -8070,16 +8073,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-06-02T17:31:32",
+                                        "lastModified": "2021-06-02T17:31:41",
                                         "name": "growingleaf3.lsmat",
-                                        "hash": "b5feb8e1e18db68a968d4abec0bc5e24",
+                                        "hash": "f47e3ede139d3a2aee1606b867f8dc81",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-06-02T17:31:31",
+                                        "lastModified": "2021-06-02T17:31:40",
                                         "name": "BGGrowingMaterial.lsmat",
-                                        "hash": "59c516eeefe6024cdc9950bb0a98818f",
+                                        "hash": "2e5434561c8b2c66954d423c57dc6173",
                                         "children": ""
                                     },
                                     {
@@ -8091,9 +8094,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-06-02T17:31:32",
+                                        "lastModified": "2021-06-02T17:31:41",
                                         "name": "DisintegrateBackground.lsmat",
-                                        "hash": "6bc55344a4b75bad0dd2842490a8c92e",
+                                        "hash": "80941101e3d4b80576b04b150677e99c",
                                         "children": ""
                                     },
                                     {
@@ -8105,16 +8108,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-06-02T17:31:32",
+                                        "lastModified": "2021-06-02T17:31:41",
                                         "name": "growingleaf5.lsmat",
-                                        "hash": "2874bb5dee957282249d82f8382bf353",
+                                        "hash": "c2194bfb617bd8458e1f2eedf7687949",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-06-02T17:31:31",
+                                        "lastModified": "2021-06-02T17:31:40",
                                         "name": "Flowerpetal.lsmat",
-                                        "hash": "d2dbc6fbdcd3847f29b3ac771b2f02e4",
+                                        "hash": "eb49c668a0a5ef48df35eb1086dcd01f",
                                         "children": ""
                                     },
                                     {
@@ -8126,9 +8129,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-06-02T17:31:31",
+                                        "lastModified": "2021-06-02T17:31:41",
                                         "name": "growingleaf2.lsmat",
-                                        "hash": "5cf6a46f7e4383802d81336c03624412",
+                                        "hash": "17b00f15c8626690e710b42511e4439d",
                                         "children": ""
                                     },
                                     {
@@ -8168,9 +8171,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-06-02T17:31:32",
+                                        "lastModified": "2021-06-02T17:31:41",
                                         "name": "growingleaf4.lsmat",
-                                        "hash": "ac409acd619c5cdffda6b84e9c97c134",
+                                        "hash": "f327515b391277aa69edf14fd6a2884a",
                                         "children": ""
                                     },
                                     {
@@ -8182,9 +8185,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-06-02T17:31:31",
+                                        "lastModified": "2021-06-02T17:31:40",
                                         "name": "Flowerpetal 2.lsmat",
-                                        "hash": "afb75b5c489f7055359064f6f2fdc3ef",
+                                        "hash": "4e9fecae75a1f16fd98de8eeb026c9a4",
                                         "children": ""
                                     },
                                     {
@@ -8238,16 +8241,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-06-02T17:31:31",
+                                        "lastModified": "2021-06-02T17:31:40",
                                         "name": "Avkanim.lsmat",
-                                        "hash": "8622f94690648e9189ced8a8c5438908",
+                                        "hash": "230dfb9701cddd7885976c40ba9bc6e7",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-06-02T17:31:31",
+                                        "lastModified": "2021-06-02T17:31:41",
                                         "name": "FlowerGrowingMaterial 3.lsmat",
-                                        "hash": "a5626efb2960321724116289a6b18636",
+                                        "hash": "5f9df4c0c625fa327d8e5b79377552c1",
                                         "children": ""
                                     },
                                     {
@@ -12671,17 +12674,7 @@
             }
         },
         "InspectorController": {
-            "selection": {
-                "resources": [
-                    {
-                        "uid": "1622143977548643:905015",
-                        "path_list": [
-                            "_scripts",
-                            "ShowHint"
-                        ]
-                    }
-                ]
-            }
+            "selection": ""
         },
         "EffectsController": {
             "1": "",
