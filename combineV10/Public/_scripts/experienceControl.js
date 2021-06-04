@@ -1,4 +1,4 @@
-//@input float startDelayTime = 0;
+//@input float startDelayTime = 30.00;
 //@input Asset.Material greenLeavesGroup1;
 //@input Asset.Material greenLeavesGroup2;
 //@input Asset.Material greenLeavesGroup3;
@@ -15,14 +15,6 @@
 //@input SceneObject extraLeftEye;
 //@input Asset.Material rightEyePetalsMaterials;
 //@input SceneObject occluder;
-
-// @input string hintIdOne {"widget":"combobox","values":[{"label":"how much time has passed since the last time I opened my mouth?","value":"lens_hint_how_much_time_has_passed_since_the_last_time_I_opened_my_mouth"}]}
-// @input float showTimeOne = 10.0 {"label": "Show Time"}
-// @input bool showOnceOne = true {"label": "Show Once"}
-
-// @input string hintIdTwo {"widget":"combobox","values":[{"label":"Time is the longest distance between two places","value":"lens_hint_Time_is_the_longest_distance_between_two_places"}]}
-// @input float showTimeTwo = 10.0 {"label": "Show Time"}
-// @input bool showOnceTwo = true {"label": "Show Once"}
 
 var timeStampsOpen = []; 
 var timeOpen = 0;
@@ -215,29 +207,6 @@ script.rightEyePetalsMaterials.mainPass.matTime=0;
 //occluder on
 script.occluder.enabled = true;
 
-// Initialize hints
-if( !script.initialized ) {
-    script.hintComponent = script.getSceneObject().createComponent( "Component.HintsComponent" );
-    script.hintShownOne = false;
-    script.hintShownTwo = false;
-    script.initialized = true;
-}
-
-function showHintOne() {
-    if( !script.hintShownOne || !script.showOnceOne ) {
-            print( "Showing Hint: " + script.hintIdOne );
-            script.hintComponent.showHint(script.hintIdOne, script.showTimeOne);
-        }
-    script.hintShownOne = true;
- }
-
-function showHintTwo() {
-    if( !script.hintShownTwo || !script.showOnceTwo ) {
-            print( "Showing Hint: " + script.hintIdTwo );
-            script.hintComponent.showHint(script.hintIdTwo, script.showTimeTwo);
-        }
-    script.hintShownTwo = true;
- }
 
 //general app delay
 var delayedStart = script.createEvent("DelayedCallbackEvent");
@@ -252,12 +221,10 @@ delayedStart.reset(startWait);
 global.onMouthOpened = function() {
     timeOpen = getTime();
     timeStampsOpen.push(timeOpen);  
-   
     timeStampsLongArray =  timeStampsOpen.filter(function (time) { return time > (timeOpen-20)});
     //print("calculating talking" + timeStampsLongArray);
     if (timeStampsLongArray.length >= 2 ) {
         isTalking = true;
-        timeStampsClose = [];
     }  
 }
 
@@ -265,22 +232,11 @@ var mouthOpenedEvent = script.createEvent("MouthOpenedEvent");
 mouthOpenedEvent.bind(onMouthOpened);
 
 function isStopSpeaking() {
-    timeNotTalking = getTime();
-    timeStampsClose.push(timeNotTalking)
     timeStampsShortArray =  timeStampsOpen.filter(function (time) { return time > (getTime()-15)});
     print("calculating not talking" + timeStampsShortArray) ;  
     if (timeStampsShortArray.length == 0) {
         isTalking = false;
         timeStampsOpen = [];
-    }
-    if((getTime()-timeStampsClose[0]) >= 120) {
-       showHintOne()
-       script.hintShownOne = true;
-    }
-    if((getTime() - timeStampsClose[0]) >= 240) {
-        showHintTwo()
-        script.hintShownTwo = true;
-        timeStampsClose = [];
     }
  }
 
@@ -399,6 +355,12 @@ delayedOccluder.bind(function(){
     script.occluder.enabled = false;
 })
 
+var delayedOccluderAppear = script.createEvent("DelayedCallbackEvent");
+delayedOccluderAppear.bind(function(){
+    script.occluder.enabled = true;
+    script.extraLeftEye.enabled = false;
+})
+
 function bgColorShow() {
     if(!bgPlaying) {
         script.whiteBG.control.play(loops, offset);
@@ -414,7 +376,8 @@ function bgColorNotShow() {
         script.whiteBG.control.play(loops, offset);
         script.whiteBG.control.isReversed= true;
         script.occluder.enabled = true;
-        script.extraLeftEye.enabled = false;
+        
+        delayedOccluderAppear.reset(1)
         bgPlaying = false;
     }
 }
